@@ -24,7 +24,7 @@ function Loader() {
 
     useGSAP(() => {
         const tl = gsap.timeline();
-        tl.from('.line h1, h2', {
+        tl.from('.line h1, h2, h6', {
             y: 150,
             stagger: 0.3,
             duration: 1,
@@ -53,7 +53,7 @@ function Loader() {
                     sm:text-[2.4vw]`}
                 >
                     <h5 className='w-[5vw] text-right '>00</h5>
-                    <h6>- 100</h6>
+                    <h4>- 100</h4>
                 </div>
                 <h1>Your</h1>
             </div>
@@ -68,12 +68,11 @@ function Loader() {
                 <h2>Now</h2>
             </div>
             <div 
-                className={`line ${styles.line} sm:w-[30vw] 
-                text-[4vw] mt-[14vw] tracking-normal
-                xl:text-[.6vw] xl:tracking-wide leading-none
-                xl:mt-[4vw]  
+                className={`line ${styles.line}  
+                text-[3.5vw] mt-[14vw] tracking-tight
+                sm:text-[.8vw] sm:tracking-wide leading-none sm:w-[30vw] sm:mt-[4vw] 
                 flex flex-col sm:items-end justify-center`}>
-                <h6 className='smxl:w-[4.2vw] text-left '>Please wait </h6>
+                <h6 className='sm:w-[5.6vw] sm:text-left '>Please wait </h6>
                 <h6>a few seconds </h6>
             </div>
         </div>
