@@ -94,7 +94,8 @@ function Loader() {
                     Please wait 
                 </h6>
                 <h6>
-                    a few seconds </h6>
+                    a few seconds 
+                    </h6>
             </div>
         </div>
     </div>
