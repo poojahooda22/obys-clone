@@ -11,10 +11,10 @@ function App() {
   
   
   return (
-    <div className='main'>
-        <Loader />
-        <Navbar/>
-        <Landing />
+    <div className='main text-white'>
+      <Loader />
+      <Navbar/>
+      <Landing />
     </div>
   )
 }
