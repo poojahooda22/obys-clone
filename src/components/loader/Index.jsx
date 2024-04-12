@@ -22,10 +22,15 @@ function Loader() {
         <div 
             className="loader w-full h-full bg-[#0b0b0b] fixed z-[9] font-[PlinaReg]
             px-[5vw] py-[60vw] leading-[7.8vw] text-[7.4vw] tracking-tighter
-            sm:py-[20vh] sm:px-[8vw] uppercase sm:leading-[7vw] sm:tracking-tight sm:text-[7vw]
+            sm:py-[20vh] sm:px-[6vw] uppercase sm:leading-[7vw] sm:tracking-tight sm:text-[7vw]
             xl:text-[5.8vw] xl:leading-[6vw] xl:py-[30vh]"
         >
             <div className={`line ${styles.line}`}>
+                <div className={`part1 ${styles.part1} 
+                    font-[silkSerif] text-[3vw]`}>
+                    <h5>00</h5>
+                    <h6>- 100</h6>
+                </div>
                 <h1>Your</h1>
             </div>
             <div className={`line ${styles.line}`}>
