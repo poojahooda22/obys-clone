@@ -23,7 +23,7 @@ function Loader() {
             className="loader w-full h-full bg-[#0b0b0b] fixed z-[9] font-[PlinaReg]
             px-[5vw] py-[60vw] leading-[7.8vw] text-[7.4vw] tracking-tighter
             sm:py-[20vh] sm:px-[8vw] uppercase sm:leading-[7vw] sm:tracking-tight sm:text-[7vw]
-            xl:text-[6vw] xl:leading-[6vw]"
+            xl:text-[5.8vw] xl:leading-[6vw] xl:py-[30vh]"
         >
             <div className={`line ${styles.line}`}>
                 <h1>Your</h1>
