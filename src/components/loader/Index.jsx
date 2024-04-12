@@ -69,7 +69,7 @@ function Loader() {
                     sm:items-start
                     sm:text-[2.4vw]`}
                 >
-                    <h5 className='w-[5vw] text-right '>00</h5>
+                    <h5 className='w-[5vw] text-right'>00</h5>
                     <h4>- 100</h4>
                 </div>
                 <h1>Your</h1>
