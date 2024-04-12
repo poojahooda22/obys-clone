@@ -83,7 +83,8 @@ function Loader() {
                 gap-[1.5vw] uppercase`}
             >
                 <h1>
-                    is loading right</h1>
+                    is loading right
+                    </h1>
                 <h2>
                     Now
                 </h2>
