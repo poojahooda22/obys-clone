@@ -18,7 +18,7 @@ function Loader() {
             } else {
                 h5timer.innerHTML = grow;
             }
-        },50);
+        },30);
     }, []);
     
 
@@ -28,6 +28,11 @@ function Loader() {
             y: 150,
             stagger: 0.3,
             duration: 1,
+        })
+        tl.to('.loader', {
+            opacity: 0,
+            duration: 0.2,
+            delay: 1
         })
 
     }) 
