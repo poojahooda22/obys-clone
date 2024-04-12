@@ -1,4 +1,15 @@
 .line {
     height: fit-content;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:2vw
+}
+
+.part1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
 }
