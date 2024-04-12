@@ -7,6 +7,12 @@ import { useGSAP } from '@gsap/react';
 gsap.registerPlugin(ScrollTrigger);
 
 function Loader() {
+
+    setInterval(function() {
+        
+
+    }, 100);
+
     useGSAP(() => {
         const tl = gsap.timeline();
         tl.from('.line h1', {
