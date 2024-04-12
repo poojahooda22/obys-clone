@@ -37,6 +37,10 @@ function Loader() {
             duration: 0.2,
             delay: 2.35
         })
+        tl.from('.page1', {
+            y: 1200,
+            opacity: 0,
+        })
     }) 
     
   return ( 
