@@ -79,7 +79,7 @@ function Loader() {
             </div>
             <div 
                 className={` line ${styles.line} flex 
-                 sm:items-center sm:justify-start 
+                sm:items-center sm:justify-start 
                 gap-[1.5vw] uppercase `}
             >
                 <h1>is loading right</h1>
