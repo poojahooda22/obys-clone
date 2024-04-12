@@ -85,7 +85,7 @@ function Loader() {
                 <h1>is loading right</h1>
                 <h2>
                     Now
-                    </h2>
+                </h2>
             </div>
             <div 
                 className={`line ${styles.line}  
