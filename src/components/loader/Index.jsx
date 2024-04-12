@@ -18,7 +18,7 @@ function Loader() {
             } else {
                 h5timer.innerHTML = grow;
             }
-        },30);
+        },36);
     }, []);
     
 
@@ -30,14 +30,13 @@ function Loader() {
             duration: 1,
         })
         tl.from('.line h2, h6', {
-            opacity: 0
+            opacity: 0,  
         })
         tl.to('.loader', {
             opacity: 0,
             duration: 0.2,
-            delay: 1.2
+            delay: 2.35
         })
-
     }) 
     
   return ( 
