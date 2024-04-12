@@ -24,15 +24,18 @@ function Loader() {
 
     useGSAP(() => {
         const tl = gsap.timeline();
-        tl.from('.line h1, h2, h6', {
+        tl.from('.line h1', {
             y: 150,
             stagger: 0.3,
             duration: 1,
         })
+        tl.from('.line h2, h6', {
+            opacity: 0
+        })
         tl.to('.loader', {
             opacity: 0,
             duration: 0.2,
-            delay: 1
+            delay: 1.2
         })
 
     }) 
