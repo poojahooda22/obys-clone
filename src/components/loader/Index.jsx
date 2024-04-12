@@ -1,6 +1,6 @@
 import styles from './Style.module.css'
 
-import { gsap } from "gsap";
+import { gsap, Power4 } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react';
 import { useEffect } from 'react';
@@ -38,8 +38,10 @@ function Loader() {
             delay: 2.35
         })
         tl.from('.page1', {
+            delay: 0.2,
             y: 1200,
             opacity: 0,
+            ease: Power4
         })
     }) 
     
