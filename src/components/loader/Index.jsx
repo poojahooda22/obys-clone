@@ -43,6 +43,9 @@ function Loader() {
             opacity: 0,
             ease: Power4
         })
+        tl.to('.loader', {
+            display: 'none'
+        })
     }) 
     
   return ( 
