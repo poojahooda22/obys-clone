@@ -27,12 +27,12 @@ function Loader() {
         >
             <div 
                 className={`line ${styles.line} flex flex-col items-start
-                sm:flex-row sm:items-center sm:justify-start
+                sm:flex-row sm:items-center sm:justify-start gap-[2vw]
                 
                 `}
             >
                 <div 
-                    className={`part1 ${styles.part1} 
+                    className={`part1 ${styles.part1} flex items-center justify-center gap-[1.4vw]
                     font-[silkSerif] text-[4.2vw] leading-[4.5vw] tracking-wide
                     sm:text-[3vw]`}
                 >
@@ -44,7 +44,10 @@ function Loader() {
             <div className={`line ${styles.line}`}>
                 <h1>Web Experience</h1>
             </div>
-            <div className={` line ${styles.line}`}>
+            <div 
+                className={` line ${styles.line} flex 
+                 sm:items-center sm:justify-start gap-[1.5vw] `}
+            >
                 <h1>is loading right</h1>
                 <h2>Now</h2>
             </div>
