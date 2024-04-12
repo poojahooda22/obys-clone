@@ -93,7 +93,8 @@ function Loader() {
                 <h6 className='sm:w-[5.6vw] sm:text-left'>
                     Please wait 
                 </h6>
-                <h6>a few seconds </h6>
+                <h6>
+                    a few seconds </h6>
             </div>
         </div>
     </div>
