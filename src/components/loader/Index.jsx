@@ -65,7 +65,8 @@ function Loader() {
                 <div 
                     className={`part1 ${styles.part1} flex  gap-[2.5vw]
                     items-center justify-center sm:gap-[1vw]
-                    font-[silkSerif] text-[4.2vw] leading-[4.5vw] tracking-wide sm:items-start
+                    font-[silkSerif] text-[4.2vw] leading-[4.5vw] tracking-wide 
+                    sm:items-start
                     sm:text-[2.4vw]`}
                 >
                     <h5 className='w-[5vw] text-right '>00</h5>
