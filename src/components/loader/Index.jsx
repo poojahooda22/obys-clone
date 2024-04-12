@@ -84,7 +84,7 @@ function Loader() {
             >
                 <h1>
                     is loading right
-                    </h1>
+                </h1>
                 <h2>
                     Now
                 </h2>
