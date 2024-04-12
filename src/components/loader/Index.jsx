@@ -82,7 +82,8 @@ function Loader() {
                 sm:items-center sm:justify-start 
                 gap-[1.5vw] uppercase`}
             >
-                <h1>is loading right</h1>
+                <h1>
+                    is loading right</h1>
                 <h2>
                     Now
                 </h2>
