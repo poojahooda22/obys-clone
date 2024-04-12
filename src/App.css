@@ -1,1 +1,24 @@
 /* #151515 */
+
+@font-face {
+    font-family: 'PlainLight';
+    src: url(./assets/fonts/plainLight.ttf);
+}
+
+
+@font-face {
+    font-family: 'PlainReg';
+    src: url(./assets/fonts/PlainReg.ttf);
+}
+
+
+@font-face {
+    font-family: 'silkSerif';
+    src: url(./assets/fonts/silkSerif.ttf);
+}
+
+
+@font-face {
+    font-family: 'silkSerifReg';
+    src: url(./assets/fonts/silkSerifReg.ttf);
+}
