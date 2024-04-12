@@ -3,7 +3,7 @@
 function Loader() {
   return (
     <div>
-        <div className="loader w-full h-full bg-green-400 fixed z-[9] ">
+        <div className="loader w-full h-full bg-[#0b0b0b] fixed z-[9]  ">
             <div className="line">
                 <h1>Your</h1>
             </div>
