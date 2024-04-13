@@ -8,7 +8,7 @@ function Landing() {
       {/* Navbar */}
       <Navbar/>
 
-      
+      {/* Landing */}      
       <div 
         className="w-full h-screen"
       >
