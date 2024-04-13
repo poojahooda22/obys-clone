@@ -4,12 +4,11 @@ import Navbar from "../Navbar/Index"
 
 function Landing() {
   return (
-    <div className="page1 w-full ">
+    <div  data-scroll-section className="page1 w-full  ">
       <Navbar/>
-
-      <div className="w-full  bg-red-400">
+      <div className="w-full h-screen bg-red-400">
         <div>
-
+          Landing
         </div>
       </div>
     </div>
