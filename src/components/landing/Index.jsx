@@ -8,7 +8,7 @@ function Landing() {
       <Navbar/>
       <div className="w-full h-screen">
         <div className="px-[4vw] py-[16vw]
-          sm:py-[4vw] sm:px-[17vw] space-y-2
+          sm:py-[3vw] sm:px-[18vw] space-y-2
           sm:flex sm:flex-row sm:items-start sm:gap-16"
         >
           <div className="font-[silkSerif] text-[5vw] sm:text-[2.6vw]">
