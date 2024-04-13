@@ -10,7 +10,7 @@ function Navbar() {
       <div className="header 
         flex sm:items-start justify-between 
         px-[4vw] py-[6vw]
-        sm:px-[4vw] sm:py-[3vw]"
+        sm:px-[3vw] sm:py-[2vw]"
       >
         <div className="first w-[24vw] flex items-start justify-between ">
           <div className="w-[3vw] flex items-center gap-[2.2vw]  ">
