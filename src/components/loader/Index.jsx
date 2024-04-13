@@ -85,7 +85,7 @@ function Loader() {
                 <h1>
                     is loading right
                 </h1>
-                <h2>
+                <h2 className={`animateh2 ${styles.animateh2} text-[5.5vw]`}>
                     Now
                 </h2>
             </div>
