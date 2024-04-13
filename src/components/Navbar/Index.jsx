@@ -6,7 +6,7 @@ function Navbar() {
 
 
   return (
-    <div className="w-full ">
+    <div data-scroll-section className="w-full ">
       <div className="header 
         flex sm:items-start justify-between 
         px-[4vw] py-[6vw]
