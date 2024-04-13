@@ -7,7 +7,8 @@ function Landing() {
     <div data-scroll className="page1 w-full">
       <Navbar/>
       <div 
-        className="w-full h-screen">
+        className="w-full h-screen"
+      >
         <div 
           className="px-[4vw] py-[16vw]
           sm:py-[3vw] sm:px-[18vw] space-y-2
