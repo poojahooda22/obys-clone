@@ -6,7 +6,8 @@ function Landing() {
   return (
     <div 
       data-scroll 
-      className="page1 w-full">
+      className="page1 w-full"
+    >
       {/* Navbar */}
       <Navbar/>
 
