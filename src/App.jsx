@@ -4,6 +4,7 @@ import { useRef, useEffect } from 'react'
 import Landing from './components/landing/Index';
 import Loader from './components/loader/Index';
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
+import Cursor from './components/Cursor/Index';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
     containerRef={containerRef}
     >
       <div data-scroll-container ref={containerRef} className='main text-white bg-[#151515]'>
+        <Cursor/>
         <Loader />
         <Landing />
       </div>
