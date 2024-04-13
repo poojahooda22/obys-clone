@@ -15,7 +15,8 @@ function Landing() {
             <h4>01</h4>
           </div>
           <div className="text-[10vw] leading-[10vw] tracking-tighter
-            sm:text-[5.8vw] uppercase font-[PlinaReg] sm:leading-[5.9vw] ">
+            sm:text-[5.8vw] uppercase font-[PlinaReg] sm:leading-[5.9vw] "
+          >
             <div className="hero">
               <h1>We Design</h1>
             </div>
