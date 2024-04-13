@@ -33,7 +33,7 @@ function Landing() {
             <div className="hero">
               <h1>
                 We Design
-                </h1>
+              </h1>
             </div>
             <div className="hero">
               <h1>Unique</h1>
