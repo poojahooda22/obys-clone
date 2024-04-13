@@ -2,7 +2,7 @@
 
 function Video() {
   return (
-    <div data-scroll-section className='w-full h-screen'>
+    <div data-scroll-section className='w-full'>
       <div>Video</div>
     </div>
   )
