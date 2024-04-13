@@ -13,7 +13,6 @@ function App() {
   return (
     <div className='main text-white bg-[#0b0b0b]'>
       <Loader />
-      <Navbar/>
       <Landing />
     </div>
   )
