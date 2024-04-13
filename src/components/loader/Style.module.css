@@ -13,3 +13,20 @@
     justify-content: center;
     gap: 2vw; */
 }
+
+.animateh2 {
+    animation: anime 1s infinite;
+}
+
+@keyframes anime {
+    0% {
+        font-family: 'PlinaReg';        
+    }
+    
+    100% {
+        font-family: 'silkSerifReg';
+
+        -webkit-text-stroke: 1px #fff;
+        color: transparent;
+    }
+}
