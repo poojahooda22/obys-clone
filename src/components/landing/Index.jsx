@@ -1,10 +1,14 @@
+import Navbar from "../Navbar/Index"
+
+
 
 function Landing() {
   return (
-    <div className="w-full h-screen">
-      <h1>Landing page</h1>
+    <div className="page1 w-full h-screen">
+      <Navbar/>
     </div>
   )
 }
 
 export default Landing
+
