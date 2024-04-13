@@ -1,0 +1,8 @@
+.cursor {
+    height: 1.4vw;
+    width: 1.4vw;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 9999;
+}
