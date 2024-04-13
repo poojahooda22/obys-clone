@@ -12,7 +12,8 @@ function Landing() {
           sm:flex sm:flex-row sm:items-start sm:gap-16"
         >
           <div className="font-[silkSerif] text-[5vw] sm:text-[2.6vw]">
-            <h4>01</h4>
+            <h4>
+              01</h4>
           </div>
           <div className="text-[10vw] leading-[10vw] tracking-tighter
             sm:text-[5.8vw] uppercase font-[PlinaReg] sm:leading-[5.9vw] "
