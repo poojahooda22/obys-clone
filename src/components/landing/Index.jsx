@@ -4,16 +4,17 @@ import Navbar from "../Navbar/Index"
 
 function Landing() {
   return (
-    <div data-scroll data-scroll-section className="page1 w-full  ">
+    <div data-scroll className="page1 w-full">
       <Navbar/>
-      <div className="w-full">
-        <div className="py-[4vw] px-[16vw] 
-          flex items-start gap-16"
+      <div className="w-full h-screen">
+        <div className="px-[4vw] py-[16vw]
+          sm:py-[4vw] sm:px-[16vw] 
+          sm:flex sm:flex-row sm:items-start sm:gap-16"
         >
-          <div className="font-[silkSerif] text-[4vw]">
+          <div className="font-[silkSerif] text-[4vw] sm:text-[4vw]">
             <h4>01</h4>
           </div>
-          <div className="text-[7vw] uppercase font-[PlinaReg] leading-[7.2vw] ">
+          <div className="sm:text-[7vw] uppercase font-[PlinaReg] leading-[7.2vw] ">
             <div className="hero">
               <h1>We Design</h1>
             </div>
