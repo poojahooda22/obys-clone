@@ -31,7 +31,8 @@ function Landing() {
             sm:text-[5.8vw] uppercase font-[PlinaReg] sm:leading-[5.9vw] "
           >
             <div className="hero">
-              <h1>We Design</h1>
+              <h1>
+                We Design</h1>
             </div>
             <div className="hero">
               <h1>Unique</h1>
