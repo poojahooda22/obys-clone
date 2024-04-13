@@ -1,11 +1,27 @@
 
 
 function Navbar() {
+
+
+  
+
   return (
-    <div className="w-full">
-      <div className="maindiv">
-        <div className="first">
-          <div>icon</div>
+    <div className="w-full bg-red-200">
+      <div className="header">
+        <div className="first ">
+          <div className="icon">
+            <svg className="menu-opener__square" width="12" height="12" viewBox="0 0 12 12" fill="none">
+              <rect y="10" width="2" height="2" fill="currentColor"></rect>
+              <rect y="5" width="2" height="2" fill="currentColor"></rect>
+              <rect width="2" height="2" fill="currentColor"></rect>
+              <rect x="5" y="10" width="2" height="2" fill="currentColor"></rect>
+              <rect x="5" y="5" width="2" height="2" fill="currentColor"></rect>
+              <rect x="5" width="2" height="2" fill="currentColor"></rect>
+              <rect x="10" y="10" width="2" height="2" fill="currentColor"></rect>
+              <rect x="10" y="5" width="2" height="2" fill="currentColor"></rect>
+              <rect x="10" width="2" height="2" fill="currentColor"></rect>
+            </svg>
+          </div>
           <div>
             <svg className="brand__svg" width="71" height="27" viewBox="0 0 71 27">
               <path d="M40.7622 24.5917C40.7622 23.6724 41.4511 22.9829 42.3697 22.9829C43.2883 22.9829 43.9773 23.6724 43.9773 24.5917C43.9773 25.511 43.2883 26.2005 42.3697 26.2005C41.566 26.2005 40.7622 25.3961 40.7622 24.5917Z" fill="currentColor"></path>
