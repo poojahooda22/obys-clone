@@ -24,11 +24,7 @@ function App() {
         // ... all available Locomotive Scroll instance options 
       }
     }
-    watch={
-      [
-        //...all the dependencies you want to watch to update the scroll
-      ]
-    }
+    
     containerRef={containerRef}
     >
       <div data-scroll-container ref={containerRef} className='main text-white bg-[#151515]'>
