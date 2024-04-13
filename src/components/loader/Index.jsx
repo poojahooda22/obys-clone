@@ -41,6 +41,7 @@ function Loader() {
             delay: 0.2,
             y: 1200,
             opacity: 0,
+            duration: 0.5,
             ease: Power4
         })
         tl.to('.loader', {
