@@ -16,6 +16,7 @@
     "locomotive-scroll": "^4.1.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-locomotive-scroll": "^0.2.2",
     "scrolltrigger": "^1.0.1",
     "sheryjs": "^1.0.0-beta.0.1.7"
   },
