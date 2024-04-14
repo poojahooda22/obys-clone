@@ -9,8 +9,7 @@ function About() {
                     sm:leading-[4vw]"
                 >
                     <h2>03</h2>
-                </div>
-                
+                </div>             
             </div>
         </div>
 
