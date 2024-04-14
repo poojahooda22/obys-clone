@@ -6,6 +6,7 @@ import Loader from './components/loader/Index';
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
 import Cursor from './components/Cursor/Index';
 import Video from './components/Video/Index';
+import Project from './components/Project/Index';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Landing />
         {/* video */}
         <Video />
+        <Project/>
       </div>
     </LocomotiveScrollProvider>
     
