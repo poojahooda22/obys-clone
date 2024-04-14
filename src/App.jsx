@@ -29,7 +29,7 @@ function App() {
     
     containerRef={containerRef}
     >
-      <div data-scroll-container ref={containerRef} className='main text-white bg-[#151515]'>
+      <div ref={containerRef} className='main text-white bg-[#151515]'>
         <Cursor/>
         <Loader />
         <Landing />
