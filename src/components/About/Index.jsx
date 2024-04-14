@@ -19,7 +19,8 @@ function About() {
                 sm:text-[6vw]  font-[PlinaReg] sm:leading-[6vw] sm:tracking-normal"
             >
                 <h1 className="uppercase">About Obys</h1>
-                <div className="underline mt-[6vw] mb-[11vw] w-full h-[.25vw] 
+                <div 
+                className="underline mt-[6vw] mb-[11vw] w-full h-[.25vw] 
                     sm:h-[.01vw] sm:mt-[3.8vw] sm:mb-[5vw] bg-white"
                 ></div>
                 <h3 className="sm:w-1/3 text-[5.5vw] tracking-normal leading-[5.8vw]
