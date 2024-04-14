@@ -15,8 +15,8 @@ function About() {
         </div>
 
         <div className="right">
-            <div className="text-[8vw] leading-[10vw] tracking-tighter bg
-                sm:text-[6vw]  font-[PlinaReg] sm:leading-[6vw] sm:tracking-normal"
+            <div className="text-[8vw] leading-[10vw] tracking-tighter
+                sm:text-[6vw] font-[PlinaReg] sm:leading-[6vw] sm:tracking-normal"
             >
                 <h1 className="uppercase">About Obys</h1>
                 <div 
