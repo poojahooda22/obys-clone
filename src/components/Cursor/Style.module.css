@@ -9,7 +9,7 @@
 } */
 
 .cursor {
-    --circle-size: 32px;
+    --circle-size: 24px;
   position: fixed;
   height: var(--circle-size);
   width: var(--circle-size);
@@ -18,4 +18,5 @@
   top: calc(var(--circle-size) / 2 * -1);
   left: calc(var(--circle-size) / 2 * -1);
   pointer-events: none;
+  mix-blend-mode: difference;
 }
