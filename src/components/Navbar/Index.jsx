@@ -1,6 +1,37 @@
+
 import styles from './Style.module.css'
 
 function Navbar() {
+
+
+  // useEffect(() => {
+  //   let elements = document.querySelectorAll('.text')
+  //   elements.forEach((element) => {
+  //     let innerText = element.innerText;
+  //     element.innerHTML = '';
+
+  //     let textContainer = document.createElement('div');
+  //     textContainer.classList.add('block');
+
+  //     for(let letter of innerText) {
+  //       let span = document.createElement('span');
+  //       span.innerText = letter.trim() === "" ? "\xa0" : letter;
+  //       span.classList.add('letter');
+  //       textContainer.appendChild(span);
+  //     }
+
+  //     element.appendChild(textContainer);
+  //     element.appendChild(textContainer.cloneNode(true));
+  //   })
+
+  //   elements.forEach((element) => {
+  //     element.addEventListener("mouseleave", () => {
+  //       element.classList.remove("play");
+  //     })
+  //   })
+  // },[])
+
+
   return (
     <div data-scroll-section className="w-full ">
       <div className="header 
@@ -8,7 +39,7 @@ function Navbar() {
         px-[4vw] py-[6vw]
         sm:px-[3vw] sm:py-[2vw]"
       >
-        <div className="first w-[24vw] flex items-start justify-between ">
+        <div className="first w-[26vw] flex items-start justify-between ">
           <div className="w-[3vw] flex items-center gap-[2.2vw]  ">
             <div className="icon">
               <svg className="menu-opener__square" width="12" height="12" viewBox="0 0 12 12" fill="none">
@@ -39,7 +70,7 @@ function Navbar() {
             </div>
           </div>
 
-          <div className="first2 hidden sm:inline-block text-[.8vw] leading-none">
+          <div className="first2 hidden sm:inline-block text-[.9vw] leading-none">
             <h5>Obys-</h5>
             <h5>Creative</h5>
             <h5>Design</h5>
@@ -51,13 +82,10 @@ function Navbar() {
         <div className="last hidden sm:flex w-[14vw] justify-around
           text-[.9vw]  "
         >
-          {['Works', 'About', 'Contacts' ].map((item, index) => {
-            return (
-              <div key={index}>
-                <h6 className={`text ${styles.text}`}>{item}</h6>
-              </div>
-            )
-          })}
+          <h6 className={`text ${styles.text}`}>Works</h6>
+          <h6 className={`text ${styles.text}`}>About</h6>
+          <h6 className={`text ${styles.text}`}>Contact</h6>
+           
         </div>
 
         <div className="logo 
