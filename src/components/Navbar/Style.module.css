@@ -1,6 +1,7 @@
 .text {
+    height: 60px;
+    position: relative;
     overflow: hidden;
-
 }
 
 .text:hover .letter, .text.play .letter {
@@ -14,4 +15,37 @@
 .text .letter {
     display: inline-block;
     transition: transform 0.6s cubic-bezier(0.75, 0, 0.024, 1)
+}
+
+.letter:nth-child(1) {
+    transition-delay: 0s;
+}
+
+.letter:nth-child(2) {
+    transition-delay: 0.3s;
+}
+
+.letter:nth-child(3) {
+    transition-delay: 0.06s;
+}
+.letter:nth-child(4) {
+    transition-delay: 0.09s;
+}
+.letter:nth-child(5) {
+    transition-delay: 0.12s;
+}
+.letter:nth-child(6) {
+    transition-delay: 0.15s;
+}
+.letter:nth-child(7) {
+    transition-delay: 0.18s;
+}
+.letter:nth-child(8) {
+    transition-delay: 0.21s;
+}
+.letter:nth-child(9) {
+    transition-delay: 0.24s;
+}
+.letter:nth-child(10) {
+    transition-delay: 0.27s;
 }
