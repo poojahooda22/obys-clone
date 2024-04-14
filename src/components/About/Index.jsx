@@ -5,7 +5,8 @@ function About() {
     <div className="page4 relative sm:flex gap-[5vw]  w-full min-h-[100vh] px-[4vw] py-[6vw]">
         <div className="left">
             <div className=" sm:pl-[14vw] ">
-                <div className="font-[silkSerif] text-[4.6vw] sm:text-[2.6vw] 
+                <div className="font-[silkSerif] text-[4.6vw] 
+                sm:text-[2.6vw] 
                     sm:leading-[4vw]"
                 >
                     <h2>03</h2>
