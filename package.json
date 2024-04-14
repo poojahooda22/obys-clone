@@ -11,12 +11,14 @@
   },
   "dependencies": {
     "@gsap/react": "^2.1.0",
+    "@remixicon/react": "^4.2.0",
     "framer-motion": "^11.0.28",
     "gsap": "^3.12.5",
     "locomotive-scroll": "^4.1.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-locomotive-scroll": "^0.2.2",
+    "remixicon": "^4.2.0",
     "scrolltrigger": "^1.0.1",
     "sheryjs": "^1.0.0-beta.0.1.7"
   },
