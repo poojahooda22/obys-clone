@@ -39,7 +39,7 @@ function Loader() {
             delay: 2.2
         })
         tl.from('.page1', {
-            delay: 0.2,
+            delay: 0.1,
             y: 1200,
             opacity: 0,
             duration: 0.4,
