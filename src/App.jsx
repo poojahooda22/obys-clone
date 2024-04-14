@@ -35,13 +35,13 @@ function App() {
         <Cursor/>
         <Loader />
         <div>
-          
-        </div>
         <Landing />
         {/* video */}
         <Video />
         
         <About/>
+        </div>
+        
       </div>
     </LocomotiveScrollProvider>
     
