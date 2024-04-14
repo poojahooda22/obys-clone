@@ -21,7 +21,7 @@ function About() {
                 <h1 className="uppercase">About Obys</h1>
                 <div className="underline"></div>
                 <h3 className="sm:w-1/2 mt-[4vw] text-[5.5vw] tracking-normal
-                 sm:[1.5vw] sm:leading-[2vw]"
+                    sm:[1.5vw] sm:leading-[2vw]"
                 >
                     Our agency is about people who love creating designing and developing wow projects.
                     In the same time we are boutique agency that is more than the collective. 
