@@ -19,8 +19,8 @@ function About() {
                 sm:text-[6vw]  font-[PlinaReg] sm:leading-[6vw] sm:tracking-normal"
             >
                 <h1 className="uppercase">About Obys</h1>
-                <div className="underline"></div>
-                <h3 className="sm:w-1/2 mt-[4vw] text-[5.5vw] tracking-normal
+                <div className="underline mt-[7vw] mb-[12vw] w-full h-[.25vw] bg-white"></div>
+                <h3 className="sm:w-1/2 mt-[4vw] text-[5.5vw] tracking-normal leading-[5.8vw]
                     sm:[1.5vw] sm:leading-[2vw]"
                 >
                     Our agency is about people who love creating designing and developing wow projects.
