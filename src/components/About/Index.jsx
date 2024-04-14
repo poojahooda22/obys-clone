@@ -6,7 +6,7 @@ function About() {
         <div className="left">
             <div className=" sm:pl-[14vw] ">
                 <div className="font-[silkSerif] text-[4.6vw] 
-                sm:text-[2.6vw] 
+                    sm:text-[2.6vw] 
                     sm:leading-[4vw]"
                 >
                     <h2>03</h2>
