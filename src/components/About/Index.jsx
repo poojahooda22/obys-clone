@@ -13,7 +13,7 @@ function About() {
             sm:text-[6vw] uppercase font-[PlinaReg] sm:leading-[6vw] sm:tracking-normal"
         >
             <h1>About Obys</h1>
-            <div></div>
+            <div className="line"></div>
         </div>
       </div>
 
