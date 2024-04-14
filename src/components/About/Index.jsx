@@ -23,7 +23,8 @@ function About() {
                     className="underline mt-[6vw] mb-[11vw] w-full h-[.25vw] 
                     sm:h-[.01vw] sm:mt-[3.8vw] sm:mb-[5vw] bg-white"
                 ></div>
-                <h3 className="sm:w-1/3 text-[5.5vw] tracking-normal leading-[5.8vw]
+                <h3 
+                className="sm:w-1/3 text-[5.5vw] tracking-normal leading-[5.8vw]
                     sm:text-[1.5vw] sm:leading-[1.8vw]"
                 >
                     Our agency is about people who love creating designing and developing wow projects.
