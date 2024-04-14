@@ -1,0 +1,26 @@
+
+
+.hero {
+    height: fit-content;
+    overflow: hidden;
+    display: flex;
+    z-index: 9999;
+}
+
+.hero h2 {
+    border-bottom: 8px solid #fff;
+    padding-bottom: .1vw; 
+}
+
+.hero h2:hover {
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .hero h2 {
+    border-bottom: 3px solid #fff;
+    padding-bottom: .1vw;
+    }  
+}
