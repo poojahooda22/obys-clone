@@ -34,7 +34,7 @@ function App() {
       <div ref={containerRef} className='main text-white bg-[#151515]'>
         <Cursor/>
         <Loader />
-        <div>
+        <div className='page1'>
         <Landing />
         {/* video */}
         <Video />
