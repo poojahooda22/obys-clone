@@ -35,11 +35,11 @@ function App() {
         <Cursor/>
         <Loader />
         <div className='page1'>
-        <Landing />
-        {/* video */}
-        <Video />
-        
-        <About/>
+          <Landing />
+          {/* video */}
+          <Video />
+          
+          <About/>
         </div>
         
       </div>
