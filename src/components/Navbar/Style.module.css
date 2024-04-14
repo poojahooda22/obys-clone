@@ -1,0 +1,17 @@
+.text {
+    overflow: hidden;
+
+}
+
+.text:hover .letter, .text.play .letter {
+    transform: translateY(-100%);
+}
+
+.text .block:last-child {
+    color: #fff;
+}
+
+.text .letter {
+    display: inline-block;
+    transition: transform 0.6s cubic-bezier(0.75, 0, 0.024, 1)
+}
