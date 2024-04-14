@@ -36,18 +36,28 @@ function Loader() {
         tl.to('.loader', {
             opacity: 0,
             duration: 0.2,
-            delay: 2.35
+            delay: 2.2
         })
         tl.from('.page1', {
             delay: 0.2,
             y: 1200,
             opacity: 0,
-            duration: 0.5,
+            duration: 0.4,
             ease: Power4
         })
         tl.to('.loader', {
             display: 'none'
         })
+        tl.from('.header', {
+            opacity:0
+        })
+        tl.from('.firstword', {
+           opacity: 0
+        })
+        tl.from('#hero1 h1, #hero2 h1, #hero3 h2, .hero h3, #hero4 h1', {
+            y: 180,
+            stagger: 0.2,
+          })
     }) 
     
   return ( 
