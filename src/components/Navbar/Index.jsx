@@ -1,10 +1,6 @@
-
+import styles from './Style.module.css'
 
 function Navbar() {
-
-
-
-
   return (
     <div data-scroll-section className="w-full ">
       <div className="header 
@@ -58,7 +54,7 @@ function Navbar() {
           {['Works', 'About', 'Contacts' ].map((item, index) => {
             return (
               <div key={index}>
-                <h6>{item}</h6>
+                <h6 className={`text ${styles.text}`}>{item}</h6>
               </div>
             )
           })}
