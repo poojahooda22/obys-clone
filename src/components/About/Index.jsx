@@ -21,7 +21,9 @@ function About() {
 
     })
   return (
-    <div className="page4 relative sm:flex gap-[5vw]  w-full min-h-[100vh] px-[4vw] py-[6vw]">
+    <div className="page4 relative sm:flex gap-[5vw]  w-full min-h-[100vh] px-[4vw] py-[6vw]
+        sm:px-[4vw]
+    ">
         <div className="left">
             <div className=" sm:pl-[14vw] ">
                 <div className="font-[silkSerif] text-[4.6vw] 
@@ -31,9 +33,8 @@ function About() {
                 </div>             
             </div>
         </div>
-        <div className="right mb-[20vw]">
-            <div className=""
-            >
+        <div className="right mb-[10vw]">
+            <div className="">
                 <div className="aboutHeading overflow-hidden">
                     <h1 className="text-[8vw] leading-[10vw] tracking-tighter
                         sm:text-[6vw] font-[PlinaReg] sm:leading-[6vw] sm:tracking-normal
@@ -74,6 +75,7 @@ function About() {
                             And we will help you with the pleasure.
                         </h5>
                     </div>
+                    {/* blue Image */}
                     <div className="order-3 w-full
                         px-[4vw] pt-[2vw] pb-[12vw]
                         sm:absolute top-[50%] left-[35%] 
@@ -115,10 +117,14 @@ function About() {
                             <h3 className="sm:text-[1.4vw] text-[3.6vw]">Behance x25</h3>
                             <p className="w-1/2 sm:w-2/4 sm:text-[.8vw] sm:leading-[.9vw] tracking-normal text-[3.4vw] leading-[4vw]">Interaction, Graphic Design</p>
                         </div>
-                    </div>
+                    </div>        
                 </div>
-
-            </div>
+                <div 
+                    className="underline mt-[18vw] mb-[4vw] w-full h-[.25vw] 
+                    sm:h-[.01vw] sm:mt-[20vw] sm:mb-[1.2vw] bg-white"
+                ></div>
+                <p className="font-[PlinaReg] text-[3.5vw] sm:text-[.8vw]">We work with</p>
+            </div>    
         </div>
     </div>
   )
