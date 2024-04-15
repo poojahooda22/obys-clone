@@ -8,7 +8,7 @@ function Marqueue() {
     <div>
         <div className="page5 w-full h-[100vh] px-[4vw] sm:px-[3vw] relative">
             {/* <div className="sm:flex">
-                <div className="w-[32%]"></div>
+                <div className="w-[32%]">
             </div> */}
 
             {/* Repeating row */}
