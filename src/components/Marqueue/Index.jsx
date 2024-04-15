@@ -1,5 +1,7 @@
 
 function Marqueue() {
+
+
   return (
     <div>
         <div className="page5 w-full h-[100vh] px-[4vw] sm:px-[3vw] mt-[4vw] ">
@@ -10,6 +12,7 @@ function Marqueue() {
                 </div>
             </div> */}
 
+            
 
         </div>
       
