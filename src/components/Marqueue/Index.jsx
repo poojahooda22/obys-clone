@@ -6,7 +6,7 @@ function Marqueue() {
 
   return (
     <div>
-        <div className="page5 w-full h-[100vh] px-[4vw] sm:px-[3vw] relative">
+        <div className="page5 w-full min-h-[100vh] px-[4vw] sm:px-[3vw] relative">
             {/* <div className="sm:flex">
                 <div className="w-[32%]"></div>
                 <div className="w-full border-t-[.1vw] py-[5vw] sm:py-[1.3vw]">
@@ -15,13 +15,21 @@ function Marqueue() {
             </div> */}
 
             <div>
-              <div className="elem whitespace-nowrap text-[7vw]">
-                <h1 className={`${styles.elemh1}`}>Sport - Fashion - technology</h1>
-                <h1>Sport - Fashion - technology</h1>
+              <div className="elem whitespace-nowrap text-[7vw] flex items-center uppercase font-[PlinaReg]">
+                <h1 className={`${styles.elemh1} flex items-center gap-[3vw]`}>Sport <div className={`${styles.dash}`}></div></h1>
+                <h1 className={`${styles.elemh1} flex items-center gap-[3vw] font-[silkSerif] `}>Fashion <div className={`${styles.dash}`}></div></h1>
+                <h1 className={`${styles.elemh1} flex items-center gap-[3vw]`}>technology <div className={`${styles.dash}`}></div></h1>
+                <h1 className={`${styles.elemh1} flex items-center gap-[3vw] font-[silkSerif] `}>Fashion <div className={`${styles.dash}`}></div></h1>
+                <h1 className={`${styles.elemh1} flex items-center gap-[3vw]`}>technology <div className={`${styles.dash}`}></div></h1>
+                <h1 className={`${styles.elemh1} flex items-center gap-[3vw] font-[silkSerif] `}>sport <div className={`${styles.dash}`}></div></h1>
               </div>
-              <div className="elem whitespace-nowrap text-[7vw]">
-                <h1>science - travel - partners</h1>
-                <h1>science - travel - partners</h1>
+              <div className="elem whitespace-nowrap text-[7vw] flex items-center uppercase font-[PlinaReg]">
+                <h1 className={`${styles.elemh1} flex items-center gap-[3vw]`}>partners<div className={`${styles.dash}`}></div></h1>
+                <h1 className={`${styles.elemh1} flex items-center gap-[3vw] font-[silkSerif] `}>travel<div className={`${styles.dash}`}></div></h1>
+                <h1 className={`${styles.elemh1} flex items-center gap-[3vw]`}>science <div className={`${styles.dash}`}></div></h1>
+                <h1 className={`${styles.elemh1} flex items-center gap-[3vw] font-[silkSerif] `}>partners <div className={`${styles.dash}`}></div></h1>
+                <h1 className={`${styles.elemh1} flex items-center gap-[3vw]`}>travel <div className={`${styles.dash}`}></div></h1>
+                <h1 className={`${styles.elemh1} flex items-center gap-[3vw] font-[silkSerif] `}>science <div className={`${styles.dash}`}></div></h1>
               </div>
             </div>
 
