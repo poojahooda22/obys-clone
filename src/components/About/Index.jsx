@@ -1,6 +1,25 @@
-
+import { useGSAP } from "@gsap/react"
+import { gsap } from "gsap";
 
 function About() {
+
+
+    useGSAP(() => {
+    const tl = gsap.timeline();
+    tl.from('.aboutHeading h1', {
+        y: 120,
+    })
+    tl.from('.aboutText h2', {
+        y: 150,
+        stagger: 0.3,
+        duration: 1,
+    })
+    tl.from('.rightText h5', {
+        opacity: 0,
+        stagger: 0.2
+    })
+
+    })
   return (
     <div className="page4 relative sm:flex gap-[5vw]  w-full min-h-[100vh] px-[4vw] py-[6vw]">
         <div className="left">
@@ -12,26 +31,71 @@ function About() {
                 </div>             
             </div>
         </div>
-
         <div className="right">
-            <div className="text-[8vw] leading-[10vw] tracking-tighter
-                sm:text-[6vw] font-[PlinaReg] sm:leading-[6vw] sm:tracking-normal"
+            <div className=""
             >
-                <h1 className="uppercase">About Obys</h1>
+                <div className="aboutHeading overflow-hidden">
+                    <h1 className="text-[8vw] leading-[10vw] tracking-tighter
+                        sm:text-[6vw] font-[PlinaReg] sm:leading-[6vw] sm:tracking-normal
+                        uppercase"
+                    >
+                        About Obys
+                    </h1>
+                </div>
                 <div 
                     className="underline mt-[6vw] mb-[11vw] w-full h-[.25vw] 
                     sm:h-[.01vw] sm:mt-[3.8vw] sm:mb-[5vw] bg-white"
                 ></div>
-                <h3 
-                    className="sm:w-1/3 text-[5.5vw] tracking-normal leading-[5.8vw]
-                    sm:text-[1.5vw] sm:leading-[1.8vw]"
+                <div 
+                    className="sm:w-2/4 text-[5.5vw] tracking-normal leading-[6vw] font-[PlinaReg]
+                    sm:text-[1.8vw] sm:leading-[2.2vw]"
                 >
-                    Our agency is about people who love creating designing and developing wow projects.
-                    In the same time we are boutique agency that is more than the collective. 
-                    We learn and grow, win and celebrate together.
-                </h3>
-                <div>
-                    <img/>
+                    <div className="aboutText overflow-hidden"><h2>Our agency is about people who</h2></div>
+                    <div className="aboutText overflow-hidden"><h2>love creating designing and</h2></div>
+                    <div className="aboutText overflow-hidden"><h2>developing wow projects. In the</h2></div>
+                    <div className="aboutText overflow-hidden"><h2>same time we are boutique</h2></div>
+                    <div className="aboutText overflow-hidden"><h2>agency that is more than the</h2></div>
+                    <div className="aboutText overflow-hidden"><h2>collective. We learn and grow, win</h2></div>
+                    <div className="aboutText overflow-hidden"><h2>and celebrate together.</h2></div>
+                    
+                </div>
+                <div className="relative flex flex-col mt-8 sm:flex-row sm:mt-16 gap-8 ">
+                    <div className="order-2 sm:order-1  sm:w-1/2">
+                        <img className="" src="https://obys.agency/wp-content/uploads/2020/07/content-image01.jpg" alt="image"/>
+                    </div>
+                    <div 
+                        className="rightText order-1 sm:order-2 w-2/3  text-[3.2vw] font-[PlinaReg] leading-[5vw] 
+                        text-[#cbcaca]
+                        sm:w-1/4   sm:text-[.9vw] sm:leading-[1.4vw]   "
+                    >
+                        <h5 className="mb-8">We are happy to present our new website and updated version of Obys agency. As before we are open for new projects worldwide!</h5>
+                        <h5>
+                            Would you like to have award winning site or unique branding style, please say hi to our manager —info@obys.agency.
+                            And we will help you with the pleasure.
+                        </h5>
+                    </div>
+                    <div className="absolute top-[50%] left-[35%] w-[32vw] pt-[2vw] px-[3vw] h-[32vw] bg-[#3f7df4]">
+                        <div className="row flex gap-8 items-center  border-b-[.9px] border-white py-[1.8vw]">
+                            <h3 className="text-[1.4vw] font-[PlinaReg] whitespace-nowrap">Awwwards x16</h3>
+                            <p className="text-[.9vw] whitespace-nowrap">SOTM, SOTD and Honrable Mentions</p>
+                        </div>
+                        <div className="row flex gap-8 items-center  justify-between  border-b-[.9px] border-white py-[1.8vw]">
+                            <h3 className="text-[1.3vw] font-[PlinaReg]">Red Dot Award x1</h3>
+                            <p className="text-[.9vw]">SOTM, SOTD and Honrable Mentions</p>
+                        </div>
+                        <div className="row flex gap-8 items-center  justify-between  border-b-[.9px] border-white py-[1.8vw]">
+                            <h3 className="text-[1.3vw] font-[PlinaReg]">FWA x11</h3>
+                            <p className="text-[.9vw]">SOTM, SOTD and Honrable Mentions</p>
+                        </div>
+                        <div className="row flex gap-8 items-center  justify-between  border-b-[.9px] border-white py-[1.8vw]">
+                            <h3 className="text-[1.3vw] font-[PlinaReg]">CSSDA x23</h3>
+                            <p className="text-[.9vw]">SOTM, SOTD and Honrable Mentions</p>
+                        </div>
+                        <div className="row flex gap-8 items-center  justify-between  border-b-[.9px] border-white py-[1.8vw]">
+                            <h3 className="text-[1.3vw] font-[PlinaReg]">Awwwards x16</h3>
+                            <p className="text-[.9vw]">SOTM, SOTD and Honrable Mentions</p>
+                        </div>
+                    </div>
                 </div>
 
             </div>
