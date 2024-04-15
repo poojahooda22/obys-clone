@@ -9,15 +9,31 @@ function Marqueue() {
         <div className="page5 w-full h-[100vh] px-[4vw] mt-[3vw] sm:px-[3vw] relative">
             {/* Repeating row */}
             <div>
-              <div className={`elem whitespace-nowrap text-[9.6vw] leading-[12vw] sm:text-[7vw] sm:leading-[7.6vw] flex items-center uppercase font-[PlinaReg] ${styles.elem}`}>
-                <h1 className={`${styles.elemh1} flex items-center gap-[3vw]`}>Sport <div className={`${styles.dash} w-[5vw] h-[.5vw] border-[1px] border-[#fff] `}></div></h1>
-                <h1 className={`${styles.elemh1} flex items-center gap-[3vw] font-[silkSerif] `}>Fashion <div className={`${styles.dash} w-[5vw] h-[.5vw] border-[1px] border-[#fff]`}></div></h1>
-                <h1 className={`${styles.elemh1} flex items-center gap-[3vw]`}>technology <div className={`${styles.dash} w-[5vw] h-[.5vw] border-[1px] border-[#fff]`}></div></h1>
-                <h1 className={`${styles.elemh1} flex items-center gap-[3vw] font-[silkSerif] `}>Fashion <div className={`${styles.dash} w-[5vw] h-[.5vw] border-[1px] border-[#fff]`}></div></h1>
-                <h1 className={`${styles.elemh1} flex items-center gap-[3vw]`}>technology <div className={`${styles.dash} w-[5vw] h-[.5vw] border-[1px] border-[#fff]`}></div></h1>
-                <h1 className={`${styles.elemh1} flex items-center gap-[3vw] font-[silkSerif] `}>sport <div className={`${styles.dash} w-[5vw] h-[.5vw] border-[1px] border-[#fff]`}></div></h1>
+              <div className={`elem whitespace-nowrap text-[9.6vw] leading-[12vw] sm:text-[7vw] sm:leading-[7.6vw] 
+                flex items-center uppercase font-[PlinaReg] ${styles.elem}`}
+              >
+                <h1 className={`${styles.elemh1} flex items-center gap-[3vw]`}>Sport 
+                  <div className={`${styles.dash} w-[5vw] h-[.5vw] border-[1px] border-[#fff] `}></div>
+                </h1>
+                <h1 className={`${styles.elemh1} flex items-center gap-[3vw] font-[silkSerif] `}>Fashion 
+                  <div className={`${styles.dash} w-[5vw] h-[.5vw] border-[1px] border-[#fff]`}></div>
+                </h1>
+                <h1 className={`${styles.elemh1} flex items-center gap-[3vw]`}>technology 
+                  <div className={`${styles.dash} w-[5vw] h-[.5vw] border-[1px] border-[#fff]`}></div>
+                </h1>
+                <h1 className={`${styles.elemh1} flex items-center gap-[3vw] font-[silkSerif] `}>Fashion 
+                  <div className={`${styles.dash} w-[5vw] h-[.5vw] border-[1px] border-[#fff]`}></div>
+                </h1>
+                <h1 className={`${styles.elemh1} flex items-center gap-[3vw]`}>technology 
+                  <div className={`${styles.dash} w-[5vw] h-[.5vw] border-[1px] border-[#fff]`}></div>
+                </h1>
+                <h1 className={`${styles.elemh1} flex items-center gap-[3vw] font-[silkSerif] `}>sport 
+                  <div className={`${styles.dash} w-[5vw] h-[.5vw] border-[1px] border-[#fff]`}></div>
+                </h1>
               </div>
-              <div className={`elem2 whitespace-nowrap text-[9.6vw] leading-[12vw] sm:text-[7vw] sm:leading-[7.6vw] flex items-center uppercase font-[PlinaReg] ${styles.elem2}`}>
+              <div className={`elem2 whitespace-nowrap text-[9.6vw] leading-[12vw] sm:text-[7vw] sm:leading-[7.6vw] 
+                flex items-center uppercase font-[PlinaReg] ${styles.elem2}`}
+              >
                 <h1 className={`${styles.elemh1} flex items-center gap-[3vw]`}>beauty<div className={`${styles.dash} w-[5vw] h-[.5vw] border-[1px] border-[#fff]`}></div></h1>
                 <h1 className={`${styles.elemh1} flex items-center gap-[3vw] font-[silkSerif] `}>real estate<div className={`${styles.dash} w-[5vw] h-[.5vw] border-[1px] border-[#fff]`}></div></h1>
                 <h1 className={`${styles.elemh1} flex items-center gap-[3vw]`}>architecture <div className={`${styles.dash} w-[5vw] h-[.5vw] border-[1px] border-[#fff]`}></div></h1>
