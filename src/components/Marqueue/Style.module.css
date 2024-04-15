@@ -4,7 +4,8 @@
     font-weight: 400;
     display: inline-block ;
     margin-right: 2.4vw;
-    /* animation: anime 6s infinite linear; */
+    line-height: 7.6vw;
+    
 }
 
 .dash {
@@ -12,6 +13,7 @@
     width: 5vw;
     height: .5vw;
     color: #fff;
+    
 }
 
 @keyframes anime {
@@ -19,6 +21,16 @@
         transform: translateX(0);
     }
     to{
-        transform: translateX(calc(-100% - 10px));
+        transform: translateX(calc(-100% - 20px));
     }
+}
+
+.elem {
+    animation: anime 10s infinite linear;
+}
+
+
+.elem2 {
+    transform: translateX(calc(-100% - 20px));
+    animation: anime 10s infinite linear reverse;
 }
