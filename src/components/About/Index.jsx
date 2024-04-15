@@ -75,32 +75,39 @@ function About() {
                         </h5>
                     </div>
                     <div className="order-3 w-full
-                        sm:absolute top-[50%] left-[35%] sm:w-[34vw] px-[3vw] py-[3.2vw] font-[PlinaReg]
-                         bg-[#3f7df4]"
+                        px-[4vw] pt-[2vw] pb-[12vw]
+                        sm:absolute top-[50%] left-[35%] 
+                        sm:w-[34vw] sm:px-[3vw] sm:py-[3.2vw] font-[PlinaReg]
+                        bg-[#3f7df4]"
                     >
-                        <div className="row flex items-center justify-between border-b-[.9px]
-                             border-white 
-                            py-[1.5vw]"
+                        <div className="row flex items-start justify-between border-b-[.9px]
+                             border-white py-[5vw]
+                            sm:py-[1.5vw]"
                         >
-                            <h3 className=" sm:text-[1.4vw] whitespace-nowrap">Awwwards x16</h3>
-                            <p className="w-2/4 sm:text-[.8vw] tracking-normal">SOTM, SOTD and Honrable Mentions</p>
+                            <h3 className=" sm:text-[1.4vw] whitespace-nowrap text-[3.6vw]">Awwwards x16</h3>
+                            <p className="w-1/2 sm:w-2/4 sm:text-[.8vw] tracking-normal 
+                                text-[3.4vw] leading-[4vw]   "
+                            >
+                                SOTM, SOTD and Honrable Mentions
+                            </p>
                         </div>
-                        <div className="row flex items-center justify-between  border-b-[.9px] border-white py-[1.8vw]">
+                        <div className="row flex items-center justify-between  
+                        border-b-[.9px] border-white sm:py-[1.8vw]">sm:
                             <h3 className=" sm:text-[1.4vw]">Red Dot Award x1</h3>
                             <p className="w-2/4 sm:text-[.8vw]  tracking-normal">Best of the Best</p>
                         </div>
                         <div className="row flex items-center justify-between  
-                        border-b-[.9px] border-white py-[1.8vw]">
+                        border-b-[.9px] border-white sm:py-[1.8vw]">
                             <h3 className="sm:text-[1.4vw]">FWA x11</h3>
                             <p className="w-2/4 sm:text-[.8vw] tracking-normal">FWA of the Day</p>
                         </div>
                         <div className="row flex items-center justify-between 
-                         border-b-[.9px] border-white py-[1.8vw]">
+                         border-b-[.9px] border-white sm:py-[1.8vw]">
                             <h3 className="sm:text-[1.4vw]">CSSDA x23</h3>
                             <p className="w-2/4 sm:text-[.8vw] tracking-normal">WOTM WOTD and UI, UX Inovation</p>
                         </div>
                         <div className="row flex items-center justify-between  border-b-[.9px] 
-                         border-white py-[1.8vw]">
+                         border-white sm:py-[1.8vw]">
                             <h3 className="sm:text-[1.4vw]">Behance x25</h3>
                             <p className="w-2/4 sm:text-[.8vw] tracking-normal">Interaction, Graphic Design</p>
                         </div>
