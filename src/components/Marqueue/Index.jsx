@@ -7,8 +7,6 @@ function Marqueue() {
   return (
     <div>
         <div className="page5 w-full h-[100vh] px-[4vw] sm:px-[3vw] relative">
-
-
             {/* Repeating row */}
             <div>
               <div className={`elem whitespace-nowrap text-[7vw] flex items-center uppercase font-[PlinaReg] ${styles.elem}`}>
