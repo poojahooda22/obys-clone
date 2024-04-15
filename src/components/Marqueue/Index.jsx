@@ -10,9 +10,10 @@ function Marqueue() {
             {/* <div className="sm:flex">
                 <div className="w-[32%]"></div>
                 <div className="w-full border-t-[.1vw] py-[5vw] sm:py-[1.3vw]">
-                    <p className="font-[PlinaReg] text-[3.5vw] sm:text-[.8vw]">We work with</p>
+                    <p className="font-[PlinaReg] text-[3.5vw] sm:text-[.8vw]">We </p>
             </div> */}
 
+            {/* Repeating row */}
             <div>
               <div className={`elem whitespace-nowrap text-[7vw] flex items-center uppercase font-[PlinaReg] ${styles.elem}`}>
                 <h1 className={`${styles.elemh1} flex items-center gap-[3vw]`}>Sport <div className={`${styles.dash}`}></div></h1>
