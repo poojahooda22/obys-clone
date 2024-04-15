@@ -21,7 +21,7 @@ function About() {
 
     })
   return (
-    <div className="page4 relative sm:flex gap-[5vw]  w-full min-h-[100vh] px-[4vw] py-[6vw]
+    <div className="page4 relative sm:flex gap-[5vw]  w-full  px-[4vw] py-[6vw]
         sm:px-[4vw]
     ">
         <div className="left">
@@ -33,7 +33,7 @@ function About() {
                 </div>             
             </div>
         </div>
-        <div className="right mb-[10vw]">
+        <div className="right">
             <div className="">
                 <div className="aboutHeading overflow-hidden">
                     <h1 className="text-[8vw] leading-[10vw] tracking-tighter
