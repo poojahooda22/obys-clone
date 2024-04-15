@@ -60,7 +60,7 @@ function About() {
                     
                 </div>
                 <div className="relative flex flex-col mt-8 sm:flex-row sm:mt-16 gap-8 ">
-                    <div className="order-2 sm:order-1  sm:w-1/2">
+                    <div className=" order-2 sm:order-1  sm:w-1/2">
                         <img className="" src="https://obys.agency/wp-content/uploads/2020/07/content-image01.jpg" alt="image"/>
                     </div>
                     <div 
@@ -77,7 +77,7 @@ function About() {
                     <div className="absolute top-[50%] left-[35%] w-[32vw] px-[3vw] 
                         h-[32vw] bg-[#3f7df4]"
                     >
-                        <div className="row flex gap-8 items-center  border-b-[.9px] border-white
+                        <div className="row flex gap-8 items-center  border-b-[.9px] border-white bg-red-300
                          py-[1.8vw]">
                             <h3 className="text-[1.4vw] font-[PlinaReg] whitespace-nowrap">Awwwards x16</h3>
                             <p className="text-[.9vw] font-[] font-semibold">SOTM, SOTD and Honrable Mentions</p>
