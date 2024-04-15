@@ -1,3 +1,5 @@
+import styles from './Style.module.css'
+
 
 function Marqueue() {
 
@@ -13,11 +15,11 @@ function Marqueue() {
             </div> */}
 
             <div>
-              <div className="elem">
-                <h1>Sport - Fashion - technology</h1>
+              <div className="elem whitespace-nowrap text-[7vw]">
+                <h1 className={`${styles.elemh1}`}>Sport - Fashion - technology</h1>
                 <h1>Sport - Fashion - technology</h1>
               </div>
-              <div className="elem">
+              <div className="elem whitespace-nowrap text-[7vw]">
                 <h1>science - travel - partners</h1>
                 <h1>science - travel - partners</h1>
               </div>
