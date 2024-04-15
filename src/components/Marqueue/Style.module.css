@@ -3,18 +3,16 @@
     color: transparent;
     font-weight: 400;
     display: inline-block ;
-    margin-right: 2.4vw;
-    line-height: 7.6vw;
-    
+    margin-right: 2.4vw; 
 }
 
-.dash {
+/* .dash {
     border: 1px solid #fff;
     width: 5vw;
     height: .5vw;
     color: #fff;
     
-}
+} */
 
 @keyframes anime {
     from{
