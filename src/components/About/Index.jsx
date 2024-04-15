@@ -21,7 +21,7 @@ function About() {
 
     })
   return (
-    <div className="page4 relative sm:flex gap-[5vw]  w-full min-h-[100vh] px-[4vw] py-[6vw]">
+    <div className="page4 relative sm:flex gap-[5vw]  w-full min-h-[100vh] px-[4vw] py-[6vw] mb-[10vw]">
         <div className="left">
             <div className=" sm:pl-[14vw] ">
                 <div className="font-[silkSerif] text-[4.6vw] 
@@ -66,7 +66,7 @@ function About() {
                     <div 
                         className="rightText order-1 sm:order-2 w-2/3  text-[3.2vw] font-[PlinaReg] leading-[5vw] 
                         text-[#cbcaca]
-                        sm:w-1/4   sm:text-[.9vw] sm:leading-[1.4vw]   "
+                        sm:w-1/5  sm:text-[.9vw] sm:leading-[1.4vw]   "
                     >
                         <h5 className="mb-8">We are happy to present our new website and updated version of Obys agency. As before we are open for new projects worldwide!</h5>
                         <h5>
@@ -74,30 +74,34 @@ function About() {
                             And we will help you with the pleasure.
                         </h5>
                     </div>
-                    <div className="absolute top-[50%] left-[35%] w-[32vw] px-[3vw] 
-                        h-[32vw] bg-[#3f7df4]"
+                    <div className="order-3 w-full
+                        sm:absolute top-[50%] left-[35%] sm:w-[32vw] px-[3vw] py-[3.2vw] font-[PlinaReg]
+                         bg-[#3f7df4]"
                     >
-                        <div className="row flex gap-8 items-center  border-b-[.9px] border-white bg-red-300
-                         py-[1.8vw]">
-                            <h3 className="text-[1.4vw] font-[PlinaReg] whitespace-nowrap">Awwwards x16</h3>
-                            <p className="text-[.9vw] font-[] font-semibold">SOTM, SOTD and Honrable Mentions</p>
+                        <div className="row flex items-start justify-between  border-b-[.9px]
+                             border-white 
+                            pb-[1.8vw]"
+                        >
+                            <h3 className="w-1/2 sm:text-[1.4vw] whitespace-nowrap">Awwwards x16</h3>
+                            <p className="w-1/2 sm:text-[.8vw] ">SOTM, SOTD and Honrable Mentions</p>
                         </div>
-                        <div className="row flex gap-8 items-center  justify-between  border-b-[.9px] border-white py-[1.8vw]">
-                            <h3 className="text-[1.3vw] font-[PlinaReg]">Red Dot Award x1</h3>
-                            <p className="text-[.9vw]">Best of the Best</p>
+                        <div className="row flex items-center justify-between  border-b-[.9px] border-white py-[1.8vw]">
+                            <h3 className=" w-1/2 sm:text-[1.4vw]">Red Dot Award x1</h3>
+                            <p className="w-1/2 sm:text-[.9vw]">Best of the Best</p>
                         </div>
-                        <div className="row flex gap-8 items-center  justify-between  border-b-[.9px] border-white py-[1.8vw]">
-                            <h3 className="text-[1.3vw] font-[PlinaReg]">FWA x11</h3>
-                            <p className="text-[.9vw]">FWA of the Day</p>
+                        <div className="row flex items-center justify-between  border-b-[.9px] border-white py-[1.8vw]">
+                            <h3 className="sm:text-[1.4vw]">FWA x11</h3>
+                            <p className="w-1/2 sm:text-[.9vw]">FWA of the Day</p>
                         </div>
-                        <div className="row flex gap-8 items-center  justify-between  border-b-[.9px] border-white py-[1.8vw]">
-                            <h3 className="text-[1.3vw] font-[PlinaReg]">CSSDA x23</h3>
-                            <p className="text-[.9vw]">WOTM WOTD and UI, UX Inovation</p>
+                        <div className="row flex items-center justify-between 
+                         border-b-[.9px] border-white py-[1.8vw]">
+                            <h3 className="sm:text-[1.4vw]">CSSDA x23</h3>
+                            <p className="w-1/2 sm:text-[.9vw]">WOTM WOTD and UI, UX Inovation</p>
                         </div>
-                        <div className="row flex gap-8 items-center  justify-between  border-b-[.9px] bg-red-300
+                        <div className="row flex items-center justify-between  border-b-[.9px] 
                          border-white py-[1.8vw]">
-                            <h3 className="text-[1.3vw] font-[PlinaReg]">Behance x25</h3>
-                            <p className="text-[.9vw]">Interaction, Graphic Design</p>
+                            <h3 className="sm:text-[1.4vw]">Behance x25</h3>
+                            <p className="w-1/2 sm:text-[.9vw]">Interaction, Graphic Design</p>
                         </div>
                     </div>
                 </div>
