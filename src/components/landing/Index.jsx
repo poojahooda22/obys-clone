@@ -30,7 +30,7 @@ function Landing() {
         className="w-full"
       >
         <div 
-          className="px-[4vw] py-[16vw]
+          className="relative px-[4vw] py-[16vw]
           sm:py-[3vw] sm:px-[18vw] space-y-2
           sm:flex sm:flex-row sm:items-start sm:gap-16"
         >
