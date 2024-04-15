@@ -4,7 +4,7 @@ function Marqueue() {
 
   return (
     <div>
-        <div className="page5 w-full h-[100vh] px-[4vw] sm:px-[3vw] mt-[4vw] ">
+        <div className="page5 w-full h-[100vh] px-[4vw] sm:px-[3vw] relative">
             {/* <div className="sm:flex">
                 <div className="w-[32%]"></div>
                 <div className="w-full border-t-[.1vw] py-[5vw] sm:py-[1.3vw]">
@@ -13,7 +13,14 @@ function Marqueue() {
             </div> */}
 
             <div>
-              
+              <div className="elem">
+                <h1>Sport - Fashion - technology</h1>
+                <h1>Sport - Fashion - technology</h1>
+              </div>
+              <div className="elem">
+                <h1>science - travel - partners</h1>
+                <h1>science - travel - partners</h1>
+              </div>
             </div>
 
         </div>
