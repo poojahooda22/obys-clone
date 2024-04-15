@@ -8,6 +8,7 @@ import Cursor from './components/Cursor/Index';
 import Video from './components/Video/Index';
 
 import About from './components/About/Index';
+import Marqueue from './components/Marqueue/Index';
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
           <Video />
           
           <About/>
+          <Marqueue/>
         </div>
         
       </div>
