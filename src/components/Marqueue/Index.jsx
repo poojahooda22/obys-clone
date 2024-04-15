@@ -48,7 +48,6 @@ function Marqueue() {
                 <h1 className={`${styles.elemh1} flex items-center gap-[3vw] font-[silkSerif] `}>automotive<div className={`${styles.dash}`}></div></h1>
               </div>
             </div>
-
         </div>
     </div>
   )
