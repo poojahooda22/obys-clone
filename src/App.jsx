@@ -31,7 +31,7 @@ function App() {
     
     containerRef={containerRef}
     >
-      <div ref={containerRef} className='main text-white bg-[#151515]'>
+      <div ref={containerRef} className='main text-white bg-[#151515] overflow-hidden'>
         <Cursor/>
         <Loader />
         <div className='page1'>
