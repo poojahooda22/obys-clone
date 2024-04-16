@@ -19,15 +19,15 @@ const WaveImage = ({ src, id }) => {
     const vertexShader = `...`;
     const fragmentShader = `...`;
 
-    function initializeScene(texture) {
-      camera = new THREE.PerspectiveCamera(
-        80,
-        containerRef.current.offsetWidth / containerRef.current.offsetHeight,
-        0.01,
-        10
-      );
-      camera.position.z = 1;
-      scene = new THREE.Scene();
+    // function initializeScene(texture) {
+    //   camera = new THREE.PerspectiveCamera(
+    //     80,
+    //     containerRef.current.offsetWidth / containerRef.current.offsetHeight,
+    //     0.01,
+    //     10
+    //   );
+    //   camera.position.z = 1;
+    //   scene = new THREE.Scene();
 
       // const shaderUniforms = {
       //   u_time: { type: "f", value: 1.0 },
