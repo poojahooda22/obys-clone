@@ -15,13 +15,13 @@ display: flex;
   }
   
   
-.imageContainer > * {
+/* .imageContainer > * {
     position: absolute;
     inset: 0;
     height: 100% !important;
     width: 100% !important;
     object-fit: cover;
-  }
+  } */
 
 
 canvas {
