@@ -33,7 +33,7 @@ function Project() {
         </div>
 
         <div className="mt-[2vw] w-full sm:flex items-start gap-10 bg-green-400">
-              <div className="first">Olga Prudka</div>
+            <div className="first">Olga Prudka</div>
               <div className="second">Aim</div>
               <div className="third">Button</div>
 
