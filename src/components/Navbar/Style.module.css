@@ -1,4 +1,4 @@
-.text {
+/* .text {
     height: 60px;
     position: relative;
     overflow: hidden;
@@ -48,4 +48,11 @@
 }
 .letter:nth-child(10) {
     transition-delay: 0.27s;
+} */
+
+
+.navText:hover ~ .cursor {
+    width: 2.5vw;
+    height: 2.5vw;
+    border: 1.5px solid #646464;
 }
