@@ -20,7 +20,7 @@ function Landing() {
   return (
     <div 
       data-scroll 
-      className="w-full"
+      className=" page1  w-full"
     >
       {/* Navbar */}
       <Navbar/>
@@ -62,6 +62,7 @@ function Landing() {
               <h1>Experience</h1>
             </div>
           </div>
+          <img src="" alt=""/>
         </div>
       </div>
     </div>
