@@ -10,11 +10,11 @@ const WaveImage = ({ src, id }) => {
     let currentState = { mousePosition: { x: 0, y: 0 }, waveIntensity: 0.005 };
     let targetState = { mousePosition: { x: 0, y: 0 }, waveIntensity: 0.005 };
 
-    const ANIMATION_CONFIG = {
-      transitionSpeed: 0.03,
-      baseIntensity: 0.005,
-      hoverIntensity: 0.009
-    };
+    // const ANIMATION_CONFIG = {
+    //   transitionSpeed: 0.03,
+    //   baseIntensity: 0.005,
+    //   hoverIntensity: 0.009
+    // };
 
     const vertexShader = `...`;
     const fragmentShader = `...`;
