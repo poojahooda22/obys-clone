@@ -1,7 +1,7 @@
-import { useEffect, useRef } from 'react';
-import * as THREE from 'three';
+// import { useEffect, useRef } from 'react';
+// import * as THREE from 'three';
 
-const WaveImage = ({ src, id }) => {
+// const WaveImage = ({ src, id }) => {
   // const imageRef = useRef(null);
   // const containerRef = useRef(null);
 
