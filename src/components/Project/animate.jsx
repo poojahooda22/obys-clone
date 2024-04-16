@@ -16,8 +16,8 @@ const WaveImage = ({ src, id }) => {
     //   hoverIntensity: 0.009
     // };
 
-    const vertexShader = `...`;
-    const fragmentShader = `...`;
+    // const vertexShader = `...`;
+    // const fragmentShader = `...`;
 
     // function initializeScene(texture) {
     //   camera = new THREE.PerspectiveCamera(
