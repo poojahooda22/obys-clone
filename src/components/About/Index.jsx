@@ -1,22 +1,39 @@
 import { useGSAP } from "@gsap/react"
 import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
 function About() {
 
 
     useGSAP(() => {
-    const tl = gsap.timeline();
-    tl.from('.aboutHeading h1', {
+    // const tl = gsap.timeline({
+    //     scrollTrigger: {
+    //         trigger: '.right',
+    //         start: "top 100%",
+    //         markers: true,
+    //         scrub: .5,
+    //     },
+    // });
+    gsap.from('.aboutHeading h1', {
         y: 120,
     })
-    tl.from('.aboutText h2', {
-        y: 150,
-        stagger: 0.3,
-        duration: 1,
+    gsap.to('.underline', {
+        width: '100%',
+        duration: 1.2,
     })
-    tl.from('.rightText h5', {
+    gsap.from('.aboutText h2', {
+        y: 50,
+        stagger: 0.1,
+
+    })
+    gsap.from('.rightText h5', {
         opacity: 0,
-        stagger: 0.2
+        stagger: 0.1
+    })
+    gsap.to('.underline2', {
+        width: '100%',
+        duration: 1.2,
     })
 
     })
@@ -44,7 +61,7 @@ function About() {
                     </h1>
                 </div>
                 <div 
-                    className="underline mt-[6vw] mb-[11vw] w-full h-[.25vw] 
+                    className="underline mt-[6vw] mb-[11vw] w-0 h-[.25vw] 
                     sm:h-[.01vw] sm:mt-[3.8vw] sm:mb-[5vw] bg-white"
                 ></div>
                 <div 
@@ -120,7 +137,7 @@ function About() {
                     </div>        
                 </div>
                 <div 
-                    className="underline mt-[18vw] mb-[4vw] w-full h-[.25vw] 
+                    className="underline2 mt-[18vw] mb-[4vw] w-0 h-[.25vw] 
                     sm:h-[.01vw] sm:mt-[20vw] sm:mb-[1.2vw] bg-white"
                 ></div>
                 <p className="font-[PlinaReg] text-[3.5vw] sm:text-[.8vw]">We work with</p>
