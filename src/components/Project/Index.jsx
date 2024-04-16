@@ -22,7 +22,7 @@ function Project() {
                 sm:text-[6vw] font-[PlinaReg] sm:leading-[6vw] sm:tracking-normal
                 uppercase"
               >
-                  About Obys
+                About Obys
               </h1>
             </div>
             <div 
