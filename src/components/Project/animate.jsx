@@ -5,7 +5,7 @@
   // const imageRef = useRef(null);
   // const containerRef = useRef(null);
 
-  useEffect(() => {
+  // useEffect(() => {
     // let scene, camera, renderer, planeMesh;
     // let currentState = { mousePosition: { x: 0, y: 0 }, waveIntensity: 0.005 };
     // let targetState = { mousePosition: { x: 0, y: 0 }, waveIntensity: 0.005 };
