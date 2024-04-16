@@ -11,7 +11,11 @@ export default {
       lg: '1024px',
       xl: '1440px',
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'custom-image': "url('/src/assets/images/hero-image.jpg')",
+      }
+    },
   },
   plugins: [],
 }
