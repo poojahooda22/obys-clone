@@ -6,15 +6,15 @@ function Project() {
 
   let wrappers = useRef();
 
-  useEffect(() => {
-    new hoverEffect({
-      parent: wrappers.current,
-      intensity: 0.5,
-      image1: '/src/assets/images/1.jpg',
-      image2: '/src/assets/images/2.jpg',
-      displacementImage: '/src/assets/images/12.jpg'
-    });
-  })
+  // useEffect(() => {
+  //   new hoverEffect({
+  //     parent: wrappers.current,
+  //     intensity: 0.5,
+  //     image1: '/src/assets/images/1.jpg',
+  //     image2: '/src/assets/images/2.jpg',
+  //     displacementImage: '/src/assets/images/12.jpg'
+  //   });
+  // })
 
 
   return (
