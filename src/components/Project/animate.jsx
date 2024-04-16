@@ -94,10 +94,10 @@ const WaveImage = ({ src, id }) => {
       targetState.waveIntensity = ANIMATION_CONFIG.hoverIntensity;
     }
 
-    function handleMouseOut() {
-      targetState.waveIntensity = ANIMATION_CONFIG.baseIntensity;
-      targetState.mousePosition = { x: 0, y: 0 };
-    }
+    // function handleMouseOut() {
+    //   targetState.waveIntensity = ANIMATION_CONFIG.baseIntensity;
+    //   targetState.mousePosition = { x: 0, y: 0 };
+    // }
 
     // const textureLoader = new THREE.TextureLoader();
     // textureLoader.load(imageRef.current.src, (texture) => {
