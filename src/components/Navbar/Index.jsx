@@ -1,8 +1,15 @@
 
 import styles from './Style.module.css'
+import { motion, useMotionValue } from 'framer-motion'
+import styles1 from '../Cursor/Style.module.css';
 
 function Navbar() {
-
+  const data = [
+    {title: 'Works'},
+    {title: 'About'},
+    {title: 'Contact'},
+  ]
+  
 
   // useEffect(() => {
   //   let elements = document.querySelectorAll('.text')
@@ -31,6 +38,29 @@ function Navbar() {
   //   })
   // },[])
 
+  const mapRange = (
+    inputLower,
+    inputUpper,
+    outputLower,
+    outputUpper,
+  ) => {
+    const INPUT_RANGE = inputUpper - inputLower;
+    const OUTPUT_RANGE = outputUpper - outputLower;
+
+    return (value) => 
+      outputLower + (((value - inputLower) / INPUT_RANGE) * OUTPUT_RANGE || 0)
+  }
+
+  const setTransform = (item, event, x, y) => {
+    const bounds = item.getBoundingClientRect();
+    const relativeX = event.clientX - bounds.left;
+    const relativeY = event.clientY - bounds.top;
+    const xRange = mapRange(1, bounds.width, -2, 2)(relativeX)
+    const yRange = mapRange(1, bounds.height, -2, 2)(relativeY)
+    x.set(xRange * 10)
+    y.set(yRange * 10)
+    console.log(xRange)
+  }
 
   return (
     <div className="w-full ">
@@ -41,7 +71,8 @@ function Navbar() {
       >
         <div className="first w-[26vw] flex items-start justify-between ">
           <div className="w-[3vw] flex items-center gap-[2.2vw]  ">
-            <div className="icon">
+            <motion.div 
+            >
               <svg className="menu-opener__square" width="12" height="12" viewBox="0 0 12 12" fill="none">
                 <rect y="10" width="2" height="2" fill="currentColor"></rect>
                 <rect y="5" width="2" height="2" fill="currentColor"></rect>
@@ -53,7 +84,7 @@ function Navbar() {
                 <rect x="10" y="5" width="2" height="2" fill="currentColor"></rect>
                 <rect x="10" width="2" height="2" fill="currentColor"></rect>
               </svg>
-            </div>
+            </motion.div>
             <div className="logo hidden sm:inline-block">
               <svg className="brand__svg" width="64" height="22" viewBox="0 0 71 27">
                 <path d="M40.7622 24.5917C40.7622 23.6724 41.4511 22.9829 42.3697 22.9829C43.2883 22.9829 43.9773 23.6724 43.9773 24.5917C43.9773 25.511 43.2883 26.2005 42.3697 26.2005C41.566 26.2005 40.7622 25.3961 40.7622 24.5917Z" fill="currentColor"></path>
@@ -79,14 +110,40 @@ function Navbar() {
         </div>
 
         
-        <div className="last hidden sm:flex w-[14vw] justify-around
+        {/* <div className="last hidden sm:flex w-[14vw] justify-around relative
           text-[.9vw]  "
         >
           <h6 className={`text ${styles.text}`}>Works</h6>
           <h6 className={`text ${styles.text}`}>About</h6>
           <h6 className={`text ${styles.text}`}>Contact</h6>
            
+        </div> */}
+        <div className='last hidden sm:flex items-start w-[14vw] justify-around relative 
+          text-[.9vw]'
+        >
+          {data.map((item, index) => {
+              const x = useMotionValue(0);
+              const y = useMotionValue(0);
+              return (
+                <motion.div 
+                  onPointerMove={(event) => {
+                    const item = event.currentTarget;
+                    setTransform(item, event, x, y)
+                  }}
+                  onPointerLeave={() => {
+                    x.set(0)
+                    y.set(0)
+                  }}
+                  style={{ x, y }}
+                  key={index} 
+                  className={`navText ${styles1.navText} px-[1.3vw] py-[1.1vw]  `}
+                >
+                  <span className={`text ${styles.text}`}>{item.title}</span>
+                </motion.div>
+              )
+          })}
         </div>
+        
 
         <div className="logo 
           inline-block
