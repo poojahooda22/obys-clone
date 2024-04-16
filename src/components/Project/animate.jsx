@@ -29,12 +29,12 @@ const WaveImage = ({ src, id }) => {
       camera.position.z = 1;
       scene = new THREE.Scene();
 
-      const shaderUniforms = {
-        u_time: { type: "f", value: 1.0 },
-        u_mouse: { type: "v2", value: new THREE.Vector2() },
-        u_intensity: { type: "f", value: currentState.waveIntensity },
-        u_texture: { type: "t", value: texture }
-      };
+      // const shaderUniforms = {
+      //   u_time: { type: "f", value: 1.0 },
+      //   u_mouse: { type: "v2", value: new THREE.Vector2() },
+      //   u_intensity: { type: "f", value: currentState.waveIntensity },
+      //   u_texture: { type: "t", value: texture }
+      // };
 
       // planeMesh = new THREE.Mesh(
       //   new THREE.PlaneGeometry(2, 2),
