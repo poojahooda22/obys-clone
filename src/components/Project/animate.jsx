@@ -2,8 +2,8 @@ import { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 
 const WaveImage = ({ src, id }) => {
-  const imageRef = useRef(null);
-  const containerRef = useRef(null);
+  // const imageRef = useRef(null);
+  // const containerRef = useRef(null);
 
   useEffect(() => {
     let scene, camera, renderer, planeMesh;
