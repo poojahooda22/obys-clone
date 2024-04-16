@@ -18,12 +18,12 @@ function Project() {
           </div>
           <div className="right">
             <div className="aboutHeading overflow-hidden">
-                  <h1 className="text-[8vw] leading-[10vw] tracking-tighter
-                      sm:text-[6vw] font-[PlinaReg] sm:leading-[6vw] sm:tracking-normal
-                      uppercase"
-                  >
-                      About Obys
-                  </h1>
+                <h1 className="text-[8vw] leading-[10vw] tracking-tighter
+                    sm:text-[6vw] font-[PlinaReg] sm:leading-[6vw] sm:tracking-normal
+                    uppercase"
+                >
+                    About Obys
+                </h1>
             </div>
             <div 
                 className="underline mt-[6vw] mb-[11vw] w-0 h-[.25vw] 
