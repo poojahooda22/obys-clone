@@ -36,7 +36,6 @@ function Project() {
           <div className="first">Olga Prudka</div>
           <div className="second">Aim</div>
           <div className="third">Button</div>
-
         </div>
       
     </div>
