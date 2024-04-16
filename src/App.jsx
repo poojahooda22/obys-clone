@@ -6,9 +6,10 @@ import Loader from './components/loader/Index';
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
 import Cursor from './components/Cursor/Index';
 import Video from './components/Video/Index';
-
 import About from './components/About/Index';
 import Marqueue from './components/Marqueue/Index';
+import Footer from './components/Footer/Index';
+
 
 
 function App() {
@@ -35,13 +36,14 @@ function App() {
       <div ref={containerRef} className='main text-white bg-[#151515] overflow-hidden'>
         <Cursor/>
         <Loader />
-        <div className='page1'>
+        <div className=''>
           <Landing />
           {/* video */}
           <Video />
           
           <About/>
           <Marqueue/>
+          <Footer/>
         </div>
         
       </div>
