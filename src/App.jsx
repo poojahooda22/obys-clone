@@ -9,6 +9,7 @@ import Video from './components/Video/Index';
 import About from './components/About/Index';
 import Marqueue from './components/Marqueue/Index';
 import Footer from './components/Footer/Index';
+import Navbar from './components/Navbar/Index';
 
 
 
@@ -33,10 +34,11 @@ function App() {
     
     containerRef={containerRef}
     >
-      <div ref={containerRef} className='main text-white  overflow-hidden'>
+      <div ref={containerRef} className='main text-white overflow-hidden'>
         <Cursor/>
         <Loader />
         <div className=' bg-[#151515]'>
+          <Navbar/>
           <Landing />
           {/* video */}
           <Video />
