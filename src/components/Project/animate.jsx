@@ -36,14 +36,14 @@ const WaveImage = ({ src, id }) => {
         u_texture: { type: "t", value: texture }
       };
 
-      planeMesh = new THREE.Mesh(
-        new THREE.PlaneGeometry(2, 2),
-        new THREE.ShaderMaterial({
-          uniforms: shaderUniforms,
-          vertexShader,
-          fragmentShader
-        })
-      );
+      // planeMesh = new THREE.Mesh(
+      //   new THREE.PlaneGeometry(2, 2),
+      //   new THREE.ShaderMaterial({
+      //     uniforms: shaderUniforms,
+      //     vertexShader,
+      //     fragmentShader
+      //   })
+      // );
 
       scene.add(planeMesh);
       renderer = new THREE.WebGLRenderer();
