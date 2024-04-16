@@ -1,6 +1,6 @@
 import { useRef, useEffect } from 'react';
 import styles from './Style.module.css'
-import hoverEffect from 'hover-effect';
+// import hoverEffect from 'hover-effect';
 
 function Project() {
 
