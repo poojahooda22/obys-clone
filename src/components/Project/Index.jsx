@@ -1,17 +1,20 @@
+import { useRef, useEffect } from 'react';
 import styles from './Style.module.css'
-
+import hoverEffect from 'hover-effect';
 
 function Project() {
-  // useEffect(() => {
 
-  //   new hoverEffect({
-  //     parent: document.querySelector('.imageWrapper'),
-  //     intensity: 0.5,
-  //     image1: 'https://obys.agency/wp-content/uploads/2023/08/Olga_Prudka_1.png',
-  //     image2: 'https://obys.agency/wp-content/uploads/2023/08/Olga_Prudka_3.png',
-  //     displacementImage: 'https://obys.agency/wp-content/uploads/2023/08/Olga_Prudka_3.png'
-  //   });
-  // })
+  let wrappers = useRef();
+
+  useEffect(() => {
+    new hoverEffect({
+      parent: wrappers.current,
+      intensity: 0.5,
+      image1: '/src/assets/images/1.jpg',
+      image2: '/src/assets/images/2.jpg',
+      displacementImage: '/src/assets/images/12.jpg'
+    });
+  })
 
 
   return (
@@ -52,6 +55,7 @@ function Project() {
             </div>
             <div id="imageContainer"
               className={`imageContainer ${styles.imageContainer} w-[22vw] relative overflow-hidden `}
+              ref={wrappers}
             >  
             </div>
             <div>
