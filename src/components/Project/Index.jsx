@@ -20,7 +20,7 @@ function Project() {
             <div className="aboutHeading overflow-hidden">
               <h1 className="text-[8vw] leading-[10vw] tracking-tighter
                 sm:text-[6vw] font-[PlinaReg] sm:leading-[6vw] sm:tracking-normal
-                  uppercase"
+                uppercase"
               >
                   About Obys
               </h1>
