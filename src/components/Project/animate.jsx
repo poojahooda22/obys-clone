@@ -84,11 +84,11 @@ const WaveImage = ({ src, id }) => {
       renderer.render(scene, camera);
     }
 
-    function handleMouseMove(event) {
-      const rect = containerRef.current.getBoundingClientRect();
-      targetState.mousePosition.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
-      targetState.mousePosition.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
-    }
+    // function handleMouseMove(event) {
+    //   const rect = containerRef.current.getBoundingClientRect();
+    //   targetState.mousePosition.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
+    //   targetState.mousePosition.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
+    // }
 
     function handleMouseOver() {
       targetState.waveIntensity = ANIMATION_CONFIG.hoverIntensity;
