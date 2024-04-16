@@ -1,0 +1,5 @@
+.footText:hover {
+    font-family: 'silkSerif';
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+} 
