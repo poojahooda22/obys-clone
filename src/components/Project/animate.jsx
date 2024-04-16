@@ -108,13 +108,13 @@
     //   containerRef.current.addEventListener("mouseout", handleMouseOut);
     // });
 
-    return () => {
-      renderer.domElement && renderer.domElement.remove();
-      containerRef.current.removeEventListener("mousemove", handleMouseMove);
-      containerRef.current.removeEventListener("mouseover", handleMouseOver);
-      containerRef.current.removeEventListener("mouseout", handleMouseOut);
-    };
-  }, [src]); // Reload only if the src changes
+  //   return () => {
+  //     renderer.domElement && renderer.domElement.remove();
+  //     containerRef.current.removeEventListener("mousemove", handleMouseMove);
+  //     containerRef.current.removeEventListener("mouseover", handleMouseOver);
+  //     containerRef.current.removeEventListener("mouseout", handleMouseOut);
+  //   };
+  // }, [src]); // Reload only if the src changes
 
   return (
     <div ref={containerRef} className="imageContainer" id={id}>
