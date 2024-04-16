@@ -1,0 +1,34 @@
+
+.imageContainer  {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  max-width: 100%;
+  filter: saturate(50%);
+  transition: all ease 0.5s;
+}
+
+
+.imageContainer:hover {
+    filter: saturate(100%)
+  }
+  
+  
+.imageContainer > * {
+    position: absolute;
+    inset: 0;
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover;
+  }
+
+
+canvas {
+	display: block;
+  transition: 1s transform;
+}
+
+canvas:hover {
+  transform: scale(1.2);
+}
