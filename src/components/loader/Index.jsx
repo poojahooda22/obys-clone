@@ -39,13 +39,13 @@ function Loader() {
             delay: 2.2
         })
         tl.from('.page1', {
-            
             y: 1200,
             opacity: 0,
             duration: 0.4,
             delay: 0.1,
             ease: Power4
         })
+        
         tl.to('.loader', {
             display: 'none'
         })
@@ -58,7 +58,14 @@ function Loader() {
         tl.from('#hero1 h1, #hero2 h1, #hero3 h2, .hero h3, #hero4 h1', {
             y: 180,
             stagger: 0.2,
-          })
+        })
+        tl.from('.page2', {
+            y: 800,
+            opacity: 0,
+            duration: 0.4,
+            delay: 0.1,
+            ease: Power4
+        })
     }) 
     
   return ( 
