@@ -33,10 +33,10 @@ function App() {
     
     containerRef={containerRef}
     >
-      <div ref={containerRef} className='main text-white bg-[#151515] overflow-hidden'>
+      <div ref={containerRef} className='main text-white  overflow-hidden'>
         <Cursor/>
         <Loader />
-        <div className=''>
+        <div className=' bg-[#151515]'>
           <Landing />
           {/* video */}
           <Video />
