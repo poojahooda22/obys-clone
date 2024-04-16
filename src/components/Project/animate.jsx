@@ -99,14 +99,14 @@ const WaveImage = ({ src, id }) => {
       targetState.mousePosition = { x: 0, y: 0 };
     }
 
-    const textureLoader = new THREE.TextureLoader();
-    textureLoader.load(imageRef.current.src, (texture) => {
-      initializeScene(texture);
-      animateScene();
-      containerRef.current.addEventListener("mousemove", handleMouseMove);
-      containerRef.current.addEventListener("mouseover", handleMouseOver);
-      containerRef.current.addEventListener("mouseout", handleMouseOut);
-    });
+    // const textureLoader = new THREE.TextureLoader();
+    // textureLoader.load(imageRef.current.src, (texture) => {
+    //   initializeScene(texture);
+    //   animateScene();
+    //   containerRef.current.addEventListener("mousemove", handleMouseMove);
+    //   containerRef.current.addEventListener("mouseover", handleMouseOver);
+    //   containerRef.current.addEventListener("mouseout", handleMouseOut);
+    // });
 
     return () => {
       renderer.domElement && renderer.domElement.remove();
