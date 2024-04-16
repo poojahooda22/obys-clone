@@ -37,7 +37,7 @@ function Project() {
               <div className="second">Aim</div>
               <div className="third">Button</div>
 
-            </div>
+        </div>
       
     </div>
   )
