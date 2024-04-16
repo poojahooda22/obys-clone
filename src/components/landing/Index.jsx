@@ -1,20 +1,28 @@
 // import { useGSAP } from "@gsap/react"
-import Navbar from "../Navbar/Index"
+// import { useEffect } from "react"
+// import Navbar from "../Navbar/Index"
 import styles from './Style.module.css'
 // import { gsap } from "gsap";
 
 function Landing() {
 
-
-  // useGSAP(() => {
-  //   const tl = gsap.timeline()
-  //   tl.from('.hero h1', {
-  //     y: 150,
-  //     stagger: 0.3,
-  //     delay: 0.8,
-  //     duration: 1,
+  // useEffect(() => {
+  //   document.addEventListener("mousemove", function(dets) {
+  //     gsap.to("#flag", {
+  //       x: dets.clientX,
+  //       y: dets.clientY,
+  //     })
   //   })
-
+  //   document.querySelector("#hero3").addEventListener("mouseenter", function() {
+  //     gsap.to("#flag", {
+  //       opacity: 1
+  //     })
+  //   })
+  //   document.querySelector("#hero3").addEventListener("mouseleave", function() {
+  //     gsap.to("#flag", {
+  //       opacity: 0
+  //     })
+  //   })
   // })
 
   return (
@@ -23,7 +31,7 @@ function Landing() {
       className=" page1  w-full"
     >
       {/* Navbar */}
-      <Navbar/>
+      {/* <Navbar/> */}
       {/* Landing Page */}      
       <div 
         className="w-full"
@@ -53,7 +61,7 @@ function Landing() {
               <h1>
                 Unique</h1>
             </div>
-            <div className={`hero ${styles.hero}`} id="hero3">
+            <div className={`hero ${styles.hero} relative z-[999] `} id="hero3">
               <h2 className="">Web</h2>
               <h3>/</h3>
               <h2>Graphic</h2>
@@ -62,7 +70,12 @@ function Landing() {
               <h1>Experience</h1>
             </div>
           </div>
-          <img src="" alt=""/>
+          <img 
+            id="flag"
+            src="https://obys.agency/wp-content/uploads/2022/03/Flag.jpg" 
+            alt=""
+            className=" h-[20vw] absolute top-0 left-0 -translate-x-1/2 opacity-0 -translate-y-1/2 "
+          />
         </div>
       </div>
     </div>
