@@ -50,9 +50,3 @@
     transition-delay: 0.27s;
 } */
 
-
-.navText:hover ~ .cursor {
-    width: 2.5vw;
-    height: 2.5vw;
-    border: 1.5px solid #646464;
-}
