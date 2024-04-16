@@ -45,11 +45,11 @@ const WaveImage = ({ src, id }) => {
       //   })
       // );
 
-      scene.add(planeMesh);
-      renderer = new THREE.WebGLRenderer();
-      renderer.setSize(containerRef.current.offsetWidth, containerRef.current.offsetHeight);
-      containerRef.current.appendChild(renderer.domElement);
-    }
+    //   scene.add(planeMesh);
+    //   renderer = new THREE.WebGLRenderer();
+    //   renderer.setSize(containerRef.current.offsetWidth, containerRef.current.offsetHeight);
+    //   containerRef.current.appendChild(renderer.domElement);
+    // }
 
     // function animateScene() {
     //   const updateValue = (target, current, speed) => {
