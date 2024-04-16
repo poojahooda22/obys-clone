@@ -90,9 +90,9 @@ const WaveImage = ({ src, id }) => {
     //   targetState.mousePosition.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
     // }
 
-    function handleMouseOver() {
-      targetState.waveIntensity = ANIMATION_CONFIG.hoverIntensity;
-    }
+    // function handleMouseOver() {
+    //   targetState.waveIntensity = ANIMATION_CONFIG.hoverIntensity;
+    // }
 
     // function handleMouseOut() {
     //   targetState.waveIntensity = ANIMATION_CONFIG.baseIntensity;
