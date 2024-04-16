@@ -51,10 +51,8 @@ function Project() {
               <h2>Olga prudka</h2>
             </div>
             <div id="imageContainer"
-              className={`${styles.imageContainer} imageContainer w-[22vw] relative overflow-hidden `}
-            >
-              <img id="myImage" src="https://obys.agency/wp-content/uploads/2023/08/Olga_Prudka_1.png" />
-              <img/>
+              className={`imageContainer ${styles.imageContainer} w-[22vw] relative overflow-hidden `}
+            >  
             </div>
             <div>
               <h5>Logo design, Website design, Development</h5>
