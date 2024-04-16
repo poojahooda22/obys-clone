@@ -116,11 +116,11 @@
   //   };
   // }, [src]); // Reload only if the src changes
 
-  return (
-    <div ref={containerRef} className="imageContainer" id={id}>
-      <img ref={imageRef} src={src} alt="" style={{ }} />
-    </div>
-  );
-};
+//   return (
+//     <div ref={containerRef} className="imageContainer" id={id}>
+//       <img ref={imageRef} src={src} alt="" style={{ }} />
+//     </div>
+//   );
+// };
 
-export default WaveImage;
+// export default WaveImage;
