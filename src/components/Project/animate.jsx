@@ -51,38 +51,38 @@ const WaveImage = ({ src, id }) => {
       containerRef.current.appendChild(renderer.domElement);
     }
 
-    function animateScene() {
-      const updateValue = (target, current, speed) => {
-        return current + (target - current) * speed;
-      };
+    // function animateScene() {
+    //   const updateValue = (target, current, speed) => {
+    //     return current + (target - current) * speed;
+    //   };
 
-      requestAnimationFrame(animateScene);
+    //   requestAnimationFrame(animateScene);
 
-      currentState.mousePosition.x = updateValue(
-        targetState.mousePosition.x,
-        currentState.mousePosition.x,
-        ANIMATION_CONFIG.transitionSpeed
-      );
+    //   currentState.mousePosition.x = updateValue(
+    //     targetState.mousePosition.x,
+    //     currentState.mousePosition.x,
+    //     ANIMATION_CONFIG.transitionSpeed
+    //   );
 
-      currentState.mousePosition.y = updateValue(
-        targetState.mousePosition.y,
-        currentState.mousePosition.y,
-        ANIMATION_CONFIG.transitionSpeed
-      );
+    //   currentState.mousePosition.y = updateValue(
+    //     targetState.mousePosition.y,
+    //     currentState.mousePosition.y,
+    //     ANIMATION_CONFIG.transitionSpeed
+    //   );
 
-      currentState.waveIntensity = updateValue(
-        targetState.waveIntensity,
-        currentState.waveIntensity,
-        ANIMATION_CONFIG.transitionSpeed
-      );
+    //   currentState.waveIntensity = updateValue(
+    //     targetState.waveIntensity,
+    //     currentState.waveIntensity,
+    //     ANIMATION_CONFIG.transitionSpeed
+    //   );
 
-      const uniforms = planeMesh.material.uniforms;
-      uniforms.u_intensity.value = currentState.waveIntensity;
-      uniforms.u_time.value += 0.005;
-      uniforms.u_mouse.value.set(currentState.mousePosition.x, currentState.mousePosition.y);
+    //   const uniforms = planeMesh.material.uniforms;
+    //   uniforms.u_intensity.value = currentState.waveIntensity;
+    //   uniforms.u_time.value += 0.005;
+    //   uniforms.u_mouse.value.set(currentState.mousePosition.x, currentState.mousePosition.y);
 
-      renderer.render(scene, camera);
-    }
+    //   renderer.render(scene, camera);
+    // }
 
     // function handleMouseMove(event) {
     //   const rect = containerRef.current.getBoundingClientRect();
