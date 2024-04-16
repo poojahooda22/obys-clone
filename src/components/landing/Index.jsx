@@ -24,7 +24,6 @@ function Landing() {
     >
       {/* Navbar */}
       <Navbar/>
-
       {/* Landing Page */}      
       <div 
         className="w-full"
