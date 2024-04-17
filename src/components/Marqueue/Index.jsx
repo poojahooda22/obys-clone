@@ -10,7 +10,8 @@ function Marqueue() {
             {/* Repeating row */}
             <div>
               <div 
-                className={`elem whitespace-nowrap text-[9.6vw] leading-[12vw] sm:text-[7vw] sm:leading-[7.6vw] 
+                className={`elem whitespace-nowrap text-[9.6vw] leading-[12vw] 
+                sm:text-[7vw] sm:leading-[7.6vw] 
                 flex items-center uppercase font-[PlinaReg] ${styles.elem}`}
               >
                 <h1 className={`${styles.elemh1} flex items-center gap-[3vw]`}>Sport 
