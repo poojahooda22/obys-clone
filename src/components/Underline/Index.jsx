@@ -1,8 +1,15 @@
 import { useEffect, useRef } from 'react';
 import styles from './Style.module.css'
+import PropTypes from 'prop-types';
 
 
-function UnderLine() {
+UnderLine.propTypes = {
+    marginTop: PropTypes.string.isRequired,
+    marginBottom: PropTypes.string.isRequired
+};
+
+
+function UnderLine({marginTop, marginBottom}) {
 
     const path = useRef(null);
     let progress = 0;
@@ -48,21 +55,26 @@ function UnderLine() {
         time = Math.PI / 2;
         progress = 0;
     }
+    const dynamicStyles = {
+        marginTop: marginTop,
+        marginBottom: marginBottom,
+    };
 
   return (
-    <div>
+    <div className='w-full'>
         <div 
-            className={`line1 ${styles.line1} relative mt-[6vw] mb-[11vw] w-full h-[.25vw] 
-            sm:h-[.01vw] sm:mt-[3.8vw] sm:mb-[5vw] `}
+            style={dynamicStyles}
+            className={`line ${styles.line} relative w-[100%] h-[.25vw] mt-[16vw] mb-[5vw]
+            sm:h-[.01vw]`}
         >
             <div 
-                className={`box ${styles.box1}`} 
+                className={`box ${styles.box}`} 
                 onMouseMove={manageMouseMove}
                 onMouseLeave={manageMouseLeave}
             >
             </div>
             <svg className='w-full h-[100px] absolute -top-[50px]'>
-                <path ref={path} className={`path2 ${styles.path2}`} ></path>
+                <path ref={path} className={`path1 ${styles.path1}`} ></path>
             </svg>
         </div>
     </div>
