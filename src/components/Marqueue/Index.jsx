@@ -73,7 +73,8 @@ function Marqueue() {
                 <h1 className={`${styles.elemh1} flex items-center gap-[3vw] font-[silkSerif] `}>travel
                   <div className={`${styles.dash} w-[8vw] h-[1vw] sm:w-[5vw] sm:h-[.5vw] border-[1px] border-[#fff]`}></div>
                 </h1>
-                <h1 className={`${styles.elemh1} flex items-center gap-[3vw]`}>science 
+                <h1 className={`${styles.elemh1} flex items-center gap-[3vw]`}>
+                  science 
                   <div className={`${styles.dash} w-[8vw] h-[1vw] sm:w-[5vw] sm:h-[.5vw] border-[1px] border-[#fff]`}></div>
                 </h1>
                 <h1 className={`${styles.elemh1} flex items-center gap-[3vw] font-[silkSerif] `}>partners 
