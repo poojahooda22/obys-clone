@@ -51,7 +51,8 @@ function Marqueue() {
                   architecture 
                   <div className={`${styles.dash} w-[8vw] h-[1vw] sm:w-[5vw] sm:h-[.5vw] border-[1px] border-[#fff]`}></div>
                 </h1>
-                <h1 className={`${styles.elemh1} flex items-center gap-[3vw] font-[silkSerif] `}>beauty 
+                <h1 className={`${styles.elemh1} flex items-center gap-[3vw] font-[silkSerif] `}>
+                  beauty 
                   <div className={`${styles.dash} w-[8vw] h-[1vw] sm:w-[5vw] sm:h-[.5vw] border-[1px] border-[#fff]`}></div>
                 </h1>
                 <h1 className={`${styles.elemh1} flex items-center gap-[3vw]`}>
