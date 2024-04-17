@@ -44,7 +44,7 @@ function App() {
           <Landing />
           {/* video */}
           <Video />
-          <Project/>
+          {/* <Project/> */}
           <About/>
           <Marqueue/>
           <Footer/>
