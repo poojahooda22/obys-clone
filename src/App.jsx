@@ -11,6 +11,7 @@ import Marqueue from './components/Marqueue/Index';
 import Footer from './components/Footer/Index';
 import Navbar from './components/Navbar/Index';
 import Project from './components/Project/Index';
+import Line from './components/Underline/Index';
 
 
 
@@ -47,6 +48,7 @@ function App() {
           <About/>
           <Marqueue/>
           <Footer/>
+          
         </div>
         
       </div>
