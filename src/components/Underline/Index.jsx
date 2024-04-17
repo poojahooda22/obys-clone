@@ -64,7 +64,7 @@ function UnderLine({marginTop, marginBottom}) {
     <div className='w-full'>
         <div 
             style={dynamicStyles}
-            className={`line ${styles.line} relative w-[100%] h-[.25vw] mt-[16vw] mb-[5vw]
+            className={`line ${styles.line} relative w-[100%] h-[.25vw] mt-[16vw] mb-[6vw]
             sm:h-[.01vw]`}
         >
             <div 
