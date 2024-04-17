@@ -19,7 +19,7 @@ function Footer() {
             </div>
             <div className="w-full right font-[PlinaReg]">
                 <div>
-                    <div className="aboutHeading flex items-center overflow-hidden">
+                    <div className="aboutHeading flex items-center overflow-hidden pb-[3vw] sm:pb-0">
                         <h1 className={`footText ${styles.footText} text-[9vw] leading-[10vw] tracking-tighter 
                             sm:text-[6.8vw] sm:leading-[7vw] sm:tracking-normal
                             uppercase`}
@@ -65,7 +65,7 @@ function Footer() {
                     className="underline mt-[16vw] mb-[9vw] w-full h-[.25vw] 
                     sm:h-[.01vw] sm:mt-[4.5vw] sm:mb-[2vw] bg-white"
                 ></div> */}
-                <h5 className="sm:text-[.9vw] ">Obys Agency &copy; 2024</h5>
+                <h5 className="sm:text-[.9vw] pt-[3vw] sm:pt-0  ">Obys Agency &copy; 2024</h5>
             </div>
         </div>
     </div>
