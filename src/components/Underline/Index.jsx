@@ -14,18 +14,29 @@ function UnderLine({marginTop, marginBottom}) {
     const path = useRef(null);
     let progress = 0;
 
+    let reqId = null;
+    let x = 0.5;
+
     useEffect(() => {
         setPath(progress);
     }, []);
 
     const setPath = (progress) => {
         const {innerWidth} = window;
-        const width = innerWidth * .7;
-        path.current.setAttributeNS("", "d", `M0 50 Q${width / 2} ${50 + progress}, ${width} 50`)
+        const width = innerWidth * 0.7;
+        path.current.setAttributeNS("", "d", `M0 50 Q${width * x} ${50 + progress}, ${width} 50`)
+    }
+
+    const  manageMouseEnter = () => {
+        if(reqId) {
+            window.cancelAnimationFrame(reqId);
+        }
     }
 
     const manageMouseMove = (e) => {
-        const {movementY} = e;
+        const {movementY, clientX} = e;
+        const {left, width} = path.current.getBoundingClientRect();
+        x = (clientX - left) / width;
         progress += movementY;
         setPath(progress);
     }
@@ -35,7 +46,7 @@ function UnderLine({marginTop, marginBottom}) {
     }
 
     const lerp = (x,y,a) => x * (1-a) + y * a;
-    let time = Math.PI / 2;
+    let time = (Math.PI / 2);
 
     const animateOut = () => {
         const newProgress = progress * Math.sin(time);
@@ -69,6 +80,7 @@ function UnderLine({marginTop, marginBottom}) {
         >
             <div 
                 className={`box ${styles.box}`} 
+                onMouseEnter={manageMouseEnter}
                 onMouseMove={manageMouseMove}
                 onMouseLeave={manageMouseLeave}
             >
