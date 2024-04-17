@@ -12,3 +12,9 @@
     top: -20px;
     z-index: 4;
 }
+
+
+.line .box:hover {
+    height: 120px;
+    top: -75px;
+}
