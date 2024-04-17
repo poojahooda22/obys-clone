@@ -1,59 +1,11 @@
-import { useEffect, useRef } from 'react';
+
+import UnderLine from '../Underline/Index'
 import styles from './Style.module.css'
 
 function Project() {
 
-  const path = useRef(null);
-  let progress = 0;
-
-  useEffect(() => {
-    setPath(progress);
-  }, []);
-
-  const setPath = (progress) => {
-    const {innerWidth} = window;
-    const width = innerWidth * .7;
-    path.current.setAttributeNS("", "d", `M0 50 Q${width / 2} ${50 + progress}, ${width} 50`)
-  }
-
-  const manageMouseMove = (e) => {
-    const {movementY} = e;
-    progress += movementY;
-    setPath(progress);
-  }
-
-  const manageMouseLeave = () => {
-    animateOut();
-  }
-
-  const lerp = (x,y,a) => x * (1-a) + y * a;
-  let time = Math.PI / 2;
-
-  const animateOut = () => {
-    const newProgress = progress * Math.sin(time);
-    time += 0.2;
-    setPath(newProgress);
-    progress = lerp(progress, 0, 0.025);
-
-    if(Math.abs(progress) > 0.75) {
-      window.requestAnimationFrame(animateOut);
-    }
-    else {
-      resetAnimation();
-    }
-  }
-
-  const resetAnimation = () => {
-    time = Math.PI / 2;
-    progress = 0;
-
-  }
-
-
-
-
   return (
-    <div className="page3 relative w-full min-h-[100vh]  px-[4vw] py-[6vw]
+    <div className="page3 relative w-full min-h-[100vh] px-[4vw] py-[6vw]
     sm:px-[4vw]">
         <div  
           className=' sm:flex gap-[5vw] '
@@ -78,23 +30,7 @@ function Project() {
             </div>
 
             {/*Line animation */}
-            <div 
-              className={`line ${styles.line} relative mt-[6vw] mb-[11vw] w-full h-[.25vw] 
-              sm:h-[.01vw] sm:mt-[3.8vw] sm:mb-[5vw] `}
-            >
-              <div 
-                className={`box ${styles.box}`} 
-                onMouseMove={manageMouseMove}
-                onMouseLeave={manageMouseLeave}
-              >
-              </div>
-              <svg className='w-full h-[100px] absolute -top-[50px]'>
-                <path ref={path} className={`path1 ${styles.path1}`} ></path>
-              </svg>
-            </div>
-
-
-
+            <UnderLine marginBottom='4vw' marginTop='4vw' />
           </div>  
         </div>
 
