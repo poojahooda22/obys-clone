@@ -48,7 +48,7 @@ function About() {
         </div>
         <div className="right">
             <div className="">
-                <div className="aboutHeading overflow-hidden">
+                <div className="aboutHeading overflow-hidden pb-[3vw] sm:pb-0">
                     <h1 className="text-[8vw] leading-[10vw] tracking-tighter
                         sm:text-[6vw] font-[PlinaReg] sm:leading-[6vw] sm:tracking-normal
                         uppercase"
@@ -78,7 +78,7 @@ function About() {
                 </div> */}
                 <UnderLine marginBottom='4vw' marginTop='4vw' />
                 <div 
-                    className="sm:w-2/4 text-[5.5vw] tracking-normal leading-[6vw] font-[PlinaReg]
+                    className="sm:w-2/4 text-[5.5vw] tracking-normal leading-[6vw] font-[PlinaReg] pt-[8vw] sm:pt-0
                     sm:text-[1.8vw] sm:leading-[2.2vw]"
                 >
                     <div className="aboutText overflow-hidden"><h2>Our agency is about people who</h2></div>
@@ -155,7 +155,7 @@ function About() {
                     className="underline mt-[16vw] mb-[5vw] w-full h-[.25vw] 
                     sm:h-[.01vw] sm:mt-[18vw] sm:mb-[1vw] bg-white"
                 ></div> */}
-                <p className="font-[PlinaReg] text-[3.5vw] sm:text-[.8vw]">We work with</p>
+                <p className="font-[PlinaReg] text-[3.5vw] pt-[3vw] sm:pt-0 sm:text-[.8vw]">We work with</p>
             </div>    
         </div>
     </div>
