@@ -1,9 +1,17 @@
 
-.imageContainer  {
-display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
 
+
+.line svg .path1{
+    stroke-width: 1px;
+    stroke: white;
+    fill: none;
 }
 
+
+.line .box {
+    height: 40px;
+    /* border: 1px solid red; */
+    position: relative;
+    top: -20px;
+    z-index: 4;
+}
