@@ -62,7 +62,7 @@ function Footer() {
                     className="underline mt-[16vw] mb-[9vw] w-full h-[.25vw] 
                     sm:h-[.01vw] sm:mt-[4.5vw] sm:mb-[2vw] bg-white"
                 ></div>
-                <h5 className="sm:text-[.9vw] ">Obys Agency 2024</h5>
+                <h5 className="sm:text-[.9vw] ">Obys Agency &copy; 2024</h5>
             </div>
         </div>
     </div>
