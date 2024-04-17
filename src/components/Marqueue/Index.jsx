@@ -36,7 +36,8 @@ function Marqueue() {
               </div>
 
               <div 
-                className={`elem2 whitespace-nowrap text-[9.6vw] leading-[12vw] sm:text-[7vw] sm:leading-[7.6vw] 
+                className={`elem2 whitespace-nowrap text-[9.6vw] leading-[12vw] 
+                sm:text-[7vw] sm:leading-[7.6vw] 
                 flex items-center uppercase font-[PlinaReg] ${styles.elem2}`}
               >
                 <h1 className={`${styles.elemh1} flex items-center gap-[3vw]`}>beauty
