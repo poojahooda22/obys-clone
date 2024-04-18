@@ -1,6 +1,17 @@
 
+import AnimatedLink from '../AnimatedLink'
 import UnderLine from '../Underline/Index'
 import styles from './Style.module.css'
+
+const data = [
+    { title: "Dribbble"},
+    {title: "Behance"},
+    {title: "Instagram"},
+    {title: "Facebook"},
+    {title: "Twitter"},
+    {title: "YouTube"},
+]
+
 
 function Footer() {
   return (
@@ -40,14 +51,23 @@ function Footer() {
                 </div>
 
                 <div className=" sm:flex items-start justify-between">
+
                     <div className="first ">
                         <h3  className="mb-[4vw] pt-[8vw] sm:pt-0 sm:mb-[1.5vw] sm:text-[.9vw]">Socials</h3>
+                        {data.map((item, index) => {
+                            return (
+                                <div key={index} className='relative flex flex-col text-[5.4vw] leading-[6vw] sm:text-[1.4vw] sm:leading-[1.4vw]'>
+                                    <AnimatedLink title={item.title} />
+                                </div>
+                            )
+                        })}
+                        {/* <h3  className="mb-[4vw] pt-[8vw] sm:pt-0 sm:mb-[1.5vw] sm:text-[.9vw]">Socials</h3>
                         <h2 className="text-[5.4vw] leading-[6vw] sm:text-[1.4vw] sm:leading-[1.4vw]">Dribbble</h2>
                         <h2 className="text-[5.4vw] leading-[6vw] sm:text-[1.4vw] sm:leading-[1.4vw]">Behance</h2>
                         <h2 className="text-[5.4vw] leading-[6vw] sm:text-[1.4vw] sm:leading-[1.4vw]">Instagram</h2>
                         <h2 className="text-[5.4vw] leading-[6vw] sm:text-[1.4vw] sm:leading-[1.4vw]">Facebook</h2>
                         <h2 className="text-[5.4vw] leading-[6vw] sm:text-[1.4vw] sm:leading-[1.4vw]">Twitter</h2>
-                        <h2 className="text-[5.4vw] leading-[6vw] sm:text-[1.4vw] sm:leading-[1.4vw]">YouTube</h2>
+                        <h2 className="text-[5.4vw] leading-[6vw] sm:text-[1.4vw] sm:leading-[1.4vw]">YouTube</h2> */}
                     </div>
                     <div className="middle">
                         <h3 className="mt-[8vw] mb-[4vw] sm:mt-0 sm:mb-[1.5vw] sm:text-[.9vw]">Address</h3>
@@ -60,7 +80,14 @@ function Footer() {
                         <h2 className="text-[5.8vw] leading-[6vw] pb-[8vw] sm:pb-0 sm:text-[1.4vw] sm:leading-[1.4vw] underline">info@obys.agency</h2>
                     </div>
                 </div>
-                <UnderLine marginBottom='2vw' marginTop='5vw' />
+
+
+
+
+
+
+
+                <UnderLine marginBottom='2vw' marginTop='8vw' />
                 {/* <div 
                     className="underline mt-[16vw] mb-[9vw] w-full h-[.25vw] 
                     sm:h-[.01vw] sm:mt-[4.5vw] sm:mb-[2vw] bg-white"
