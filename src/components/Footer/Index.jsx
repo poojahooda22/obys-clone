@@ -65,7 +65,7 @@ function Footer() {
                         <h2 className="text-[5.4vw] leading-[6vw] sm:text-[1.4vw] sm:leading-[1.4vw]">Dribbble</h2>
                         <h2 className="text-[5.4vw] leading-[6vw] sm:text-[1.4vw] sm:leading-[1.4vw]">Behance</h2>
                         <h2 className="text-[5.4vw] leading-[6vw] sm:text-[1.4vw] sm:leading-[1.4vw]">Instagram</h2>
-                        <h2 className="text-[5.4vw] leading-[6vw] sm:text-[1.4vw] sm:leadin
+                        <h2 className="text-[5.4vw] leading-[6vw] sm:text-[1.4vw] 
                         */}
                     </div>
                     <div className="middle">
