@@ -62,7 +62,6 @@ function Footer() {
                             )
                         })}
                         {/* <h3  className="mb-[4vw] pt-[8vw] sm:pt-0 sm:mb-[1.5vw] sm:text-[.9vw]">Socials</h3>
-                                
 
                         */}
                     </div>
