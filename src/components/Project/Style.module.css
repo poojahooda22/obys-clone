@@ -1,11 +1,11 @@
 .circleIn{
-    transition: all ease 0.3s;
+    transition: transform ease 0.3s;
 
 }
 
 
 .circleInpara {
-    transition: center ease 0.3s;
+    transition: transform ease 0.3s;
     transition-delay: 0.5s;
 }
 
