@@ -3,10 +3,67 @@ import UnderLine from '../Underline/Index'
 import image3 from '../../assets/images/image3.png'
 import image1 from '../../assets/images/image1.png'
 import image2 from '../../assets/images/image2.png'
-
+import gsap from 'gsap'
+import { useEffect } from 'react'
 
 
 function Project() {
+
+
+  useEffect(() => {
+    const circleIn = document.querySelector(".page3Circle");
+    // const circlePara = document.querySelector(".circleInpara");
+
+    circleIn.addEventListener('mouseenter', () => {
+      gsap.to(".circleIn", { scale: 1, transformOrigin: "center center" });
+    });
+    circleIn.addEventListener('mouseleave', () => {
+      gsap.to(".circleIn", { scale: 0, transformOrigin: "center center" });
+    });
+    circleIn.addEventListener('mouseenter', () => {
+      gsap.to(".circleInpara", { scale: 1, transformOrigin: "center center", delay: 0.3});
+    });
+    circleIn.addEventListener('mouseleave', () => {
+      gsap.to(".circleInpara", { scale: 0, transformOrigin: "center center" });
+    });
+  })
+
+  useEffect(() => {
+    const circleIn = document.querySelector(".button2");
+    // const circlePara = document.querySelector(".circleInpara");
+
+    circleIn.addEventListener('mouseenter', () => {
+      gsap.to(".circleIn2", { scale: 1, transformOrigin: "center center" });
+    });
+    circleIn.addEventListener('mouseleave', () => {
+      gsap.to(".circleIn2", { scale: 0, transformOrigin: "center center" });
+    });
+    circleIn.addEventListener('mouseenter', () => {
+      gsap.to(".circleInpara2", { scale: 1, transformOrigin: "center center", delay: 0.3});
+    });
+    circleIn.addEventListener('mouseleave', () => {
+      gsap.to(".circleInpara2", { scale: 0, transformOrigin: "center center" });
+    });
+  })
+  
+  useEffect(() => {
+    const circleIn = document.querySelector(".button3");
+    // const circlePara = document.querySelector(".circleInpara");
+
+    circleIn.addEventListener('mouseenter', () => {
+      gsap.to(".circleIn3", { scale: 1, transformOrigin: "center center" });
+    });
+    circleIn.addEventListener('mouseleave', () => {
+      gsap.to(".circleIn3", { scale: 0, transformOrigin: "center center" });
+    });
+    circleIn.addEventListener('mouseenter', () => {
+      gsap.to(".circleInpara3", { scale: 1, transformOrigin: "center center", delay: 0.3});
+    });
+    circleIn.addEventListener('mouseleave', () => {
+      gsap.to(".circleInpara3", { scale: 0, transformOrigin: "center center" });
+    });
+  })
+
 
   return (
     <div 
@@ -98,7 +155,7 @@ function Project() {
           {/* button*/}
           <div className="thirdCol hidden sm:inline-block relative ">
             <div className={`page3Circle ${styles.page3Circle}  relative w-[22vw] h-[22vw] border rounded-full mt-[31vw] ml-[8vw] flex items-center justify-center`}>
-              <svg className="button__arrow" width="6vw" height="6vw" viewBox="0 0 91 118" fill="none">
+              <svg className="button__arrow" width="20%" viewBox="0 0 91 118" fill="none">
                   <path d="M15.2307 57.4152L15.9378 56.708L15.2307 56.0009L14.5236 56.708L15.2307 57.4152ZM34.9813 77.1658L34.2742 77.8729L35.9813 79.58L35.9813 77.1658L34.9813 77.1658ZM0.151478 72.4944L-0.555622 71.7873L-1.26273 72.4944L-0.555622 73.2015L0.151478 72.4944ZM45.29 117.633L44.5828 118.34L45.29 119.047L45.9971 118.34L45.29 117.633ZM60.3692 102.554L61.0763 103.261L61.7839 102.553L61.0758 101.846L60.3692 102.554ZM60.3685 102.553L59.6614 101.846L58.9538 102.553L59.6619 103.261L60.3685 102.553ZM90.427 72.4944L91.1341 73.2015L91.8412 72.4944L91.1341 71.7873L90.427 72.4944ZM75.3478 57.4152L76.0549 56.7081L75.3478 56.001L74.6407 56.7081L75.3478 57.4152ZM56.3065 76.4565L55.3065 76.4565L55.3065 78.8707L57.0136 77.1636L56.3065 76.4565ZM56.3065 0.120074L57.3065 0.120074L57.3065 -0.879926L56.3065 -0.879926L56.3065 0.120074ZM34.9813 0.120076L34.9813 -0.879924L33.9813 -0.879924L33.9813 0.120076L34.9813 0.120076ZM14.5236 58.1223L34.2742 77.8729L35.6884 76.4587L15.9378 56.708L14.5236 58.1223ZM0.858585 73.2015L15.9378 58.1223L14.5236 56.708L-0.555622 71.7873L0.858585 73.2015ZM45.9971 116.926L0.858585 71.7873L-0.555622 73.2015L44.5828 118.34L45.9971 116.926ZM59.662 101.846L44.5828 116.926L45.9971 118.34L61.0763 103.261L59.662 101.846ZM59.6619 103.261L59.6625 103.261L61.0758 101.846L61.0751 101.845L59.6619 103.261ZM61.0756 103.26L91.1341 73.2015L89.7199 71.7873L59.6614 101.846L61.0756 103.26ZM91.1341 71.7873L76.0549 56.7081L74.6407 58.1223L89.7199 73.2015L91.1341 71.7873ZM74.6407 56.7081L55.5994 75.7494L57.0136 77.1636L76.0549 58.1223L74.6407 56.7081ZM57.3065 76.4565L57.3065 0.120074L55.3065 0.120074L55.3065 76.4565L57.3065 76.4565ZM56.3065 -0.879926L34.9813 -0.879924L34.9813 1.12008L56.3065 1.12007L56.3065 -0.879926ZM33.9813 0.120076L33.9813 77.1658L35.9813 77.1658L35.9813 0.120076L33.9813 0.120076Z" fill="currentColor"></path>
               </svg>
               <div 
@@ -118,7 +175,7 @@ function Project() {
           {/* button*/}
           <div className="firstCol hidden sm:inline-block relative">
             <div className=' mt-[0vw] ml-[0vw] relative'>
-              <div className={`button ${styles.button2} relative w-[20vw] h-[20vw] border rounded-full `} data-hover-text="">
+              <div className={`button2 ${styles.button2} relative w-[20vw] h-[20vw] border rounded-full `} data-hover-text="">
                 <span className='absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 -rotate-45'>
                 <svg className="button__arrow" width="6vw" height="6vw" viewBox="0 0 91 118" fill="none">
                   <path d="M15.2307 57.4152L15.9378 56.708L15.2307 56.0009L14.5236 56.708L15.2307 57.4152ZM34.9813 77.1658L34.2742 77.8729L35.9813 79.58L35.9813 77.1658L34.9813 77.1658ZM0.151478 72.4944L-0.555622 71.7873L-1.26273 72.4944L-0.555622 73.2015L0.151478 72.4944ZM45.29 117.633L44.5828 118.34L45.29 119.047L45.9971 118.34L45.29 117.633ZM60.3692 102.554L61.0763 103.261L61.7839 102.553L61.0758 101.846L60.3692 102.554ZM60.3685 102.553L59.6614 101.846L58.9538 102.553L59.6619 103.261L60.3685 102.553ZM90.427 72.4944L91.1341 73.2015L91.8412 72.4944L91.1341 71.7873L90.427 72.4944ZM75.3478 57.4152L76.0549 56.7081L75.3478 56.001L74.6407 56.7081L75.3478 57.4152ZM56.3065 76.4565L55.3065 76.4565L55.3065 78.8707L57.0136 77.1636L56.3065 76.4565ZM56.3065 0.120074L57.3065 0.120074L57.3065 -0.879926L56.3065 -0.879926L56.3065 0.120074ZM34.9813 0.120076L34.9813 -0.879924L33.9813 -0.879924L33.9813 0.120076L34.9813 0.120076ZM14.5236 58.1223L34.2742 77.8729L35.6884 76.4587L15.9378 56.708L14.5236 58.1223ZM0.858585 73.2015L15.9378 58.1223L14.5236 56.708L-0.555622 71.7873L0.858585 73.2015ZM45.9971 116.926L0.858585 71.7873L-0.555622 73.2015L44.5828 118.34L45.9971 116.926ZM59.662 101.846L44.5828 116.926L45.9971 118.34L61.0763 103.261L59.662 101.846ZM59.6619 103.261L59.6625 103.261L61.0758 101.846L61.0751 101.845L59.6619 103.261ZM61.0756 103.26L91.1341 73.2015L89.7199 71.7873L59.6614 101.846L61.0756 103.26ZM91.1341 71.7873L76.0549 56.7081L74.6407 58.1223L89.7199 73.2015L91.1341 71.7873ZM74.6407 56.7081L55.5994 75.7494L57.0136 77.1636L76.0549 58.1223L74.6407 56.7081ZM57.3065 76.4565L57.3065 0.120074L55.3065 0.120074L55.3065 76.4565L57.3065 76.4565ZM56.3065 -0.879926L34.9813 -0.879924L34.9813 1.12008L56.3065 1.12007L56.3065 -0.879926ZM33.9813 0.120076L33.9813 77.1658L35.9813 77.1658L35.9813 0.120076L33.9813 0.120076Z" fill="currentColor"></path>
@@ -128,10 +185,10 @@ function Project() {
                   className={`circleIn2 ${styles.circleIn2} absolute w-[100%] h-[100%] scale-0 rounded-full flex items-center justify-center top-0 
                   left-0 bg-[#fff] text-[#000]`}
                 >
-                  <p className={`circleInpara2 ${styles.circleInpara2} font-[PlinaReg] text-[.9vw] scale-0 w-[70%]`}>
+                  <p className={`circleInpara2 ${styles.circleInpara2} text-center font-[PlinaReg] text-[.9vw] scale-0 w-[70%]`}>
                   It will make you WOW! 😉
                   </p>
-              </div>
+                </div>
               </div>
             </div>
           </div>
@@ -207,13 +264,21 @@ function Project() {
           </div>
           {/* button*/}
           <div className="thirdSecondCol w-2/5">
-            <div className=' mt-[30vw] ml-[14vw] hidden sm:inline-block'>
-              <div className='button relative w-[22vw] h-[22vw] border rounded-full ' data-hover-text="We like its color palette 🎨">
+            <div className=' mt-[30vw] ml-[14vw] hidden sm:inline-block relative'>
+              <div className={`button3  relative w-[22vw] h-[22vw] border rounded-full `} data-hover-text="">
                 <span className='absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 -rotate-90'>
                 <svg className="button__arrow" width="6vw" height="6vw" viewBox="0 0 91 118" fill="none">
                   <path d="M15.2307 57.4152L15.9378 56.708L15.2307 56.0009L14.5236 56.708L15.2307 57.4152ZM34.9813 77.1658L34.2742 77.8729L35.9813 79.58L35.9813 77.1658L34.9813 77.1658ZM0.151478 72.4944L-0.555622 71.7873L-1.26273 72.4944L-0.555622 73.2015L0.151478 72.4944ZM45.29 117.633L44.5828 118.34L45.29 119.047L45.9971 118.34L45.29 117.633ZM60.3692 102.554L61.0763 103.261L61.7839 102.553L61.0758 101.846L60.3692 102.554ZM60.3685 102.553L59.6614 101.846L58.9538 102.553L59.6619 103.261L60.3685 102.553ZM90.427 72.4944L91.1341 73.2015L91.8412 72.4944L91.1341 71.7873L90.427 72.4944ZM75.3478 57.4152L76.0549 56.7081L75.3478 56.001L74.6407 56.7081L75.3478 57.4152ZM56.3065 76.4565L55.3065 76.4565L55.3065 78.8707L57.0136 77.1636L56.3065 76.4565ZM56.3065 0.120074L57.3065 0.120074L57.3065 -0.879926L56.3065 -0.879926L56.3065 0.120074ZM34.9813 0.120076L34.9813 -0.879924L33.9813 -0.879924L33.9813 0.120076L34.9813 0.120076ZM14.5236 58.1223L34.2742 77.8729L35.6884 76.4587L15.9378 56.708L14.5236 58.1223ZM0.858585 73.2015L15.9378 58.1223L14.5236 56.708L-0.555622 71.7873L0.858585 73.2015ZM45.9971 116.926L0.858585 71.7873L-0.555622 73.2015L44.5828 118.34L45.9971 116.926ZM59.662 101.846L44.5828 116.926L45.9971 118.34L61.0763 103.261L59.662 101.846ZM59.6619 103.261L59.6625 103.261L61.0758 101.846L61.0751 101.845L59.6619 103.261ZM61.0756 103.26L91.1341 73.2015L89.7199 71.7873L59.6614 101.846L61.0756 103.26ZM91.1341 71.7873L76.0549 56.7081L74.6407 58.1223L89.7199 73.2015L91.1341 71.7873ZM74.6407 56.7081L55.5994 75.7494L57.0136 77.1636L76.0549 58.1223L74.6407 56.7081ZM57.3065 76.4565L57.3065 0.120074L55.3065 0.120074L55.3065 76.4565L57.3065 76.4565ZM56.3065 -0.879926L34.9813 -0.879924L34.9813 1.12008L56.3065 1.12007L56.3065 -0.879926ZM33.9813 0.120076L33.9813 77.1658L35.9813 77.1658L35.9813 0.120076L33.9813 0.120076Z" fill="currentColor"></path>
                 </svg>
                 </span>
+                <div 
+                  className={`circleIn3 ${styles.circleIn3} absolute w-[100%] h-[100%] scale-0 rounded-full flex items-center justify-center top-0 
+                  left-0 bg-[#fff] text-[#000]`}
+                >
+                  <p className={`circleInpara3 ${styles.circleInpara3} text-center font-[PlinaReg] text-[.9vw] scale-0 w-[70%]`}>
+                  We like its color palette 🎨
+                  </p>
+                </div>
               </div>
             </div>
           </div>
