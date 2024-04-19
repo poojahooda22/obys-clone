@@ -1,6 +1,7 @@
 
 
-.button:hover .circleIn {
+
+.mainCirclediv:hover .circleIn {
     scale: 1;
     transition: all ease 0.6s;
 }
