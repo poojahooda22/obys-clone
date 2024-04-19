@@ -117,7 +117,7 @@ function Project() {
         <div className="secondRow mt-[2vw] w-full sm:flex items-start gap-8">
           {/* button*/}
           <div className="firstCol hidden sm:inline-block">
-            <div className=' mt-[0vw] ml-[0vw]'>
+            <div className=' mt-[0vw] ml-[0vw] relative'>
               <div className='button relative w-[20vw] h-[20vw] border rounded-full ' data-hover-text="It will make you WOW! 😉">
                 <span className='absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 -rotate-45'>
                 <svg className="button__arrow" width="6vw" height="6vw" viewBox="0 0 91 118" fill="none">
@@ -125,10 +125,10 @@ function Project() {
                 </svg>
                 </span>
                 <div 
-                className={`circleIn ${styles.circleIn} absolute w-[100%] h-[100%] scale-0 rounded-full flex items-center justify-center top-0 
+                className={`circleIn ${styles.circleIn} absolute w-[100%] h-[100%] scale-1 rounded-full flex items-center justify-center top-0 
                 left-0 bg-[#fff] text-[#000]`}
               >
-                <p className={`circleInpara ${styles.circleInpara} font-[PlinaReg] text-[.9vw] scale-0 w-[70%]`}>
+                <p className={`circleInpara ${styles.circleInpara} font-[PlinaReg] text-[.9vw] scale-1 w-[70%]`}>
                   We are thrilled to have you on board. We hope you enjoy the projects 🧡
                 </p>
               </div>
