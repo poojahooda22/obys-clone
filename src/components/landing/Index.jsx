@@ -1,29 +1,29 @@
-// import { useGSAP } from "@gsap/react"
-// import { useEffect } from "react"
+import { useGSAP } from "@gsap/react"
+import { useEffect } from "react"
 // import Navbar from "../Navbar/Index"
 import styles from './Style.module.css'
-// import { gsap } from "gsap";
+import { gsap } from "gsap";
 
 function Landing() {
 
-  // useEffect(() => {
-  //   document.addEventListener("mousemove", function(dets) {
-  //     gsap.to("#flag", {
-  //       x: dets.clientX,
-  //       y: dets.clientY,
-  //     })
-  //   })
-  //   document.querySelector("#hero3").addEventListener("mouseenter", function() {
-  //     gsap.to("#flag", {
-  //       opacity: 1
-  //     })
-  //   })
-  //   document.querySelector("#hero3").addEventListener("mouseleave", function() {
-  //     gsap.to("#flag", {
-  //       opacity: 0
-  //     })
-  //   })
-  // })
+  useEffect(() => {
+    document.addEventListener("mousemove", function(dets) {
+      gsap.to("#flag", {
+        x: dets.x,
+        y: dets.y - 100,
+      })
+    })
+    document.querySelector("#hero3").addEventListener("mouseenter", function() {
+      gsap.to("#flag", {
+        opacity: 1
+      })
+    })
+    document.querySelector("#hero3").addEventListener("mouseleave", function() {
+      gsap.to("#flag", {
+        opacity: 0
+      })
+    })
+  })
 
   return (
     <div 
@@ -31,7 +31,7 @@ function Landing() {
       className=" page1  w-full"
     >
       {/* Navbar */}
-      {/* <Navbar/> */}
+      
       {/* Landing Page */}      
       <div 
         className="w-full"
@@ -74,7 +74,7 @@ function Landing() {
             id="flag"
             src="https://obys.agency/wp-content/uploads/2022/03/Flag.jpg" 
             alt=""
-            className=" h-[20vw] absolute top-0 left-0 -translate-x-1/2 opacity-0 -translate-y-1/2 "
+            className=" h-[25vw] absolute top-0 left-0 -translate-x-1/2 opacity-0 -translate-y-1/2 "
           />
         </div>
       </div>
