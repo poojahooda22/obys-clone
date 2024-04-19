@@ -153,10 +153,10 @@ function Project() {
 
         {/* Project container 3rd row */}
         <div className="secondRow mt-[2vw] w-full sm:flex items-start gap-8 ">
-          
-          <div className="secondCol w-[22%] mt-[4vw] ">
+          {/* Image*/}
+          <div className="thirdFirstCol w-[22%] -mt-[10vw] ">
             <div className='mb-[1.6vw]'>
-              <h2 className='sm:text-[2vw] font-[PlinaReg] uppercase sm:tracking-tight sm:leading-[2vw]'>Ochi</h2>
+              <h2 className='sm:text-[2vw] font-[PlinaReg] uppercase sm:tracking-tight sm:leading-[2vw]'>Eminente</h2>
             </div>
             <div id="imageContainer"
               className={`imageContainer ${styles.imageContainer} realtive w-[20vw] h-[25vw] relative overflow-hidden `}
@@ -171,13 +171,14 @@ function Project() {
             <div className='flex mt-[1.6vw] font-[PlinaReg] sm:text-[.8vw] items-start justify-between 
               gap-8 border-b-[1px] border-white pb-[1.6vw]'
             >
-              <h5 className='whitespace-'>Website design, Development</h5>
-              <h5>2022</h5>  
+              <h5 className='whitespace-'>Logo design, Website design, Development</h5>
+              <h5>2023</h5>  
             </div> 
           </div>
-          <div className="firstCol w-2/5">
-            <div className=' mt-[0vw] ml-[0vw]'>
-              <div className='button relative w-[20vw] h-[20vw] border rounded-full ' data-hover-text="We like its color palette 🎨">
+          {/* button*/}
+          <div className="thirdSecondCol w-2/5">
+            <div className=' mt-[30vw] ml-[14vw]'>
+              <div className='button relative w-[22vw] h-[22vw] border rounded-full ' data-hover-text="We like its color palette 🎨">
                 <span className='absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 -rotate-90'>
                 <svg className="button__arrow" width="6vw" height="6vw" viewBox="0 0 91 118" fill="none">
                   <path d="M15.2307 57.4152L15.9378 56.708L15.2307 56.0009L14.5236 56.708L15.2307 57.4152ZM34.9813 77.1658L34.2742 77.8729L35.9813 79.58L35.9813 77.1658L34.9813 77.1658ZM0.151478 72.4944L-0.555622 71.7873L-1.26273 72.4944L-0.555622 73.2015L0.151478 72.4944ZM45.29 117.633L44.5828 118.34L45.29 119.047L45.9971 118.34L45.29 117.633ZM60.3692 102.554L61.0763 103.261L61.7839 102.553L61.0758 101.846L60.3692 102.554ZM60.3685 102.553L59.6614 101.846L58.9538 102.553L59.6619 103.261L60.3685 102.553ZM90.427 72.4944L91.1341 73.2015L91.8412 72.4944L91.1341 71.7873L90.427 72.4944ZM75.3478 57.4152L76.0549 56.7081L75.3478 56.001L74.6407 56.7081L75.3478 57.4152ZM56.3065 76.4565L55.3065 76.4565L55.3065 78.8707L57.0136 77.1636L56.3065 76.4565ZM56.3065 0.120074L57.3065 0.120074L57.3065 -0.879926L56.3065 -0.879926L56.3065 0.120074ZM34.9813 0.120076L34.9813 -0.879924L33.9813 -0.879924L33.9813 0.120076L34.9813 0.120076ZM14.5236 58.1223L34.2742 77.8729L35.6884 76.4587L15.9378 56.708L14.5236 58.1223ZM0.858585 73.2015L15.9378 58.1223L14.5236 56.708L-0.555622 71.7873L0.858585 73.2015ZM45.9971 116.926L0.858585 71.7873L-0.555622 73.2015L44.5828 118.34L45.9971 116.926ZM59.662 101.846L44.5828 116.926L45.9971 118.34L61.0763 103.261L59.662 101.846ZM59.6619 103.261L59.6625 103.261L61.0758 101.846L61.0751 101.845L59.6619 103.261ZM61.0756 103.26L91.1341 73.2015L89.7199 71.7873L59.6614 101.846L61.0756 103.26ZM91.1341 71.7873L76.0549 56.7081L74.6407 58.1223L89.7199 73.2015L91.1341 71.7873ZM74.6407 56.7081L55.5994 75.7494L57.0136 77.1636L76.0549 58.1223L74.6407 56.7081ZM57.3065 76.4565L57.3065 0.120074L55.3065 0.120074L55.3065 76.4565L57.3065 76.4565ZM56.3065 -0.879926L34.9813 -0.879924L34.9813 1.12008L56.3065 1.12007L56.3065 -0.879926ZM33.9813 0.120076L33.9813 77.1658L35.9813 77.1658L35.9813 0.120076L33.9813 0.120076Z" fill="currentColor"></path>
@@ -186,9 +187,10 @@ function Project() {
               </div>
             </div>
           </div>
-          <div className="thirdCol">
+          {/* Image*/}
+          <div className="thirdThirdCol mt-[8vw]">
             <div className='mb-[1.6vw]'>
-                <h2 className='sm:text-[2vw] font-[PlinaReg] capitalize sm:tracking-tight sm:leading-[2vw]'>David Laxer</h2>
+                <h2 className='sm:text-[2vw] font-[PlinaReg] capitalize sm:tracking-tight sm:leading-[2vw]'>Makhno</h2>
               </div>
               <div id="imageContainer"
                 className={`imageContainer ${styles.imageContainer} realtive w-[30vw] relative overflow-hidden `}
