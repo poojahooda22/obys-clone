@@ -39,6 +39,7 @@ function Project() {
         </div>
         {/* Project container 1st row*/}
         <div className="mt-[2vw] w-full sm:flex items-start sm:gap-8 pt-[6vw] sm:pt-0">
+          {/* Image*/}
           <div className="firstCol sm:w-[22%] ">
             <div className='sm:mb-[1.6vw]'>
               <h2 className='text-[5vw] mb-[7vw] sm:mb-0 sm:text-[2vw] font-[PlinaReg] uppercase 
@@ -58,13 +59,14 @@ function Project() {
                 alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
               /> 
             </div>
-            <div className=' flex mt-[7vw] sm:mt-[1.6vw] font-[PlinaReg] text-[3.5vw]  sm:text-[.8vw] items-start justify-between 
+            <div className=' flex mt-[7vw] sm:mt-[1.6vw] font-[PlinaReg] text-[3vw]  sm:text-[.8vw] items-start justify-between 
               gap-8 border-b-[1px] border-white pb-[6vw] sm:pb-[1.6vw]'
             >
               <h5 className='whitespace-'>Logo design, Website design, Development</h5>
               <h5>2023</h5>  
             </div> 
           </div>
+          {/* Image*/}
           <div className="secondCol sm:w-2/5">
             <div className='mb-[1.6vw]'>
                 <h2 className='text-[5vw] mt-[7vw] sm:mt-0 mb-[7vw] sm:mb-0 sm:text-[2vw] font-[PlinaReg] 
@@ -72,7 +74,7 @@ function Project() {
               </div>
               <div id="imageContainer"
                 className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 w-[55vw]
-                 Sm:w-[36vw] relative overflow-hidden `}
+                 sm:w-[36vw] relative overflow-hidden `}
               > 
                 <img src={image1} alt="image1"
                   className="w-full h-full object-cover"  
@@ -81,13 +83,14 @@ function Project() {
                   alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
                 /> 
               </div>
-              <div className='flex mt-[7vw] sm:mt-[1.6vw] font-[PlinaReg] sm:text-[.8vw] items-start justify-between 
+              <div className='flex mt-[7vw] sm:mt-[1.6vw] font-[PlinaReg] text-[3vw] sm:text-[.8vw] items-start justify-between 
                 border-b-[1px] border-white pb-[6vw] sm:pb-[1.6vw]'
               >
                 <h5>Logo design, Website design, Development</h5>
                 <h5>2024</h5>  
               </div>
           </div>
+          {/* button*/}
           <div className="thirdCol hidden sm:inline-block">
             <div className=' mt-[31vw] ml-[8vw]'>
               <div className='button relative w-[22vw] h-[22vw] border rounded-full ' data-hover-text="We are thrilled to have you on board. We hope you enjoy the projects 🧡">
@@ -102,7 +105,8 @@ function Project() {
         </div>
 
         {/* Project container 2nd row */}
-        <div className="secondRow mt-[2vw] w-full sm:flex items-start gap-8 ">
+        <div className="secondRow mt-[2vw] w-full sm:flex items-start gap-8">
+          {/* button*/}
           <div className="firstCol hidden sm:inline-block">
             <div className=' mt-[0vw] ml-[0vw]'>
               <div className='button relative w-[20vw] h-[20vw] border rounded-full ' data-hover-text="It will make you WOW! 😉">
@@ -114,9 +118,10 @@ function Project() {
               </div>
             </div>
           </div>
+          {/* Image*/}
           <div className="secondCol sm:w-2/5 mt-[4vw] ">
             <div className='mb-[1.6vw]'>
-              <h2 className='sm:text-[2vw] font-[PlinaReg] uppercase sm:tracking-tight sm:leading-[2vw]'>Ochi</h2>
+              <h2 className='text-[5vw] mt-[7vw] sm:mt-0 mb-[7vw] sm:mb-0 sm:text-[2vw] font-[PlinaReg] uppercase sm:tracking-tight sm:leading-[2vw]'>Ochi</h2>
             </div>
             <div id="imageContainer"
               className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0  w-[55vw] sm:w-[36vw] sm:h-[40vw] relative overflow-hidden `}
@@ -128,16 +133,17 @@ function Project() {
                 alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
               /> 
             </div>
-            <div className='flex mt-[1.6vw] font-[PlinaReg] sm:text-[.8vw] items-start justify-between 
-              gap-8 border-b-[1px] border-white pb-[1.6vw]'
+            <div className='flex mt-[7vw] sm:mt-[1.6vw] font-[PlinaReg] text-[3vw] sm:text-[.8vw] items-start justify-between 
+              gap-8 border-b-[1px] border-white  pb-[6vw] sm:pb-[1.6vw]'
             >
               <h5 className='whitespace-'>Website design, Development</h5>
               <h5>2022</h5>  
             </div> 
           </div>
+          {/* Image*/}
           <div className="thirdCol">
             <div className='mb-[1.6vw]'>
-                <h2 className='sm:text-[2vw] font-[PlinaReg] capitalize sm:tracking-tight sm:leading-[2vw]'>David Laxer</h2>
+                <h2 className='text-[5vw] mt-[7vw] sm:mt-0 mb-[7vw] sm:mb-0 sm:text-[2vw] font-[PlinaReg] capitalize sm:tracking-tight sm:leading-[2vw]'>David Laxer</h2>
               </div>
               <div id="imageContainer"
                 className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 w-[55vw] sm:w-[30vw] relative overflow-hidden `}
@@ -149,8 +155,8 @@ function Project() {
                   alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
                 /> 
               </div>
-              <div className='flex mt-[1.6vw] font-[PlinaReg] sm:text-[.8vw] items-start justify-between 
-                border-b-[1px] border-white pb-[1.6vw]'
+              <div className='flex mt-[7vw] sm:mt-[1.6vw] font-[PlinaReg] text-[3vw] sm:text-[.8vw] items-start justify-between 
+                border-b-[1px] border-white  pb-[6vw] sm:pb-[1.6vw]'
               >
                 <h5>Website design, Development</h5>
                 <h5>2023</h5>  
@@ -161,9 +167,9 @@ function Project() {
         {/* Project container 3rd row */}
         <div className="secondRow mt-[2vw] w-full sm:flex items-start gap-8 ">
           {/* Image*/}
-          <div className="thirdFirstCol sm:w-[22%] -mt-[10vw] ">
+          <div className="thirdFirstCol sm:w-[22%] sm:-mt-[10vw] ">
             <div className='mb-[1.6vw]'>
-              <h2 className='sm:text-[2vw] font-[PlinaReg] uppercase sm:tracking-tight sm:leading-[2vw]'>Eminente</h2>
+              <h2 className='text-[5vw] mt-[7vw] sm:mt-0 mb-[7vw] sm:mb-0 sm:text-[2vw] font-[PlinaReg] uppercase sm:tracking-tight sm:leading-[2vw]'>Eminente</h2>
             </div>
             <div id="imageContainer"
               className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 w-[55vw] sm:w-[20vw] sm:h-[25vw] relative overflow-hidden `}
@@ -175,8 +181,8 @@ function Project() {
                 alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
               /> 
             </div>
-            <div className='flex mt-[1.6vw] font-[PlinaReg] sm:text-[.8vw] items-start justify-between 
-              gap-8 border-b-[1px] border-white pb-[1.6vw]'
+            <div className='flex mt-[7vw] sm:mt-[1.6vw] font-[PlinaReg] text-[3vw] sm:text-[.8vw] items-start justify-between 
+              gap-8 border-b-[1px] border-white pb-[6vw] sm:pb-[1.6vw]'
             >
               <h5 className='whitespace-'>Logo design, Website design, Development</h5>
               <h5>2023</h5>  
@@ -197,7 +203,7 @@ function Project() {
           {/* Image*/}
           <div className="thirdThirdCol sm:mt-[8vw]">
             <div className='sm:mb-[1.6vw]'>
-                <h2 className='sm:text-[2vw] font-[PlinaReg] capitalize sm:tracking-tight sm:leading-[2vw]'>Makhno</h2>
+                <h2 className='text-[5vw] mt-[7vw] sm:mt-0 mb-[7vw] sm:mb-0 sm:text-[2vw] font-[PlinaReg] capitalize sm:tracking-tight sm:leading-[2vw]'>Makhno</h2>
               </div>
               <div id="imageContainer"
                 className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 realtive w-[55vw] sm:w-[30vw] relative overflow-hidden `}
@@ -209,8 +215,8 @@ function Project() {
                   alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
                 /> 
               </div>
-              <div className='flex mt-[1.6vw] font-[PlinaReg] sm:text-[.8vw] items-start justify-between 
-                border-b-[1px] border-white pb-[1.6vw]'
+              <div className='flex  mt-[7vw] sm:mt-[1.6vw] font-[PlinaReg] text-[3vw] sm:text-[.8vw] items-start justify-between 
+                border-b-[1px] border-white pb-[6vw] sm:pb-[1.6vw]'
               >
                 <h5>Website design, Development</h5>
                 <h5>2023</h5>  
