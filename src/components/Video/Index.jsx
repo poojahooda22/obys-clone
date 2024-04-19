@@ -16,9 +16,10 @@ function Video() {
           opacity: 0,
         })
         gsap.to("#video-cursor", {
-          left: dets.x - 500,
+          left: dets.x - 550, 
           y: dets.y -100
         })
+        console.log(dets.x - 500)
      })
     })
     videoContainer.addEventListener("mouseleave", function() {
