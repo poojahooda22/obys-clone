@@ -10,7 +10,7 @@ function Landing() {
     document.addEventListener("mousemove", function(dets) {
       gsap.to("#flag", {
         x: dets.x,
-        y: dets.y - 100,
+        y: dets.y - 120,
       })
     })
     document.querySelector("#hero3").addEventListener("mouseenter", function() {
