@@ -23,12 +23,12 @@ export default function AnimatedLink({title}) {
 const titleAnimation = {
     rest: {
         transition: {
-            staggerChildren: 0.025,
+            staggerChildren: 0.035,
         }
     },
     hover: {
         transition: {
-            staggerChildren: 0.025,
+            staggerChildren: 0.035,
         }
     }
 }
@@ -38,11 +38,12 @@ const letterAnimation = {
         y: 0,
     },
     hover: {
-        y: -35,
+        y: -45,
         transition: {
             duration: 0.35,
             ease: [.3,.86,.36,.95],
-            type: "tween",
+            type: "spring",
+            stiffness: 100
         },
     },
 }
@@ -50,14 +51,15 @@ const letterAnimation = {
 
 const letterAnimationTwo = {
     rest: {
-        y: 35,
+        y: 45,
     },
     hover: {
         y: 0,
         transition: {
             duration: 0.35,
             ease: [.3,.86,.36,.95],
-            type: "tween",
+            type: "spring",
+            stiffness: 100
         },
     },
 }
