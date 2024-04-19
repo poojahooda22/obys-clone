@@ -40,15 +40,16 @@ function Project() {
         {/* Project container 1st row*/}
         <div className="mt-[2vw] w-full sm:flex items-start sm:gap-8 pt-[6vw] sm:pt-0">
           <div className="firstCol sm:w-[22%] ">
-            <div className='mb-[1.6vw]'>
-              <h2 className='text-[5vw] mb-[7vw] sm:text-[2vw] font-[PlinaReg] uppercase 
+            <div className='sm:mb-[1.6vw]'>
+              <h2 className='text-[5vw] mb-[7vw] sm:mb-0 sm:text-[2vw] font-[PlinaReg] uppercase 
                 sm:tracking-tight sm:leading-[2vw]'
               >
                 Olga prudka
               </h2>
             </div>
             <div id="imageContainer"
-              className={`imageContainer ${styles.imageContainer} ml-[20vw] realtive w-[55vw] sm:w-[20vw] sm:h-[25vw] relative overflow-hidden `}
+              className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 realtive w-[55vw] 
+              sm:w-[20vw] sm:h-[25vw] relative overflow-hidden `}
             > 
               <img src={image3} alt="image1"
                  className="w-full h-full object-cover"  
@@ -57,8 +58,8 @@ function Project() {
                 alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
               /> 
             </div>
-            <div className=' flex mt-[1.6vw] font-[PlinaReg] text-[3.5vw]  sm:text-[.8vw] items-start justify-between 
-              gap-8 border-b-[1px] border-white pb-[4vw] sm:pb-[1.6vw]'
+            <div className=' flex mt-[7vw] sm:mt-[1.6vw] font-[PlinaReg] text-[3.5vw]  sm:text-[.8vw] items-start justify-between 
+              gap-8 border-b-[1px] border-white pb-[6vw] sm:pb-[1.6vw]'
             >
               <h5 className='whitespace-'>Logo design, Website design, Development</h5>
               <h5>2023</h5>  
@@ -69,7 +70,8 @@ function Project() {
                 <h2 className='sm:text-[2vw] font-[PlinaReg] uppercase sm:tracking-tight sm:leading-[2vw]'>aim</h2>
               </div>
               <div id="imageContainer"
-                className={`imageContainer ${styles.imageContainer} realtive w-[36vw] relative overflow-hidden `}
+                className={`imageContainer ${styles.imageContainer} realtive
+                 Sm:w-[36vw] relative overflow-hidden `}
               > 
                 <img src={image1} alt="image1"
                   className="w-full h-full object-cover"  
