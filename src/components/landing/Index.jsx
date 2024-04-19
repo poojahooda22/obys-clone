@@ -9,7 +9,7 @@ function Landing() {
   useEffect(() => {
     document.addEventListener("mousemove", function(dets) {
       gsap.to("#flag", {
-        x: dets.x,
+        x: dets.x -50,
         y: dets.y - 120,
       })
     })
