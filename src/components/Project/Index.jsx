@@ -67,7 +67,8 @@ function Project() {
           </div>
           <div className="secondCol sm:w-2/5">
             <div className='mb-[1.6vw]'>
-                <h2 className='sm:text-[2vw] font-[PlinaReg] uppercase sm:tracking-tight sm:leading-[2vw]'>aim</h2>
+                <h2 className='text-[5vw] mt-[7vw] sm:mt-0 mb-[7vw] sm:mb-0 sm:text-[2vw] font-[PlinaReg] 
+                uppercase sm:tracking-tight sm:leading-[2vw]'>aim</h2>
               </div>
               <div id="imageContainer"
                 className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 w-[55vw]
@@ -80,8 +81,8 @@ function Project() {
                   alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
                 /> 
               </div>
-              <div className='flex mt-[1.6vw] font-[PlinaReg] sm:text-[.8vw] items-start justify-between 
-                border-b-[1px] border-white pb-[1.6vw]'
+              <div className='flex mt-[7vw] sm:mt-[1.6vw] font-[PlinaReg] sm:text-[.8vw] items-start justify-between 
+                border-b-[1px] border-white pb-[6vw] sm:pb-[1.6vw]'
               >
                 <h5>Logo design, Website design, Development</h5>
                 <h5>2024</h5>  
@@ -139,7 +140,7 @@ function Project() {
                 <h2 className='sm:text-[2vw] font-[PlinaReg] capitalize sm:tracking-tight sm:leading-[2vw]'>David Laxer</h2>
               </div>
               <div id="imageContainer"
-                className={`imageContainer ${styles.imageContainer} realtive w-[30vw] relative overflow-hidden `}
+                className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 w-[55vw] sm:w-[30vw] relative overflow-hidden `}
               > 
                 <img src="https://obys.agency/wp-content/uploads/2023/08/Laxer_1-2.png" alt="image1"
                   className="w-full h-full object-cover"  
@@ -165,7 +166,7 @@ function Project() {
               <h2 className='sm:text-[2vw] font-[PlinaReg] uppercase sm:tracking-tight sm:leading-[2vw]'>Eminente</h2>
             </div>
             <div id="imageContainer"
-              className={`imageContainer ${styles.imageContainer} realtive w-[20vw] h-[25vw] relative overflow-hidden `}
+              className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 w-[55vw] sm:w-[20vw] sm:h-[25vw] relative overflow-hidden `}
             > 
               <img src="https://obys.agency/wp-content/uploads/2023/11/%C3%89minente_First.png" alt="image1"
                  className="w-full h-full object-cover"  
@@ -199,7 +200,7 @@ function Project() {
                 <h2 className='sm:text-[2vw] font-[PlinaReg] capitalize sm:tracking-tight sm:leading-[2vw]'>Makhno</h2>
               </div>
               <div id="imageContainer"
-                className={`imageContainer ${styles.imageContainer} realtive w-[30vw] relative overflow-hidden `}
+                className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 realtive w-[55vw] sm:w-[30vw] relative overflow-hidden `}
               > 
                 <img src="https://obys.agency/wp-content/uploads/2023/12/Makhno_First.png" alt="image1"
                   className="w-full h-full object-cover"  
