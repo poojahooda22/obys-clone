@@ -48,7 +48,7 @@ function Project() {
               </h2>
             </div>
             <div id="imageContainer"
-              className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 realtive w-[55vw] 
+              className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 w-[55vw] 
               sm:w-[20vw] sm:h-[25vw] relative overflow-hidden `}
             > 
               <img src={image3} alt="image1"
@@ -70,7 +70,7 @@ function Project() {
                 <h2 className='sm:text-[2vw] font-[PlinaReg] uppercase sm:tracking-tight sm:leading-[2vw]'>aim</h2>
               </div>
               <div id="imageContainer"
-                className={`imageContainer ${styles.imageContainer} realtive
+                className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 w-[55vw]
                  Sm:w-[36vw] relative overflow-hidden `}
               > 
                 <img src={image1} alt="image1"
@@ -118,7 +118,7 @@ function Project() {
               <h2 className='sm:text-[2vw] font-[PlinaReg] uppercase sm:tracking-tight sm:leading-[2vw]'>Ochi</h2>
             </div>
             <div id="imageContainer"
-              className={`imageContainer ${styles.imageContainer} realtive w-[36vw] h-[40vw] relative overflow-hidden `}
+              className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0  w-[55vw] sm:w-[36vw] sm:h-[40vw] relative overflow-hidden `}
             > 
               <img src="https://obys.agency/wp-content/uploads/2022/06/OCHI.png" alt="image1"
                  className="w-full h-full object-cover"  
