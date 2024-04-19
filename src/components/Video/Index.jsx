@@ -16,7 +16,7 @@ function Video() {
           opacity: 0,
         })
         gsap.to("#video-cursor", {
-          left: dets.x - 400,
+          left: dets.x - 500,
           y: dets.y -100
         })
      })
