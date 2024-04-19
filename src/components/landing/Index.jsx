@@ -1,4 +1,4 @@
-import { useGSAP } from "@gsap/react"
+// import { useGSAP } from "@gsap/react"
 import { useEffect } from "react"
 // import Navbar from "../Navbar/Index"
 import styles from './Style.module.css'
