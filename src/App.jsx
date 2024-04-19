@@ -11,6 +11,7 @@ import Marqueue from './components/Marqueue/Index';
 import Footer from './components/Footer/Index';
 import Navbar from './components/Navbar/Index';
 import Project from './components/Project/Index';
+import CenterButton from './components/CenterButton';
 
 
 
@@ -45,6 +46,7 @@ function App() {
           {/* video */}
           <Video />
           <Project/>
+          <CenterButton/>
           <About/>
           <Marqueue/>
           <Footer/>
