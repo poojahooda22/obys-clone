@@ -10,7 +10,7 @@ import image2 from '../../assets/images/image2.png'
 function Project() {
 
   return (
-    <div className="page3 relative w-full min-h-[100vh] px-[4vw] py-[6vw]
+    <div className="page3 relative w-full min-h-[100vh] px-[4vw] py-[10vw]
     sm:px-[4vw]">
         <div  
           className=' sm:flex gap-[5vw] '
@@ -25,7 +25,7 @@ function Project() {
             </div>
           </div>
           <div className="w-full right">
-            <div className="aboutHeading overflow-hidden">
+            <div className="aboutHeading overflow-hidden pb-[4vw] sm:pb-0 ">
               <h1 className="text-[9vw] leading-[10vw] tracking-tighter
                 sm:text-[6vw] font-[PlinaReg] sm:leading-[6vw] sm:tracking-normal
                 uppercase"
@@ -38,13 +38,17 @@ function Project() {
           </div>  
         </div>
         {/* Project container 1st row*/}
-        <div className="mt-[2vw] w-full sm:flex items-start gap-8 ">
+        <div className="mt-[2vw] w-full sm:flex items-start sm:gap-8 pt-[6vw] sm:pt-0">
           <div className="firstCol sm:w-[22%] ">
             <div className='mb-[1.6vw]'>
-              <h2 className='sm:text-[2vw] font-[PlinaReg] uppercase sm:tracking-tight sm:leading-[2vw]'>Olga prudka</h2>
+              <h2 className='text-[5vw] mb-[7vw] sm:text-[2vw] font-[PlinaReg] uppercase 
+                sm:tracking-tight sm:leading-[2vw]'
+              >
+                Olga prudka
+              </h2>
             </div>
             <div id="imageContainer"
-              className={`imageContainer ${styles.imageContainer} realtive w-[20vw] h-[25vw] relative overflow-hidden `}
+              className={`imageContainer ${styles.imageContainer} ml-[20vw] realtive w-[55vw] sm:w-[20vw] sm:h-[25vw] relative overflow-hidden `}
             > 
               <img src={image3} alt="image1"
                  className="w-full h-full object-cover"  
@@ -53,8 +57,8 @@ function Project() {
                 alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
               /> 
             </div>
-            <div className='flex mt-[1.6vw] font-[PlinaReg] sm:text-[.8vw] items-start justify-between 
-              gap-8 border-b-[1px] border-white pb-[1.6vw]'
+            <div className=' flex mt-[1.6vw] font-[PlinaReg] text-[3.5vw]  sm:text-[.8vw] items-start justify-between 
+              gap-8 border-b-[1px] border-white pb-[4vw] sm:pb-[1.6vw]'
             >
               <h5 className='whitespace-'>Logo design, Website design, Development</h5>
               <h5>2023</h5>  
