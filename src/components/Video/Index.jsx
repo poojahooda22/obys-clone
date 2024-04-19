@@ -69,7 +69,7 @@ function Video() {
 
 
   return (
-    <div  className='page2 w-full py-[6vw] relative '>
+    <div  className='page2 w-full py-[4vw] relative '>
       <div id="video-container" 
         className={` w-full h-[58vh] bg-custom-image bg-cover bg-center
         sm:h-[74vh] sm:w-[73vw] sm:left-[26%] relative`}
