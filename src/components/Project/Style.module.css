@@ -1,22 +1,18 @@
-.circleIn{
-    transition: transform ease 0.3s;
-
+/* .circleIn, .circleInpara{
+    transform-origin: center;
+    transition: all ease 0.3s;
 }
 
-
 .circleInpara {
-    transition: transform ease 0.3s;
-    transition-delay: 0.5s;
+    transition-delay: 0.3s;
 }
 
 .page3Circle:hover .circleIn {
-    
     transform: scale(1);
-
 }
 
 .page3Circle:hover .circleInpara {
     transform: scale(1);
-}
+} */
 
 
