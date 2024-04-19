@@ -116,7 +116,7 @@ function Project() {
         {/* Project container 2nd row */}
         <div className="secondRow mt-[2vw] w-full sm:flex items-start gap-8">
           {/* button*/}
-          <div className="firstCol hidden sm:inline-block">
+          <div className="firstCol hidden sm:inline-block relative">
             <div className=' mt-[0vw] ml-[0vw] relative'>
               <div className={`button ${styles.button2} relative w-[20vw] h-[20vw] border rounded-full `} data-hover-text="">
                 <span className='absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 -rotate-45'>
