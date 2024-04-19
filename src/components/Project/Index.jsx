@@ -11,7 +11,8 @@ function Project() {
   return (
     <div 
       data-scroll
-      className="page3 relative w-full min-h-[100vh] px-[4vw] py-[10vw]
+      className="page3 relative w-full min-h-[100vh] 
+      px-[4vw] py-[10vw]
       sm:px-[4vw]"
     >
         <div  
