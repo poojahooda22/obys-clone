@@ -105,7 +105,8 @@ function Project() {
                 left-0 bg-[#fff] text-[#000]`}
               >
                 <p className={`circleInpara ${styles.circleInpara}  font-[PlinaReg] text-[.9vw] scale-0 w-[70%]`}>
-                  We are thrilled to have you on board. We hope you enjoy the projects 🧡</p>
+                  We are thrilled to have you on board. We hope you enjoy the projects 🧡
+                  </p>
               </div>
             </div>
           </div>
