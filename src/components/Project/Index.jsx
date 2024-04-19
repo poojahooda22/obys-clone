@@ -10,8 +10,9 @@ import image2 from '../../assets/images/image2.png'
 function Project() {
 
   return (
-    <div className="page3 relative w-full min-h-[100vh] px-[4vw] py-[10vw]
-    sm:px-[4vw]">
+    <div 
+      className="page3 relative w-full min-h-[100vh] px-[4vw] py-[10vw]
+      sm:px-[4vw]">
         <div  
           className=' sm:flex gap-[5vw] '
         >
