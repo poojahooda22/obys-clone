@@ -26,7 +26,7 @@ function Project() {
           </div>
           <div className="w-full right">
             <div className="aboutHeading overflow-hidden">
-              <h1 className="text-[8vw] leading-[10vw] tracking-tighter
+              <h1 className="text-[9vw] leading-[10vw] tracking-tighter
                 sm:text-[6vw] font-[PlinaReg] sm:leading-[6vw] sm:tracking-normal
                 uppercase"
               >
@@ -39,7 +39,7 @@ function Project() {
         </div>
         {/* Project container 1st row*/}
         <div className="mt-[2vw] w-full sm:flex items-start gap-8 ">
-          <div className="firstCol w-[22%] ">
+          <div className="firstCol sm:w-[22%] ">
             <div className='mb-[1.6vw]'>
               <h2 className='sm:text-[2vw] font-[PlinaReg] uppercase sm:tracking-tight sm:leading-[2vw]'>Olga prudka</h2>
             </div>
@@ -60,7 +60,7 @@ function Project() {
               <h5>2023</h5>  
             </div> 
           </div>
-          <div className="secondCol w-2/5">
+          <div className="secondCol sm:w-2/5">
             <div className='mb-[1.6vw]'>
                 <h2 className='sm:text-[2vw] font-[PlinaReg] uppercase sm:tracking-tight sm:leading-[2vw]'>aim</h2>
               </div>
@@ -81,7 +81,7 @@ function Project() {
                 <h5>2024</h5>  
               </div>
           </div>
-          <div className="thirdCol">
+          <div className="thirdCol hidden sm:inline-block">
             <div className=' mt-[31vw] ml-[8vw]'>
               <div className='button relative w-[22vw] h-[22vw] border rounded-full ' data-hover-text="We are thrilled to have you on board. We hope you enjoy the projects 🧡">
                 <span className='absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2'>
@@ -96,7 +96,7 @@ function Project() {
 
         {/* Project container 2nd row */}
         <div className="secondRow mt-[2vw] w-full sm:flex items-start gap-8 ">
-          <div className="firstCol">
+          <div className="firstCol hidden sm:inline-block">
             <div className=' mt-[0vw] ml-[0vw]'>
               <div className='button relative w-[20vw] h-[20vw] border rounded-full ' data-hover-text="It will make you WOW! 😉">
                 <span className='absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 -rotate-45'>
@@ -107,7 +107,7 @@ function Project() {
               </div>
             </div>
           </div>
-          <div className="secondCol w-2/5 mt-[4vw] ">
+          <div className="secondCol sm:w-2/5 mt-[4vw] ">
             <div className='mb-[1.6vw]'>
               <h2 className='sm:text-[2vw] font-[PlinaReg] uppercase sm:tracking-tight sm:leading-[2vw]'>Ochi</h2>
             </div>
@@ -154,7 +154,7 @@ function Project() {
         {/* Project container 3rd row */}
         <div className="secondRow mt-[2vw] w-full sm:flex items-start gap-8 ">
           {/* Image*/}
-          <div className="thirdFirstCol w-[22%] -mt-[10vw] ">
+          <div className="thirdFirstCol sm:w-[22%] -mt-[10vw] ">
             <div className='mb-[1.6vw]'>
               <h2 className='sm:text-[2vw] font-[PlinaReg] uppercase sm:tracking-tight sm:leading-[2vw]'>Eminente</h2>
             </div>
@@ -177,7 +177,7 @@ function Project() {
           </div>
           {/* button*/}
           <div className="thirdSecondCol w-2/5">
-            <div className=' mt-[30vw] ml-[14vw]'>
+            <div className=' mt-[30vw] ml-[14vw] hidden sm:inline-block'>
               <div className='button relative w-[22vw] h-[22vw] border rounded-full ' data-hover-text="We like its color palette 🎨">
                 <span className='absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 -rotate-90'>
                 <svg className="button__arrow" width="6vw" height="6vw" viewBox="0 0 91 118" fill="none">
@@ -188,8 +188,8 @@ function Project() {
             </div>
           </div>
           {/* Image*/}
-          <div className="thirdThirdCol mt-[8vw]">
-            <div className='mb-[1.6vw]'>
+          <div className="thirdThirdCol sm:mt-[8vw]">
+            <div className='sm:mb-[1.6vw]'>
                 <h2 className='sm:text-[2vw] font-[PlinaReg] capitalize sm:tracking-tight sm:leading-[2vw]'>Makhno</h2>
               </div>
               <div id="imageContainer"
