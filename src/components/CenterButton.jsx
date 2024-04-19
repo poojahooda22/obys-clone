@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 function CenterButton() {
   return (
     <motion.div
-        className="mt-[4vw] mb-[5vw] flex items-center justify-center "
+        className="mt-[0vw] mb-[5vw] flex items-center justify-center "
     >
         <div className="relative">
             <motion.div 
