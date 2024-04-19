@@ -128,9 +128,9 @@ function Project() {
                   className={`circleIn2 ${styles.circleIn2} absolute w-[100%] h-[100%] scale-0 rounded-full flex items-center justify-center top-0 
                   left-0 bg-[#fff] text-[#000]`}
                 >
-                <p className={`circleInpara2 ${styles.circleInpara2} font-[PlinaReg] text-[.9vw] scale-0 w-[70%]`}>
-                It will make you WOW! 😉
-                </p>
+                  <p className={`circleInpara2 ${styles.circleInpara2} font-[PlinaReg] text-[.9vw] scale-0 w-[70%]`}>
+                  It will make you WOW! 😉
+                  </p>
               </div>
               </div>
             </div>
