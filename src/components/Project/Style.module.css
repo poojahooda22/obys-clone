@@ -1,9 +1,14 @@
 
 
+.page3Circle:hover .circleIn {
+    transform: scale(1);
+    transition: all ease 0.3s;
+}
 
-.mainCirclediv:hover .circleIn {
-    scale: 1;
-    transition: all ease 0.6s;
+.page3Circle:hover .circleInpara {
+    transform: scale(1);
+    transition-delay: 0.6s;
+    transition: all ease 0.3s;
 }
 
 
