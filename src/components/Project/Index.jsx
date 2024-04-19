@@ -104,7 +104,7 @@ function Project() {
                 className={`circleIn ${styles.circleIn} absolute w-[100%] h-[100%] scale-0 hover:scale-1 rounded-full flex items-center justify-center top-0 
                 left-0 bg-[#fff] text-[#000]`}
               >
-                <p className={`circleInpara ${styles.circleInpara}  font-[PlinaReg] text-[.9vw] scale-0 w-[70%]`}>
+                <p className={`circleInpara ${styles.circleInpara} font-[PlinaReg] text-[.9vw] scale-0 w-[70%]`}>
                   We are thrilled to have you on board. We hope you enjoy the projects 🧡
                 </p>
               </div>
