@@ -29,7 +29,7 @@ function Project() {
           <div className="w-full right">
             <div className="aboutHeading overflow-hidden pb-[4vw] sm:pb-0 ">
               <h1 
-              className="text-[9vw] leading-[10vw] tracking-tighter
+                className="text-[9vw] leading-[10vw] tracking-tighter
                 sm:text-[6vw] font-[PlinaReg] sm:leading-[6vw] sm:tracking-normal
                 uppercase"
               >
