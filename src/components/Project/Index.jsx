@@ -1,6 +1,5 @@
 import styles from './Style.module.css'
 import UnderLine from '../Underline/Index'
-
 import gsap from 'gsap'
 import { useEffect, useRef} from 'react'
 import hoverEffect from 'hover-effect'
