@@ -70,9 +70,6 @@ function Project() {
     })
   }, []);
 
-  useEffect(() => {
-    
-  }, []);
   
 
 
