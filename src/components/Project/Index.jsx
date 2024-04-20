@@ -215,19 +215,7 @@ function Project() {
                 <img src="https://obys.agency/wp-content/uploads/2023/08/Olga_Prudka_2.png" 
                   alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
                 />  */}
-              </div>
-              {/* <div id="imageContainer"
-                ref={wrapper3}
-                className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 w-[55vw]
-                 sm:w-[36vw] relative overflow-hidden `}
-              > 
-                <img src={image1} alt="image1"
-                  className="w-full h-full object-cover"  
-                />
-                <img src={image2} 
-                  alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
-                /> 
-              </div> */}
+              </div>             
               <div className='flex mt-[7vw] sm:mt-[1.6vw] font-[PlinaReg] text-[3vw] sm:text-[.8vw] items-start justify-between 
                 border-b-[1px] border-white pb-[6vw] sm:pb-[1.6vw]'
               >
