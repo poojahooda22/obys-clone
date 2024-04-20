@@ -1,13 +1,37 @@
 import styles from './Style.module.css'
 import UnderLine from '../Underline/Index'
-import image3 from '../../assets/images/image3.png'
-import image1 from '../../assets/images/image1.png'
-import image2 from '../../assets/images/image2.png'
+// import image3 from '../../assets/images/image3.png'
+// import image1 from '../../assets/images/image1.png'
+// import image2 from '../../assets/images/image2.png'
 import gsap from 'gsap'
-import { useEffect} from 'react'
-
+import { useEffect, useRef} from 'react'
+import hoverEffect from 'hover-effect'
 
 function Project() {
+  let wrappers = useRef();
+  let wrappers1 = useRef();
+
+  useEffect(() => {
+    new hoverEffect({
+      parent: wrappers.current,
+      intensity: 0.3,
+      imagesRatio: 360/288,
+      image1: '/image3.png',
+      image2: '/olga.png',
+      displacementImage: '/liquid.jpg'
+    })
+  }, []);
+
+  useEffect(() => {
+    new hoverEffect({
+      parent: wrappers1.current,
+      intensity: 0.3,
+      imagesRatio: 360/288,
+      image1: '/image3.png',
+      image2: '/image1.png',
+      displacementImage: '/liquid.jpg'
+    })
+  }, []);
   
 
 
@@ -113,16 +137,18 @@ function Project() {
                 Olga prudka
               </h2>
             </div>
-              <div id="imageContainer" 
+              <div id="imageContainer"
+                ref={wrappers} 
+                // style={{width: "1200px", height: "700px",}}
                 className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 w-[55vw] 
                 sm:w-[20vw] sm:h-[25vw] relative overflow-hidden `}
               > 
-                <img src={image3} alt="image1"
+                {/* <img src={image3} alt="image1"
                   className="w-full h-full object-cover"  
                 />
                 <img src="https://obys.agency/wp-content/uploads/2023/08/Olga_Prudka_2.png" 
                   alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
-                /> 
+                />  */}
               </div>
             <div className=' flex mt-[7vw] sm:mt-[1.6vw] font-[PlinaReg] text-[3vw]  sm:text-[.8vw] items-start justify-between 
               gap-8 border-b-[1px] border-white pb-[6vw] sm:pb-[1.6vw]'
@@ -138,15 +164,16 @@ function Project() {
                 uppercase sm:tracking-tight sm:leading-[2vw]'>aim</h2>
               </div>
               <div id="imageContainer"
+                ref={wrappers1}
                 className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 w-[55vw]
                  sm:w-[36vw] relative overflow-hidden `}
               > 
-                <img src={image1} alt="image1"
+                {/* <img src={image1} alt="image1"
                   className="w-full h-full object-cover"  
                 />
                 <img src={image2} 
                   alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
-                /> 
+                />  */}
               </div>
               <div className='flex mt-[7vw] sm:mt-[1.6vw] font-[PlinaReg] text-[3vw] sm:text-[.8vw] items-start justify-between 
                 border-b-[1px] border-white pb-[6vw] sm:pb-[1.6vw]'
