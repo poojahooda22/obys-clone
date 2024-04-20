@@ -55,9 +55,7 @@ function App() {
           <About/>
           <Marqueue/>
           <Footer/>
-          
-        </div>
-        
+        </div> 
       </div>
     </LocomotiveScrollProvider>
     
