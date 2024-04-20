@@ -20,7 +20,7 @@ function Project() {
       parent: wrappers.current,
       intensity: 0.3,
       imagesRatio: 360/288,
-      image1: 'image3.jpg',
+      image1: 'image3.png',
       image2: '/olga.jpg',
       displacementImage: '/14.jpg'
     })
