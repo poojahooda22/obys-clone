@@ -20,7 +20,7 @@ function Project() {
       parent: wrappers.current,
       intensity: 0.3,
       imagesRatio: 360/288,
-      image1: '/image3.jpg',
+      image1: 'https://obys.agency/wp-content/uploads/2023/08/Olga_Prudka_1.png',
       image2: '/olga.jpg',
       displacementImage: '/14.jpg'
     })
@@ -359,7 +359,7 @@ function Project() {
           {/* Image*/}
           <div className="thirdThirdCol sm:mt-[8vw]">
             <div className='sm:mb-[1.6vw]'>
-                <h2 className='text-[5vw] mt-[7vw] sm:mt-0 mb-[7vw] sm:mb-0 sm:text-[2vw] font-[PlinaReg] capitalize sm:tracking-tight sm:leading-[2vw]'>Makhno</h2>
+                <h2 className='text-[5vw] mt-[7vw] sm:mt-0 mb-[7vw] sm:mb-0 sm:text-[2vw] font-[PlinaReg] uppercase sm:tracking-tight sm:leading-[2vw]'>Makhno</h2>
               </div>
               <div id="imageContainer"
               ref={wrapper6}
