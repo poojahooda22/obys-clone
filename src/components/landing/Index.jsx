@@ -1,29 +1,29 @@
 // import { useGSAP } from "@gsap/react"
-import { useEffect } from "react"
+// import { useEffect } from "react"
 // import Navbar from "../Navbar/Index"
 import styles from './Style.module.css'
-import { gsap } from "gsap";
+// import { gsap } from "gsap";
 
 function Landing() {
 
-  useEffect(() => {
-    document.addEventListener("mousemove", function(dets) {
-      gsap.to("#flag", {
-        x: dets.x -50,
-        y: dets.y - 120,
-      })
-    })
-    document.querySelector("#hero3").addEventListener("mouseenter", function() {
-      gsap.to("#flag", {
-        opacity: 1
-      })
-    })
-    document.querySelector("#hero3").addEventListener("mouseleave", function() {
-      gsap.to("#flag", {
-        opacity: 0
-      })
-    })
-  })
+  // useEffect(() => {
+  //   document.addEventListener("mousemove", function(dets) {
+  //     gsap.to("#flag", {
+  //       x: dets.x -50,
+  //       y: dets.y - 120,
+  //     })
+  //   })
+  //   document.querySelector("#hero3").addEventListener("mouseenter", function() {
+  //     gsap.to("#flag", {
+  //       opacity: 1
+  //     })
+  //   })
+  //   document.querySelector("#hero3").addEventListener("mouseleave", function() {
+  //     gsap.to("#flag", {
+  //       opacity: 0
+  //     })
+  //   })
+  // })
 
   return (
     <div 
