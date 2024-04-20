@@ -4,10 +4,11 @@ import image3 from '../../assets/images/image3.png'
 import image1 from '../../assets/images/image1.png'
 import image2 from '../../assets/images/image2.png'
 import gsap from 'gsap'
-import { useEffect } from 'react'
+import { useEffect} from 'react'
 
 
 function Project() {
+  
 
 
   useEffect(() => {
@@ -63,7 +64,7 @@ function Project() {
       gsap.to(".circleInpara3", { scale: 0, transformOrigin: "center center" });
     });
   })
-
+  
 
   return (
     <div 
@@ -102,7 +103,9 @@ function Project() {
         {/* Project container 1st row*/}
         <div className="mt-[2vw] w-full sm:flex items-start sm:gap-8 pt-[6vw] sm:pt-0">
           {/* Image*/}
-          <div className="firstCol sm:w-[22%] ">
+          <div className="firstCol sm:w-[22%] "
+            
+            >
             <div className='sm:mb-[1.6vw]'>
               <h2 className='text-[5vw] mb-[7vw] sm:mb-0 sm:text-[2vw] font-[PlinaReg] uppercase 
                 sm:tracking-tight sm:leading-[2vw]'
@@ -110,17 +113,17 @@ function Project() {
                 Olga prudka
               </h2>
             </div>
-            <div id="imageContainer"
-              className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 w-[55vw] 
-              sm:w-[20vw] sm:h-[25vw] relative overflow-hidden `}
-            > 
-              <img src={image3} alt="image1"
-                 className="w-full h-full object-cover"  
-              />
-              <img src="https://obys.agency/wp-content/uploads/2023/08/Olga_Prudka_2.png" 
-                alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
-              /> 
-            </div>
+              <div id="imageContainer" 
+                className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 w-[55vw] 
+                sm:w-[20vw] sm:h-[25vw] relative overflow-hidden `}
+              > 
+                <img src={image3} alt="image1"
+                  className="w-full h-full object-cover"  
+                />
+                <img src="https://obys.agency/wp-content/uploads/2023/08/Olga_Prudka_2.png" 
+                  alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
+                /> 
+              </div>
             <div className=' flex mt-[7vw] sm:mt-[1.6vw] font-[PlinaReg] text-[3vw]  sm:text-[.8vw] items-start justify-between 
               gap-8 border-b-[1px] border-white pb-[6vw] sm:pb-[1.6vw]'
             >
