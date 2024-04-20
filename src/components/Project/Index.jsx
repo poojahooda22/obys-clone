@@ -9,7 +9,9 @@ import hoverEffect from 'hover-effect'
 
 function Project() {
   let wrappers = useRef();
-  let wrappers1 = useRef();
+  let wrapper3 = useRef();
+  let wrapper2 = useRef();
+  let wrapper4 = useRef();
 
   useEffect(() => {
     new hoverEffect({
@@ -18,19 +20,38 @@ function Project() {
       imagesRatio: 360/288,
       image1: '/image3.png',
       image2: '/olga.png',
-      displacementImage: '/liquid.jpg'
+      displacementImage: '/14.jpg'
+    })
+
+    new hoverEffect({
+      parent: wrapper3.current,
+      intensity: 0.3,
+      imagesRatio: 360/320,
+      image1: '/image1.png',
+      image2: '/image2.png',
+      displacementImage: '/14.jpg'
+    })
+
+    new hoverEffect({
+      parent: wrapper2.current,
+      intensity: 0.3,
+      imagesRatio: 360/320,
+      image1: '/Ochi.png',
+      image2: '/eyes.png',
+      displacementImage: '/14.jpg'
+    })
+    new hoverEffect({
+      parent: wrapper4.current,
+      intensity: 0.3,
+      imagesRatio: 360/320,
+      image1: '/lax.png',
+      image2: '/laxer2.png',
+      displacementImage: '/14.jpg'
     })
   }, []);
 
   useEffect(() => {
-    new hoverEffect({
-      parent: wrappers1.current,
-      intensity: 0.3,
-      imagesRatio: 360/288,
-      image1: '/image3.png',
-      image2: '/image1.png',
-      displacementImage: '/liquid.jpg'
-    })
+    
   }, []);
   
 
@@ -162,19 +183,31 @@ function Project() {
             <div className='mb-[1.6vw]'>
                 <h2 className='text-[5vw] mt-[7vw] sm:mt-0 mb-[7vw] sm:mb-0 sm:text-[2vw] font-[PlinaReg] 
                 uppercase sm:tracking-tight sm:leading-[2vw]'>aim</h2>
+            </div>
+            <div id="imageContainer"
+                ref={wrapper3} 
+                className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 w-[55vw] 
+                sm:w-[36vw] relative overflow-hidden `}
+              > 
+                {/* <img src={image3} alt="image1"
+                  className="w-full h-full object-cover"  
+                />
+                <img src="https://obys.agency/wp-content/uploads/2023/08/Olga_Prudka_2.png" 
+                  alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
+                />  */}
               </div>
-              <div id="imageContainer"
-                ref={wrappers1}
+              {/* <div id="imageContainer"
+                ref={wrapper3}
                 className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 w-[55vw]
                  sm:w-[36vw] relative overflow-hidden `}
               > 
-                {/* <img src={image1} alt="image1"
+                <img src={image1} alt="image1"
                   className="w-full h-full object-cover"  
                 />
                 <img src={image2} 
                   alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
-                />  */}
-              </div>
+                /> 
+              </div> */}
               <div className='flex mt-[7vw] sm:mt-[1.6vw] font-[PlinaReg] text-[3vw] sm:text-[.8vw] items-start justify-between 
                 border-b-[1px] border-white pb-[6vw] sm:pb-[1.6vw]'
               >
@@ -228,14 +261,15 @@ function Project() {
               <h2 className='text-[5vw] mt-[7vw] sm:mt-0 mb-[7vw] sm:mb-0 sm:text-[2vw] font-[PlinaReg] uppercase sm:tracking-tight sm:leading-[2vw]'>Ochi</h2>
             </div>
             <div id="imageContainer"
+            ref={wrapper2}
               className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0  w-[55vw] sm:w-[36vw] sm:h-[40vw] relative overflow-hidden `}
             > 
-              <img src="https://obys.agency/wp-content/uploads/2022/06/OCHI.png" alt="image1"
+              {/* <img src="https://obys.agency/wp-content/uploads/2022/06/OCHI.png" alt="image1"
                  className="w-full h-full object-cover"  
               />
               <img src="https://obys.agency/wp-content/uploads/2022/06/OCHI_2-1.png" 
                 alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
-              /> 
+              />  */}
             </div>
             <div className='flex mt-[7vw] sm:mt-[1.6vw] font-[PlinaReg] text-[3vw] sm:text-[.8vw] items-start justify-between 
               gap-8 border-b-[1px] border-white  pb-[6vw] sm:pb-[1.6vw]'
@@ -250,14 +284,15 @@ function Project() {
                 <h2 className='text-[5vw] mt-[7vw] sm:mt-0 mb-[7vw] sm:mb-0 sm:text-[2vw] font-[PlinaReg] capitalize sm:tracking-tight sm:leading-[2vw]'>David Laxer</h2>
               </div>
               <div id="imageContainer"
+                ref={wrapper4}
                 className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 w-[55vw] sm:w-[30vw] relative overflow-hidden `}
               > 
-                <img src="https://obys.agency/wp-content/uploads/2023/08/Laxer_1-2.png" alt="image1"
+                {/* <img src="https://obys.agency/wp-content/uploads/2023/08/Laxer_1-2.png" alt="image1"
                   className="w-full h-full object-cover"  
                 />
                 <img src="https://obys.agency/wp-content/uploads/2023/08/Laxer_2.png" 
                   alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
-                /> 
+                />  */}
               </div>
               <div className='flex mt-[7vw] sm:mt-[1.6vw] font-[PlinaReg] text-[3vw] sm:text-[.8vw] items-start justify-between 
                 border-b-[1px] border-white  pb-[6vw] sm:pb-[1.6vw]'
