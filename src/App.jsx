@@ -12,7 +12,7 @@ import Footer from './components/Footer/Index';
 import Navbar from './components/Navbar/Index';
 import Project from './components/Project/Index';
 import CenterButton from './components/CenterButton';
-import 'locomotive-scroll/dist/locomotive-scroll.css'
+// import 'locomotive-scroll/dist/locomotive-scroll.css'
 
 
 
@@ -42,7 +42,7 @@ function App() {
     
     containerRef={containerRef}
     >
-      <div data-scroll-container ref={containerRef} className='main text-white overflow-hidden'>
+      <div ref={containerRef} className='main text-white overflow-hidden'>
         <Cursor/>
         <Loader />
         <div className=' bg-[#151515]'>
