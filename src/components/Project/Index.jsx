@@ -174,7 +174,7 @@ function Project() {
             </div>
               <div id="imageContainer"
                 ref={wrappers} 
-                // style={{width: "1200px",}}
+                // style={{width: "1200}}
                 className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 w-[55vw] 
                 sm:w-[20vw] sm:h-[25vw] relative overflow-hidden `}
               > 
