@@ -1,7 +1,7 @@
 import styles from './Style.module.css'
 import UnderLine from '../Underline/Index'
 // import image3 from '../../assets/images/image3.png'
-// import image1 from '../../assets/images/image1.png'
+
 
 import gsap from 'gsap'
 import { useEffect, useRef} from 'react'
