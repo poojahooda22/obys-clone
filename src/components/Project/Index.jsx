@@ -163,7 +163,6 @@ function Project() {
         <div className="mt-[2vw] w-full sm:flex items-start sm:gap-8 pt-[6vw] sm:pt-0">
           {/* Image*/}
           <div className="firstCol sm:w-[22%] "
-            
             >
             <div className='sm:mb-[1.6vw]'>
               <h2 className='text-[5vw] mb-[7vw] sm:mb-0 sm:text-[2vw] font-[PlinaReg] uppercase 
@@ -209,12 +208,12 @@ function Project() {
                   alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
                 />  */}
             </div>             
-              <div className='flex mt-[7vw] sm:mt-[1.6vw] font-[PlinaReg] text-[3vw] sm:text-[.8vw] items-start justify-between 
-                border-b-[1px] border-white pb-[6vw] sm:pb-[1.6vw]'
-              >
-                <h5>Logo design, Website design, Development</h5>
-                <h5>2024</h5>  
-              </div>
+            <div className='flex mt-[7vw] sm:mt-[1.6vw] font-[PlinaReg] text-[3vw] sm:text-[.8vw] items-start justify-between 
+              border-b-[1px] border-white pb-[6vw] sm:pb-[1.6vw]'
+            >
+              <h5>Logo design, Website design, Development</h5>
+              <h5>2024</h5>  
+            </div>
           </div>
           {/* button*/}
           <div className="thirdCol hidden sm:inline-block relative ">
