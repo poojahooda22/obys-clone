@@ -1,6 +1,6 @@
 import styles from './Style.module.css'
 import UnderLine from '../Underline/Index'
-// import image3 from '../../assets/images/image3.png'
+
 
 
 import gsap from 'gsap'
