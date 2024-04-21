@@ -329,7 +329,7 @@ function Project() {
               >Eminente</h2>
             </div>
             <div id="imageContainer"
-            ref={wrapper5}
+              ref={wrapper5}
               className={`imageContainer ${styles.imageContainer} sm:ml-0 w-[55vw] h-[80vw]
               sm:w-[20vw] sm:h-[25vw] relative overflow-hidden `}
             > 
