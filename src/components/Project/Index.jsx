@@ -207,7 +207,7 @@ function Project() {
             > 
               <img src='https://obys.agency/wp-content/uploads/2024/02/AIM-1.png' alt="image1"
                   className="inline-block sm:hidden w-full h-full object-cover"  
-                />
+              />
                 {/* <img src="https://obys.agency/wp-content/uploads/2023/08/Olga_Prudka_2.png" 
                   alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
                 />  */}
