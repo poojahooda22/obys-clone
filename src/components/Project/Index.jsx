@@ -283,7 +283,7 @@ function Project() {
               sm:text-[.8vw] items-start justify-between 
               gap-8 border-b-[1px] border-white  pb-[6vw] sm:pb-[1.6vw]'
             >
-              <h5 className='whitesp'>Website design, Development</h5>
+              <h5 className='white'>Website design, Development</h5>
               <h5>2022</h5>  
             </div> 
           </div>
