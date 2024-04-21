@@ -328,7 +328,8 @@ function Project() {
                 font-[PlinaReg] uppercase sm:tracking-tight sm:leading-[2vw]'
               >Eminente</h2>
             </div>
-            <div id="imageContainer"
+            <div 
+            id="imageContainer"
               ref={wrapper5}
               className={`imageContainer ${styles.imageContainer} sm:ml-0 w-[55vw] h-[80vw]
               sm:w-[20vw] sm:h-[25vw] relative overflow-hidden `}
