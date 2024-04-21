@@ -60,7 +60,7 @@ function Project() {
   
       new hoverEffect({
         parent: wrapper6.current,
-        intensity: 0.3,
+        intensity: 0.5,
         imagesRatio: 360/320,
         image1: '/last.png',
         image2: '/last2.png',
