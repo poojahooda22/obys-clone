@@ -362,13 +362,13 @@ function Project() {
               </div>
               <div id="imageContainer"
               ref={wrapper6}
-                className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 realtive w-[55vw] 
+                className={`imageContainer ${styles.imageContainer} sm:ml-0 realtive w-[55vw] 
                 sm:w-[30vw] sm:h-[38vw] relative overflow-hidden `}
               > 
-                {/* <img src="https://obys.agency/wp-content/uploads/2023/12/Makhno_First.png" alt="image1"
-                  className="w-full h-full object-cover"  
+                <img src="https://obys.agency/wp-content/uploads/2023/12/Makhno_First.png" alt="image1"
+                  className="inline-block sm:hidden w-full h-full object-cover"  
                 />
-                <img src="https://obys.agency/wp-content/uploads/2023/12/Makhno_Hover.png" 
+                {/* <img src="https://obys.agency/wp-content/uploads/2023/12/Makhno_Hover.png" 
                   alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
                 />  */}
               </div>
