@@ -205,7 +205,7 @@ function Project() {
               className={`imageContainer ${styles.imageContainer} sm:ml-0 w-[55vw]  h-[80vw]
               sm:w-[36vw] sm:h-[40vw] relative overflow-hidden `}
             > 
-                <img src='https://obys.agency/wp-content/uploads/2024/02/AIM-1.png' alt="image1"
+              <img src='https://obys.agency/wp-content/uploads/2024/02/AIM-1.png' alt="image1"
                   className="inline-block sm:hidden w-full h-full object-cover"  
                 />
                 {/* <img src="https://obys.agency/wp-content/uploads/2023/08/Olga_Prudka_2.png" 
