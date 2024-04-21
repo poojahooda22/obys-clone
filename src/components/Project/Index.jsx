@@ -342,10 +342,10 @@ function Project() {
               />  */}
             </div>
             <div className='flex mt-[7vw] sm:mt-[1.6vw] font-[PlinaReg] text-[3vw] 
-            sm:text-[.8vw] items-start justify-between 
+              sm:text-[.8vw] items-start justify-between 
               gap-8 border-b-[1px] border-white pb-[6vw] sm:pb-[1.6vw]'
             >
-              <h5 className='whitespace-'>Logo design, Website design, Development</h5>
+              <h5 className='whitespa'>Logo design, Website design, Development</h5>
               <h5>2023</h5>  
             </div> 
           </div>
