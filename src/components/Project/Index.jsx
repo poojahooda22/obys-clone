@@ -18,8 +18,8 @@ function Project() {
         parent: wrappers.current,
         intensity: 0.3,
         imagesRatio: 360/288,
-        image1: 'https://obys.agency/wp-content/uploads/2023/08/Olga_Prudka_1.png',
-        image2: 'https://obys.agency/wp-content/uploads/2023/08/Olga_Prudka_2.png',
+        image1: '/images/image3.png',
+        image2: '/olga.jpg',
         displacementImage: '/14.jpg'
       })
   
