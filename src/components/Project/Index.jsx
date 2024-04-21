@@ -51,7 +51,7 @@ function Project() {
   
       new hoverEffect({
         parent: wrapper5.current,
-        intensity: 0.3,
+        intensity: 0.5,
         imagesRatio: 360/288,
         image1: '/flow.png',
         image2: '/flow2.png',
