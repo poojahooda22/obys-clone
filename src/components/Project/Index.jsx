@@ -199,7 +199,8 @@ function Project() {
               <h2 className='text-[5vw] mt-[7vw] sm:mt-0 mb-[7vw] sm:mb-0 sm:text-[2vw] font-[PlinaReg] 
               uppercase sm:tracking-tight sm:leading-[2vw]'>aim</h2>
             </div>
-            <div id="imageContainer"
+            <div  
+            id="imageContainer"
                 ref={wrapper3} 
                 className={`imageContainer ${styles.imageContainer} sm:ml-0 w-[55vw]  h-[80vw]
                 sm:w-[36vw] sm:h-[40vw] relative overflow-hidden `}
