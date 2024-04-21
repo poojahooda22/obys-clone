@@ -34,7 +34,7 @@ function Project() {
   
       new hoverEffect({
         parent: wrapper2.current,
-        intensity: 0.3,
+        intensity: 0.5,
         imagesRatio: 360/320,
         image1: '/Ochi.png',
         image2: '/eyes.png',
