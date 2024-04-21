@@ -17,7 +17,7 @@ function Project() {
       parent: wrappers.current,
       intensity: 0.3,
       imagesRatio: 360/288,
-      image1: 'stone.jpg',
+      image1: '/stone.jpg',
       image2: '/lake2.jpg',
       displacementImage: '/14.jpg'
     })
@@ -26,7 +26,7 @@ function Project() {
       parent: wrapper3.current,
       intensity: 0.3,
       imagesRatio: 360/320,
-      image1: 'image1.jpg',
+      image1: '/image1.jpg',
       image2: '/image2.jpg',
       displacementImage: '/14.jpg'
     })
