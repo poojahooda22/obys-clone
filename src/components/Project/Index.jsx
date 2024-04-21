@@ -18,53 +18,53 @@ function Project() {
         parent: wrappers.current,
         intensity: 0.6,
         imagesRatio: 360/288,
-        image1: '/1.png',
-        image2: '/2.png',
-        displacementImage: '/14.jpg'
+        image1: '/images/image3.png',
+        image2: '/images/olga.jpg',
+        displacementImage: '/images/14.jpg'
       })
   
       new hoverEffect({
         parent: wrapper3.current,
         intensity: 0.4,
         imagesRatio: 360/320,
-        image1: '/3.png',
-        image2: '/4.png',
-        displacementImage: '/14.jpg'
+        image1: '/images/image1.jpg',
+        image2: '/images/image2.jpg',
+        displacementImage: '/images/14.jpg'
       })
   
       new hoverEffect({
         parent: wrapper2.current,
         intensity: 0.5,
         imagesRatio: 360/320,
-        image1: '/Ochi.png',
-        image2: '/eyes.png',
-        displacementImage: '/14.jpg'
+        image1: '/images/Ochi.png',
+        image2: '/images/eyes.png',
+        displacementImage: '/images/14.jpg'
       })
       new hoverEffect({
         parent: wrapper4.current,
         intensity: 0.5,
         imagesRatio: 360/320,
-        image1: '/lax.png',
-        image2: '/laxer2.png',
-        displacementImage: '/14.jpg'
+        image1: '/images/lax.png',
+        image2: '/images/laxer2.png',
+        displacementImage: '/images/14.jpg'
       })
   
       new hoverEffect({
         parent: wrapper5.current,
         intensity: 0.5,
         imagesRatio: 360/288,
-        image1: '/flow.png',
-        image2: '/flow2.png',
-        displacementImage: '/14.jpg'
+        image1: '/images/flow.png',
+        image2: '/images/flow2.png',
+        displacementImage: '/images/14.jpg'
       })
   
       new hoverEffect({
         parent: wrapper6.current,
         intensity: 0.5,
         imagesRatio: 360/320,
-        image1: '/last.png',
-        image2: '/last2.png',
-        displacementImage: '/14.jpg'
+        image1: '/images/last.png',
+        image2: '/images/last2.png',
+        displacementImage: '/images/14.jpg'
       })
     } 
   }, []);
@@ -231,7 +231,7 @@ function Project() {
                 className={`circleIn ${styles.circleIn} absolute w-[100%] h-[100%] scale-0 rounded-full flex items-center justify-center top-0 
                 left-0 bg-[#fff] text-[#000]`}
               >
-                <p className={`circleInpara ${styles.circleInpara} font-[PlinaReg] text-[.9vw] scale-0 w-[70%]`}>
+                <p className={`circleInpara ${styles.circleInpara} font-[PlinaReg] text-center text-[.9vw] scale-0 w-[70%]`}>
                   We are thrilled to have you on board. We hope you enjoy the projects 🧡
                 </p>
               </div>
