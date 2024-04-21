@@ -19,7 +19,7 @@ function Project() {
         intensity: 0.3,
         imagesRatio: 360/288,
         image1: '/image3.png',
-        image2: '/lake2.jpg',
+        image2: '/olga.jpg',
         displacementImage: '/14.jpg'
       })
   
