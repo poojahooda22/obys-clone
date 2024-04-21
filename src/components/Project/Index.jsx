@@ -200,7 +200,7 @@ function Project() {
               uppercase sm:tracking-tight sm:leading-[2vw]'>aim</h2>
             </div>
             <div  
-            id="imageContainer"
+              id="imageContainer"
                 ref={wrapper3} 
                 className={`imageContainer ${styles.imageContainer} sm:ml-0 w-[55vw]  h-[80vw]
                 sm:w-[36vw] sm:h-[40vw] relative overflow-hidden `}
