@@ -13,58 +13,61 @@ function Project() {
   let wrapper6 = useRef();
 
   useEffect(() => {
-    new hoverEffect({
-      parent: wrappers.current,
-      intensity: 0.3,
-      imagesRatio: 360/288,
-      image1: '/stone.jpg',
-      image2: '/lake2.jpg',
-      displacementImage: '/14.jpg'
-    })
-
-    new hoverEffect({
-      parent: wrapper3.current,
-      intensity: 0.3,
-      imagesRatio: 360/320,
-      image1: '/image1.jpg',
-      image2: '/image2.jpg',
-      displacementImage: '/14.jpg'
-    })
-
-    new hoverEffect({
-      parent: wrapper2.current,
-      intensity: 0.3,
-      imagesRatio: 360/320,
-      image1: '/Ochi.png',
-      image2: '/eyes.png',
-      displacementImage: '/14.jpg'
-    })
-    new hoverEffect({
-      parent: wrapper4.current,
-      intensity: 0.3,
-      imagesRatio: 360/320,
-      image1: '/lax.png',
-      image2: '/laxer2.png',
-      displacementImage: '/14.jpg'
-    })
-
-    new hoverEffect({
-      parent: wrapper5.current,
-      intensity: 0.3,
-      imagesRatio: 360/288,
-      image1: '/flow.png',
-      image2: '/flow2.png',
-      displacementImage: '/14.jpg'
-    })
-
-    new hoverEffect({
-      parent: wrapper6.current,
-      intensity: 0.3,
-      imagesRatio: 360/320,
-      image1: '/last.png',
-      image2: '/last2.png',
-      displacementImage: '/14.jpg'
-    })
+    if (window.matchMedia("(min-width: 768px)").matches) {
+      new hoverEffect({
+        parent: wrappers.current,
+        intensity: 0.3,
+        imagesRatio: 360/288,
+        image1: '/image3.png',
+        image2: '/lake2.jpg',
+        displacementImage: '/14.jpg'
+      })
+  
+      new hoverEffect({
+        parent: wrapper3.current,
+        intensity: 0.3,
+        imagesRatio: 360/320,
+        image1: '/image1.jpg',
+        image2: '/image2.jpg',
+        displacementImage: '/14.jpg'
+      })
+  
+      new hoverEffect({
+        parent: wrapper2.current,
+        intensity: 0.3,
+        imagesRatio: 360/320,
+        image1: '/Ochi.png',
+        image2: '/eyes.png',
+        displacementImage: '/14.jpg'
+      })
+      new hoverEffect({
+        parent: wrapper4.current,
+        intensity: 0.3,
+        imagesRatio: 360/320,
+        image1: '/lax.png',
+        image2: '/laxer2.png',
+        displacementImage: '/14.jpg'
+      })
+  
+      new hoverEffect({
+        parent: wrapper5.current,
+        intensity: 0.3,
+        imagesRatio: 360/288,
+        image1: '/flow.png',
+        image2: '/flow2.png',
+        displacementImage: '/14.jpg'
+      })
+  
+      new hoverEffect({
+        parent: wrapper6.current,
+        intensity: 0.3,
+        imagesRatio: 360/320,
+        image1: '/last.png',
+        image2: '/last2.png',
+        displacementImage: '/14.jpg'
+      })
+    }
+    
   }, []);
 
   
@@ -172,15 +175,16 @@ function Project() {
             </div>
               <div id="imageContainer"
                 ref={wrappers} 
-                className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 w-[55vw] 
+                className={`imageContainer ${styles.imageContainer} sm:ml-0 
+                w-[55vw]
                 sm:w-[20vw] sm:h-[25vw] relative overflow-hidden `}
               > 
-                {/* <img src={image3} alt="image1"
-                  className="w-full h-full object-cover"  
+                <img src='/image3.png' alt="image1"
+                  className="inline-block sm:hidden w-full h-full object-cover"  
                 />
-                <img src="https://obys.agency/wp-content/uploads/2023/08/Olga_Prudka_2.png" 
+                {/* <img src="https://obys.agency/wp-content/uploads/2023/08/Olga_Prudka_2.png" 
                   alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
-                />  */}
+                />   */}
               </div>
             <div className=' flex mt-[7vw] sm:mt-[1.6vw] font-[PlinaReg] text-[3vw]  sm:text-[.8vw] items-start justify-between 
               gap-8 border-b-[1px] border-white pb-[6vw] sm:pb-[1.6vw]'
@@ -197,13 +201,13 @@ function Project() {
             </div>
             <div id="imageContainer"
                 ref={wrapper3} 
-                className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 w-[55vw] 
+                className={`imageContainer ${styles.imageContainer} sm:ml-0 w-[55vw] 
                 sm:w-[36vw] sm:h-[40vw] relative overflow-hidden `}
               > 
-                {/* <img src={image3} alt="image1"
-                  className="w-full h-full object-cover"  
+                <img src='/image1.jpg' alt="image1"
+                  className="inline-block sm:hidden w-full h-full object-cover"  
                 />
-                <img src="https://obys.agency/wp-content/uploads/2023/08/Olga_Prudka_2.png" 
+                {/* <img src="https://obys.agency/wp-content/uploads/2023/08/Olga_Prudka_2.png" 
                   alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
                 />  */}
             </div>             
