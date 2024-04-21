@@ -45,7 +45,7 @@ function Project() {
         intensity: 0.5,
         imagesRatio: 360/320,
         image1: '/images/lax.png',
-        image2: '/images/laxer2.png',
+        image2: '/images/Laxer2.png',
         displacementImage: '/images/14.jpg'
       })
   
