@@ -16,7 +16,7 @@ function Project() {
     if (window.matchMedia("(min-width: 1068px)").matches) {
       new hoverEffect({
         parent: wrappers.current,
-        intensity: 0.5,
+        intensity: 0.6,
         imagesRatio: 360/288,
         image1: '/1.png',
         image2: '/2.png',
