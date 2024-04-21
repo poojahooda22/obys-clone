@@ -296,7 +296,8 @@ function Project() {
                   David Laxer
                 </h2>
               </div>
-              <div id="imageContainer"
+              <div 
+              id="imageContainer"
                 ref={wrapper4}
                 className={`imageContainer ${styles.imageContainer} sm:ml-0 w-[55vw] h-[80vw]
                 sm:w-[30vw] sm:h-[38vw] relative overflow-hidden `}
