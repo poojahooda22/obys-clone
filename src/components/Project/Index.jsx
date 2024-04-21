@@ -13,7 +13,7 @@ function Project() {
   let wrapper6 = useRef();
 
   useEffect(() => {
-    if (window.matchMedia("(min-width: 768px)").matches) {
+    if (window.matchMedia("(min-width: 1068px)").matches) {
       new hoverEffect({
         parent: wrappers.current,
         intensity: 0.3,
@@ -66,8 +66,7 @@ function Project() {
         image2: '/last2.png',
         displacementImage: '/14.jpg'
       })
-    }
-    
+    } 
   }, []);
 
   
@@ -179,7 +178,7 @@ function Project() {
                 w-[55vw]
                 sm:w-[20vw] sm:h-[25vw] relative overflow-hidden `}
               > 
-                <img src='/image3.png' alt="image1"
+                <img src='https://obys.agency/wp-content/uploads/2023/08/Olga_Prudka_1.png' alt="image1"
                   className="inline-block sm:hidden w-full h-full object-cover"  
                 />
                 {/* <img src="https://obys.agency/wp-content/uploads/2023/08/Olga_Prudka_2.png" 
@@ -204,7 +203,7 @@ function Project() {
                 className={`imageContainer ${styles.imageContainer} sm:ml-0 w-[55vw] 
                 sm:w-[36vw] sm:h-[40vw] relative overflow-hidden `}
               > 
-                <img src='/image1.jpg' alt="image1"
+                <img src='https://obys.agency/wp-content/uploads/2024/02/AIM-1.png' alt="image1"
                   className="inline-block sm:hidden w-full h-full object-cover"  
                 />
                 {/* <img src="https://obys.agency/wp-content/uploads/2023/08/Olga_Prudka_2.png" 
