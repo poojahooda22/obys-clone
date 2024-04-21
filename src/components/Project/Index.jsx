@@ -293,7 +293,8 @@ function Project() {
                 <h2 className='text-[5vw] mt-[7vw] sm:mt-0 mb-[7vw] sm:mb-0 sm:text-[2vw] 
                   font-[PlinaReg] capitalize sm:tracking-tight sm:leading-[2vw]'
                 >
-                  David Laxer</h2>
+                  David Laxer
+                </h2>
               </div>
               <div id="imageContainer"
                 ref={wrapper4}
