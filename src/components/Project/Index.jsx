@@ -175,7 +175,7 @@ function Project() {
               <div id="imageContainer"
                 ref={wrappers} 
                 className={`imageContainer ${styles.imageContainer} sm:ml-0 
-                w-[55vw]
+                w-[55vw] h-[80vw]
                 sm:w-[20vw] sm:h-[25vw] relative overflow-hidden `}
               > 
                 <img src='https://obys.agency/wp-content/uploads/2023/08/Olga_Prudka_1.png' alt="image1"
@@ -200,7 +200,7 @@ function Project() {
             </div>
             <div id="imageContainer"
                 ref={wrapper3} 
-                className={`imageContainer ${styles.imageContainer} sm:ml-0 w-[55vw] 
+                className={`imageContainer ${styles.imageContainer} sm:ml-0 w-[55vw]  h-[80vw]
                 sm:w-[36vw] sm:h-[40vw] relative overflow-hidden `}
               > 
                 <img src='https://obys.agency/wp-content/uploads/2024/02/AIM-1.png' alt="image1"
@@ -265,7 +265,7 @@ function Project() {
             </div>
             <div id="imageContainer"
             ref={wrapper2}
-              className={`imageContainer ${styles.imageContainer} sm:ml-0 w-[55vw] 
+              className={`imageContainer ${styles.imageContainer} sm:ml-0 w-[55vw] h-[80vw]
               sm:w-[36vw] sm:h-[40vw] relative overflow-hidden `}
             > 
               <img src="https://obys.agency/wp-content/uploads/2022/06/OCHI.png" alt="image1"
@@ -289,7 +289,7 @@ function Project() {
               </div>
               <div id="imageContainer"
                 ref={wrapper4}
-                className={`imageContainer ${styles.imageContainer} sm:ml-0 w-[55vw] 
+                className={`imageContainer ${styles.imageContainer} sm:ml-0 w-[55vw] h-[80vw]
                 sm:w-[30vw] sm:h-[38vw] relative overflow-hidden `}
               > 
                 <img src="https://obys.agency/wp-content/uploads/2023/08/Laxer_1-2.png" alt="image1"
@@ -317,7 +317,7 @@ function Project() {
             </div>
             <div id="imageContainer"
             ref={wrapper5}
-              className={`imageContainer ${styles.imageContainer} sm:ml-0 w-[55vw] 
+              className={`imageContainer ${styles.imageContainer} sm:ml-0 w-[55vw] h-[80vw]
               sm:w-[20vw] sm:h-[25vw] relative overflow-hidden `}
             > 
               <img src="https://obys.agency/wp-content/uploads/2023/11/%C3%89minente_First.png" alt="image1"
@@ -361,7 +361,7 @@ function Project() {
               </div>
               <div id="imageContainer"
               ref={wrapper6}
-                className={`imageContainer ${styles.imageContainer} sm:ml-0 realtive w-[55vw] 
+                className={`imageContainer ${styles.imageContainer} sm:ml-0 realtive w-[55vw] h-[80vw]
                 sm:w-[30vw] sm:h-[38vw] relative overflow-hidden `}
               > 
                 <img src="https://obys.agency/wp-content/uploads/2023/12/Makhno_First.png" alt="image1"
