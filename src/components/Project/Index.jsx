@@ -42,7 +42,7 @@ function Project() {
       })
       new hoverEffect({
         parent: wrapper4.current,
-        intensity: 0.3,
+        intensity: 0.5,
         imagesRatio: 360/320,
         image1: '/lax.png',
         image2: '/laxer2.png',
