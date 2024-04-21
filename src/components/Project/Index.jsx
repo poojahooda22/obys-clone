@@ -18,9 +18,9 @@ function Project() {
         parent: wrappers.current,
         intensity: 0.6,
         imagesRatio: 360/288,
-        image1: '/public/images/image3.png',
-        image2: '/public/images/olga.jpg',
-        displacementImage: '/public/images/14.jpg'
+        image1: '/image3.jpg',
+        image2: '/olga.jpg',
+        displacementImage: '/14.jpg'
       })
   
       new hoverEffect({
