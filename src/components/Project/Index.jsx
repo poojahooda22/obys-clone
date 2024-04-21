@@ -268,7 +268,8 @@ function Project() {
             </div>
             <div id="imageContainer"
               ref={wrapper2}
-              className={`imageContainer ${styles.imageContainer} sm:ml-0 w-[55vw] h-[80vw]
+              className={`imageContainer ${styles.imageContainer} sm:ml-0 
+              w-[55vw] h-[80vw]
               sm:w-[36vw] sm:h-[40vw] relative overflow-hidden `}
             > 
               <img src="https://obys.agency/wp-content/uploads/2022/06/OCHI.png" alt="image1"
