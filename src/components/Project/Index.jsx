@@ -25,7 +25,7 @@ function Project() {
   
       new hoverEffect({
         parent: wrapper3.current,
-        intensity: 0.3,
+        intensity: 0.4,
         imagesRatio: 360/320,
         image1: '/3.png',
         image2: '/4.png',
