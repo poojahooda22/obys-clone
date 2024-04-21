@@ -266,13 +266,13 @@ function Project() {
             </div>
             <div id="imageContainer"
             ref={wrapper2}
-              className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0  w-[55vw] 
+              className={`imageContainer ${styles.imageContainer} sm:ml-0 w-[55vw] 
               sm:w-[36vw] sm:h-[40vw] relative overflow-hidden `}
             > 
-              {/* <img src="https://obys.agency/wp-content/uploads/2022/06/OCHI.png" alt="image1"
-                 className="w-full h-full object-cover"  
+              <img src="https://obys.agency/wp-content/uploads/2022/06/OCHI.png" alt="image1"
+                 className="inline-block sm:hidden w-full h-full object-cover"  
               />
-              <img src="https://obys.agency/wp-content/uploads/2022/06/OCHI_2-1.png" 
+              {/* <img src="https://obys.agency/wp-content/uploads/2022/06/OCHI_2-1.png" 
                 alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
               />  */}
             </div>
@@ -290,13 +290,13 @@ function Project() {
               </div>
               <div id="imageContainer"
                 ref={wrapper4}
-                className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 w-[55vw] 
+                className={`imageContainer ${styles.imageContainer} sm:ml-0 w-[55vw] 
                 sm:w-[30vw] sm:h-[38vw] relative overflow-hidden `}
               > 
-                {/* <img src="https://obys.agency/wp-content/uploads/2023/08/Laxer_1-2.png" alt="image1"
-                  className="w-full h-full object-cover"  
+                <img src="https://obys.agency/wp-content/uploads/2023/08/Laxer_1-2.png" alt="image1"
+                  className="inline-block sm:hidden w-full h-full object-cover"  
                 />
-                <img src="https://obys.agency/wp-content/uploads/2023/08/Laxer_2.png" 
+                {/* <img src="https://obys.agency/wp-content/uploads/2023/08/Laxer_2.png" 
                   alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
                 />  */}
               </div>
@@ -318,13 +318,13 @@ function Project() {
             </div>
             <div id="imageContainer"
             ref={wrapper5}
-              className={`imageContainer ${styles.imageContainer} ml-[20vw] sm:ml-0 w-[55vw] 
+              className={`imageContainer ${styles.imageContainer} sm:ml-0 w-[55vw] 
               sm:w-[20vw] sm:h-[25vw] relative overflow-hidden `}
             > 
-              {/* <img src="https://obys.agency/wp-content/uploads/2023/11/%C3%89minente_First.png" alt="image1"
-                 className="w-full h-full object-cover"  
+              <img src="https://obys.agency/wp-content/uploads/2023/11/%C3%89minente_First.png" alt="image1"
+                 className="inline-block sm:hidden w-full h-full object-cover"  
               />
-              <img src="https://obys.agency/wp-content/uploads/2023/11/%C3%89minente-_img1-x2.png" 
+              {/* <img src="https://obys.agency/wp-content/uploads/2023/11/%C3%89minente-_img1-x2.png" 
                 alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
               />  */}
             </div>
