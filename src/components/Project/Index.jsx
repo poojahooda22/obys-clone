@@ -324,7 +324,8 @@ function Project() {
           {/* Image*/}
           <div className="thirdFirstCol sm:w-[22%] sm:-mt-[10vw] ">
             <div className='mb-[1.6vw]'>
-              <h2 className='text-[5vw] mt-[7vw] sm:mt-0 mb-[7vw] sm:mb-0 sm:text-[2vw] font-[PlinaReg] uppercase sm:tracking-tight sm:leading-[2vw]'>Eminente</h2>
+              <h2 className='text-[5vw] mt-[7vw] sm:mt-0 mb-[7vw] sm:mb-0 sm:text-[2vw] 
+              font-[PlinaReg] uppercase sm:tracking-tight sm:leading-[2vw]'>Eminente</h2>
             </div>
             <div id="imageContainer"
             ref={wrapper5}
