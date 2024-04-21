@@ -279,7 +279,8 @@ function Project() {
                 alt="image1" className="absolute top-0 left-0 opacity-0 w-full h-full object-cover"
               />  */}
             </div>
-            <div className='flex mt-[7vw] sm:mt-[1.6vw] font-[PlinaReg] text-[3vw] sm:text-[.8vw] items-start justify-between 
+            <div className='flex mt-[7vw] sm:mt-[1.6vw] font-[PlinaReg] text-[3vw] 
+            sm:text-[.8vw] items-start justify-between 
               gap-8 border-b-[1px] border-white  pb-[6vw] sm:pb-[1.6vw]'
             >
               <h5 className='whitespace-'>Website design, Development</h5>
