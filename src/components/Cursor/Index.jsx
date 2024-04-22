@@ -9,7 +9,6 @@ function Cursor() {
         // document.addEventListener('mousemove', function(dets) {
         //    gsap.to('.cursor', {
         //         left: dets.x,
- 
         // })
 
     const circleElement = document.querySelector('.cursor');
