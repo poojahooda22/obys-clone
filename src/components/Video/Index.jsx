@@ -80,6 +80,7 @@ function Video() {
             className="bg-[#ffa63d] absolute top-[10%] left-[20%] sm:top-[-10%] sm:left-[64%] w-[22vw] h-[22vw]
             sm:h-[6.4vw] sm:w-[6.4vw] rounded-full z-[9]"
           >  
+            {/* Play Icon */}
             <RiPlayFill
               size={32}
               color="white"
