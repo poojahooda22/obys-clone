@@ -74,22 +74,25 @@ function Video() {
         className={` w-full h-[58vh] bg-custom-image bg-cover bg-center
         sm:h-[74vh] sm:w-[73vw] sm:left-[26%] relative`}
       >
-        <div 
-          id="video-cursor"
-          className="bg-[#ffa63d] absolute top-[10%] left-[20%] sm:top-[-10%] sm:left-[64%] w-[22vw] h-[22vw]
-          sm:h-[6.4vw] sm:w-[6.4vw] rounded-full z-[9]"
-        >  
-          <RiPlayFill
-            size={32}
-            color="white"
-            className={`playIcon absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2`} 
-          /> 
-          <RiPauseMiniLine
-            size={32}
-            color="white"
-            className={`pauseIcon absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 opacity-0`} 
-          /> 
+        <div className="">
+          <div 
+            id="video-cursor"
+            className="bg-[#ffa63d] absolute top-[10%] left-[20%] sm:top-[-10%] sm:left-[64%] w-[22vw] h-[22vw]
+            sm:h-[6.4vw] sm:w-[6.4vw] rounded-full z-[9]"
+          >  
+            <RiPlayFill
+              size={32}
+              color="white"
+              className={`playIcon absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2`} 
+            /> 
+            <RiPauseMiniLine
+              size={32}
+              color="white"
+              className={`pauseIcon absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 opacity-0`} 
+            /> 
+          </div>
         </div>
+        
         <video 
           loop
           muted
