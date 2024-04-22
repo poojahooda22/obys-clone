@@ -10,7 +10,7 @@ function Cursor() {
         //    gsap.to('.cursor', {
         //         left: dets.x,
         //         top: dets.y,
-        //   
+ 
         // })
 
     const circleElement = document.querySelector('.cursor');
