@@ -8,7 +8,7 @@ function Cursor() {
   useEffect(() => {
         // document.addEventListener('mousemove', function(dets) {
         //    gsap.to('.cursor', {
-        //         left: dets.x,
+        //         left: dets
         // })
 
     const circleElement = document.querySelector('.cursor');
