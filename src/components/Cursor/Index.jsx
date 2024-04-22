@@ -6,7 +6,7 @@ function Cursor() {
 
     
   useEffect(() => {
-        // document.ad
+        // document
         // })
 
     const circleElement = document.querySelector('.cursor');
