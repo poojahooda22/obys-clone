@@ -86,6 +86,7 @@ function Video() {
               color="white"
               className={`playIcon absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2`} 
             /> 
+            {/* Pause Icon */}
             <RiPauseMiniLine
               size={32}
               color="white"
