@@ -74,7 +74,7 @@ function Video() {
         className={` w-full h-[58vh] bg-custom-image bg-cover bg-center
         sm:h-[74vh] sm:w-[73vw] sm:left-[26%] relative`}
       >
-        <div classNa>
+        <div clas>
           <div 
             id="video-cursor"
             className="bg-[#ffa63d] absolute top-[10%] left-[20%] sm:top-[-10%] sm:left-[64%] w-[22vw] h-[22vw]
