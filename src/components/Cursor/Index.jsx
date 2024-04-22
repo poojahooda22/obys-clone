@@ -7,7 +7,6 @@ function Cursor() {
     
   useEffect(() => {
 
-
     const circleElement = document.querySelector('.cursor');
 
     // Create objects to track mouse position and custom cursor position
