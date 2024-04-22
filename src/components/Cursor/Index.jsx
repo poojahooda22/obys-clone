@@ -6,7 +6,7 @@ function Cursor() {
 
     
   useEffect(() => {
-        // document.addEventListener('mouse
+        // document.addEventListener('mo
         // })
 
     const circleElement = document.querySelector('.cursor');
