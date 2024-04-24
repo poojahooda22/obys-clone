@@ -168,7 +168,7 @@ function Project() {
           items-start sm:gap-8 pt-[6vw] sm:pt-0"
         >
           {/* Image*/}
-          <div className="firstCol sm:w-[22%] "
+          <div className="firstCol sm:w-[22%]"
             >
             <div className='sm:mb-[1.6vw]'>
               <h2 className='text-[5vw] mb-[7vw] sm:mb-0 sm:text-[2vw] font-[PlinaReg] uppercase 
