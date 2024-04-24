@@ -165,7 +165,8 @@ function Project() {
         {/* Project container 1st row*/}
         <div 
           className="mt-[2vw] w-full sm:flex 
-          items-start sm:gap-8 pt-[6vw] sm:pt-0">
+          items-start sm:gap-8 pt-[6vw] sm:pt-0"
+        >
           {/* Image*/}
           <div className="firstCol sm:w-[22%] "
             >
