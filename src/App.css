@@ -23,3 +23,20 @@
     src: url(./assets/fonts/silkSerifReg.ttf);
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #151515;
+  }
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    height: 4px;
+    border-radius: 50px;
+  }
