@@ -7,7 +7,7 @@ import { useEffect } from 'react';
 
 gsap.registerPlugin(ScrollTrigger);
 
-function Loader() {
+function Loader({ lenisRef }) {
 
     useEffect(() => {
         var h5timer = document.querySelector('.part1 h5');
@@ -36,7 +36,7 @@ function Loader() {
         tl.to('.loader', {
             opacity: 0,
             duration: 0.2,
-            delay: 2.2
+            delay: 2.3
         })
         tl.from('.page1', {
             y: 1200,
@@ -48,6 +48,9 @@ function Loader() {
         
         tl.to('.loader', {
             display: 'none'
+        })
+        tl.call(() => {
+            if (lenisRef?.current) lenisRef.current.start()
         })
         tl.from('.header', {
             opacity:0

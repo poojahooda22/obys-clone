@@ -32,3 +32,22 @@
     top: -20px;
     z-index: 4;
 }
+
+
+.line {
+    width: 100%;
+    height: 0.2vh;
+    margin-top: 13vh;
+    position: relative;
+    --width: 0%;
+}
+
+.line::after {
+    content: "";
+    width: var(--width);
+    height: 0.2vh;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+}

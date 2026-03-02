@@ -18,6 +18,12 @@
     border: none;
 }
 
+.hoverTarget {
+    cursor: pointer;
+    position: relative;
+    z-index: 1000;
+}
+
 @media screen and (max-width: 768px) {
     .hero h2 {
     border-bottom: 3px solid #fff;
