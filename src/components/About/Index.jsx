@@ -63,7 +63,7 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div className="right">
+            <div className="right w-full h-screen mb-44">
                 <div className="">
                     <div className="aboutHeading overflow-hidden pb-[3vw] sm:pb-0">
                         <h1 className="text-[8vw] leading-[10vw] tracking-tighter
@@ -89,7 +89,7 @@ function About() {
 
                     </div>
                     <div className="relative flex flex-col mt-8 sm:flex-row sm:mt-16 gap-8 ">
-                        <div className=" order-2 sm:order-1  sm:w-1/2">
+                        {/* <div className=" order-2 sm:order-1  sm:w-1/2">
                             <img className="" src="https://obys.agency/wp-content/uploads/2020/07/content-image01.jpg" alt="image" />
                         </div>
                         <div
@@ -102,9 +102,9 @@ function About() {
                                 Would you like to have award winning site or unique branding style, please say hi to our manager —info@obys.agency.
                                 And we will help you with the pleasure.
                             </h5>
-                        </div>
+                        </div> */}
                         {/* blue Image */}
-                        <div className="order-3 w-full
+                        <div className=" w-full
                         px-[4vw] pt-[2vw] pb-[12vw]
                         sm:absolute top-[50%] left-[35%] 
                         sm:w-[34vw] sm:px-[3vw] sm:py-[2vw] font-[PlinaReg]
@@ -148,8 +148,8 @@ function About() {
                         </div>
                     </div>
                     {/* Line animation */}
-                    <UnderLine className="underline" marginBottom='1vw' marginTop='18vw' />
-                    <p className="font-[PlinaReg] text-[3.5vw] pt-[3vw] sm:pt-0 sm:text-[.8vw]">We work with</p>
+                    {/* <UnderLine className="underline" marginBottom='1vw' marginTop='18vw' />
+                    <p className="font-[PlinaReg] text-[3.5vw] pt-[3vw] sm:pt-0 sm:text-[.8vw]">We work with</p> */}
                 </div>
             </div>
         </div>

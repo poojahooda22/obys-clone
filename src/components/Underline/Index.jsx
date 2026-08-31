@@ -26,7 +26,10 @@ function UnderLine({ marginTop, marginBottom }) {
         setPath(progress);
     }, []);
 
-    // Scroll-triggered reveal: scaleX from 0 to 1 (right→left)
+    // Reveal: scaleX 0 -> 1 (right->left), time-driven and fired once on entry.
+    // Not scrubbed: a scrubbed tween maps progress onto scroll distance, and a line
+    // near the bottom of the document runs out of scroll before its end point is
+    // reached, leaving it permanently half-drawn.
     useGSAP(() => {
         if (!wrapperRef.current) return;
 
@@ -34,12 +37,12 @@ function UnderLine({ marginTop, marginBottom }) {
             { scaleX: 0 },
             {
                 scaleX: 1,
+                duration: 1.2,
                 ease: 'power3.out',
                 scrollTrigger: {
                     trigger: wrapperRef.current,
-                    start: 'top 90%',
-                    end: 'top 80%',
-                    scrub: 1,
+                    start: 'top 95%',
+                    once: true,
                 }
             }
         );
